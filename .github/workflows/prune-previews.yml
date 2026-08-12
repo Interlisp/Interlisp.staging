@@ -1,0 +1,92 @@
+#*******************************************************************************
+#  prune-previews.yml
+#
+#  Safety-net workflow that removes stale staging previews from this
+#  repository's GitHub Pages site.
+#
+#  Each PR preview lives in a pr-<N>/ subdirectory of the gh-pages branch.
+#  Normally a preview is removed by remove-preview.yml when its PR is closed
+#  or merged, but if that dispatch is missed or fails, stale directories
+#  would accumulate.  This scheduled workflow guarantees cleanup: any pr-*
+#  directory whose PR is not currently open in Interlisp/Interlisp.github.io
+#  is deleted.
+#
+#  Runs daily (and can be run manually via workflow_dispatch).
+#
+#  Copyright 2026 by Interlisp.org
+#
+# ******************************************************************************
+name: Prune Stale Previews
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    if: secrets.STAGING_APP_ID != ''
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mint GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.STAGING_APP_ID }}
+          private-key: ${{ secrets.STAGING_APP_PRIVATE_KEY }}
+          owner: Interlisp
+          repositories: |
+            Interlisp.github.io
+
+      - name: List open PR numbers
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api --paginate "repos/Interlisp/Interlisp.github.io/pulls?state=open" \
+            --jq '.[].number' | sort -n > /tmp/open-prs.txt
+          echo "Open PRs in Interlisp.github.io: $(wc -l < /tmp/open-prs.txt)"
+
+      - name: Check gh-pages branch exists
+        id: branch-check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh api "repos/Interlisp/interlisp.staging/branches/gh-pages" --jq .name > /dev/null 2>&1; then
+            echo "exists=true"
+          else
+            echo "exists=false"
+          fi
+
+      - name: Check out gh-pages branch
+        if: steps.branch-check.outputs.exists == 'true'
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
+      - name: Remove stale preview directories
+        if: steps.branch-check.outputs.exists == 'true'
+        run: |
+          set -euo pipefail
+          changed=0
+          for dir in pr-*/; do
+            [[ -d "$dir" ]] || continue
+            num="${dir#pr-}"
+            num="${num%/}"
+            if ! grep -qx "$num" /tmp/open-prs.txt; then
+              echo "Removing stale preview directory: $dir (PR #$num is not open)"
+              git rm -r "$dir"
+              changed=1
+            fi
+          done
+          if [[ "$changed" -eq 1 ]]; then
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git config user.name "github-actions[bot]"
+            git commit -m "Prune stale staging previews"
+            git push origin HEAD:gh-pages
+          else
+            echo "No stale preview directories to remove"
+          fi

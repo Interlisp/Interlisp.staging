@@ -1,0 +1,109 @@
+#*******************************************************************************
+#  deploy-preview.yml
+#
+#  GitHub Workflow that deploys a per-PR staging preview to this repository's
+#  GitHub Pages site.
+#
+#  This repository (interlisp.staging) is a pure deployment target.  It never
+#  holds source code.  The production repository
+#  (Interlisp/Interlisp.github.io) triggers this workflow via
+#  workflow_dispatch whenever a pull request is opened or updated.
+#
+#  Each preview is built from the pull request head commit using the shared
+#  org-level build workflow and deployed to a unique subdirectory
+#  (pr-<N>/) of this repo's Pages site, so many previews can be reviewed
+#  simultaneously:
+#
+#    https://interlisp.github.io/interlisp.staging/pr-123/
+#
+#  Cross-repository access uses a GitHub App installation token minted by
+#  actions/create-github-app-token (org secrets STAGING_APP_ID and
+#  STAGING_APP_PRIVATE_KEY).  The app must be installed on both this
+#  repository and Interlisp/Interlisp.github.io.
+#
+#  Copyright 2026 by Interlisp.org
+#
+# ******************************************************************************
+name: Deploy Preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number in Interlisp.github.io'
+        required: true
+        type: string
+      pr_sha:
+        description: 'Commit SHA of the pull request head'
+        required: true
+        type: string
+      hugo_version:
+        description: >-
+          Hugo version to build with (passed by Interlisp.github.io from its
+          workflow HUGO_VERSION; default used for manual dispatch).
+        required: false
+        default: '0.155.3'
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: preview-${{ inputs.pr_number }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    # Pin matches gh-pages.yml.  Flip to @main after bs1_staging_prep is
+    # merged in Interlisp/shared-workflows.
+    uses: Interlisp/shared-workflows/.github/workflows/build-site.yml@bs1_staging_prep
+    with:
+      repository: Interlisp/Interlisp.github.io
+      ref: ${{ inputs.pr_sha }}
+      hugo-version: ${{ inputs.hugo_version }}
+      hugo-environment: staging
+      base-url: https://interlisp.github.io/interlisp.staging/pr-${{ inputs.pr_number }}/
+      run-build-tests: false
+
+  deploy:
+    needs: [build]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download built site
+        uses: actions/download-artifact@v7
+        with:
+          name: github-pages
+          path: ./preview
+
+      - name: Deploy preview to /pr-${{ inputs.pr_number }}/
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./preview
+          destination_dir: pr-${{ inputs.pr_number }}
+          keep_files: true
+
+      - name: Mint GitHub App token for commenting
+        id: comment-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.STAGING_APP_ID }}
+          private-key: ${{ secrets.STAGING_APP_PRIVATE_KEY }}
+          owner: Interlisp
+          repositories: |
+            Interlisp.github.io
+
+      - name: Comment preview URL on pull request
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ steps.comment-token.outputs.token }}
+          script: |
+            const url = 'https://interlisp.github.io/interlisp.staging/pr-${{ inputs.pr_number }}/';
+            await github.rest.issues.createComment({
+              owner: 'Interlisp',
+              repo: 'Interlisp.github.io',
+              issue_number: ${{ inputs.pr_number }},
+              body: `Staging preview for this pull request is available at ${url}`,
+            });

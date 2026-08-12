@@ -1,0 +1,64 @@
+#*******************************************************************************
+#  remove-preview.yml
+#
+#  GitHub Workflow that removes a pull request preview from this repository's
+#  GitHub Pages site.
+#
+#  Triggered via workflow_dispatch by the production repository
+#  (Interlisp/Interlisp.github.io) whenever a pull request is closed or
+#  merged.  Deletes the pr-<N>/ subdirectory from the gh-pages branch.
+#
+#  Copyright 2026 by Interlisp.org
+#
+# ******************************************************************************
+name: Remove Preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number in Interlisp.github.io'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: remove-preview-${{ inputs.pr_number }}
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check gh-pages branch exists
+        id: branch-check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh api "repos/Interlisp/interlisp.staging/branches/gh-pages" --jq .name > /dev/null 2>&1; then
+            echo "exists=true"
+          else
+            echo "exists=false"
+          fi
+
+      - name: Check out gh-pages branch
+        if: steps.branch-check.outputs.exists == 'true'
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
+      - name: Remove preview subdirectory
+        if: steps.branch-check.outputs.exists == 'true'
+        run: |
+          set -euo pipefail
+          if [[ -d "pr-${{ inputs.pr_number }}" ]]; then
+            git rm -r "pr-${{ inputs.pr_number }}"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git config user.name "github-actions[bot]"
+            git commit -m "Remove staging preview for PR #${{ inputs.pr_number }}"
+            git push origin HEAD:gh-pages
+          else
+            echo "No preview subdirectory for PR #${{ inputs.pr_number }}; nothing to do"
+          fi

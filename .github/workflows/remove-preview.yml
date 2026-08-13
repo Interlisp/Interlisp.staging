@@ -36,7 +36,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if gh api "repos/Interlisp/interlisp.staging/branches/gh-pages" --jq .name > /dev/null 2>&1; then
+          if gh api "repos/Interlisp/Interlisp.staging/branches/gh-pages" --jq .name > /dev/null 2>&1; then
             echo "exists=true"
           else
             echo "exists=false"

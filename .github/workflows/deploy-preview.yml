@@ -4,7 +4,7 @@
 #  GitHub Workflow that deploys a per-PR staging preview to this repository's
 #  GitHub Pages site.
 #
-#  This repository (interlisp.staging) is a pure deployment target.  It never
+#  This repository (Interlisp.staging) is a pure deployment target.  It never
 #  holds source code.  The production repository
 #  (Interlisp/Interlisp.github.io) triggers this workflow via
 #  workflow_dispatch whenever a pull request is opened or updated.
@@ -14,7 +14,7 @@
 #  (pr-<N>/) of this repo's Pages site, so many previews can be reviewed
 #  simultaneously:
 #
-#    https://interlisp.github.io/interlisp.staging/pr-123/
+#    https://interlisp.github.io/Interlisp.staging/pr-123/
 #
 #  Cross-repository access uses a GitHub App installation token minted by
 #  actions/create-github-app-token (org secrets STAGING_APP_ID and
@@ -62,7 +62,7 @@ jobs:
       ref: ${{ inputs.pr_sha }}
       hugo-version: ${{ inputs.hugo_version }}
       hugo-environment: staging
-      base-url: https://interlisp.github.io/interlisp.staging/pr-${{ inputs.pr_number }}/
+      base-url: https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/
       run-build-tests: false
 
   deploy:
@@ -100,7 +100,7 @@ jobs:
         with:
           github-token: ${{ steps.comment-token.outputs.token }}
           script: |
-            const url = 'https://interlisp.github.io/interlisp.staging/pr-${{ inputs.pr_number }}/';
+            const url = 'https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/';
             await github.rest.issues.createComment({
               owner: 'Interlisp',
               repo: 'Interlisp.github.io',

@@ -54,9 +54,8 @@ concurrency:
 
 jobs:
   build:
-    # Pin matches gh-pages.yml.  Flip to @main after bs1_staging_prep is
-    # merged in Interlisp/shared-workflows.
-    uses: Interlisp/shared-workflows/.github/workflows/build-site.yml@bs1_staging_prep
+    # Pin matches gh-pages.yml.
+    uses: Interlisp/shared-workflows/.github/workflows/build-site.yml@main
     with:
       repository: Interlisp/Interlisp.github.io
       ref: ${{ inputs.pr_sha }}

@@ -80,7 +80,7 @@ jobs:
       - name: Extract build site
         run: |
           mkdir -p ./preview
-          tar -xf ./download/artifact.tar.gz -C ./preview 
+          tar -xf ./download/artifact.tar -C ./preview 
       - name: Deploy preview to /pr-${{ inputs.pr_number }}/
         uses: peaceiris/actions-gh-pages@v4
         with:

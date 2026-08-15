@@ -76,8 +76,11 @@ jobs:
         uses: actions/download-artifact@v7
         with:
           name: github-pages
-          path: ./preview
-
+          path: ./download
+      - name: Extract build site
+        run: |
+          mkdir -p ./preview
+          tar -xf ./download/github-pages.tar.gz -C ./preview 
       - name: Deploy preview to /pr-${{ inputs.pr_number }}/
         uses: peaceiris/actions-gh-pages@v4
         with:

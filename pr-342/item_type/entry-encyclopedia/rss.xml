@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/entry-encyclopedia/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/item_type/entry-encyclopedia/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dipmeter Advisor
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/2dfhc6fq/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/2dfhc6fq/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>entry-encyclopedia</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/entry-encyclopedia/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/entry-encyclopedia/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jeln3bbl/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jeln3bbl/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>X3J13
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ptznwrjx/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ptznwrjx/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/mears-lyn-ann/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 1987 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/mears-lyn-ann/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LOOPS: A Friendly Primer
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/f9xe85c9/</link>
+      <pubDate>Sun, 01 Mar 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/f9xe85c9/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xerox LOOPS, A Friendly Primer
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mubcfbdn/</link>
+      <pubDate>Sun, 01 Mar 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mubcfbdn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mears, Lyn Ann</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/mears-lyn-ann/</link>
+      <pubDate>Sun, 01 Mar 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/mears-lyn-ann/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

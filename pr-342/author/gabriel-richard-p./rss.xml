@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/gabriel-richard-p./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 1993 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/gabriel-richard-p./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The evolution of Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jsw29waw/</link>
+      <pubDate>Mon, 01 Mar 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jsw29waw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Gabriel, Richard P.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/gabriel-richard-p./</link>
+      <pubDate>Mon, 01 Mar 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/gabriel-richard-p./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp Object System specification
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ydk5v6xm/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ydk5v6xm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Common Lisp Object System: An Overview
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/aa2lk9ee/</link>
+      <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/aa2lk9ee/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Performance and evaluation of LISP systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/68lhcgjf/</link>
+      <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/68lhcgjf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Performance and Evaluation of LISP Systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mspjnwav/</link>
+      <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mspjnwav/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Queue-based multi-processing LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/h6nzgeih/</link>
+      <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/h6nzgeih/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

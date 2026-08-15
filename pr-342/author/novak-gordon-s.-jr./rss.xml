@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/novak-gordon-s.-jr./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jan 1983 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/novak-gordon-s.-jr./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GLISP: A Lisp-based Programming System with Data Abstraction
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/h8qeylt7/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/h8qeylt7/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Novak, Gordon S. Jr.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/novak-gordon-s.-jr./</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/novak-gordon-s.-jr./</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

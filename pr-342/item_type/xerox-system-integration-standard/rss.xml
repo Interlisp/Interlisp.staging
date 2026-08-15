@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/xerox-system-integration-standard/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jun 1990 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/item_type/xerox-system-integration-standard/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xerox Character Code Standard Version 2.0 1990
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/n5eahw2c/</link>
+      <pubDate>Fri, 01 Jun 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/n5eahw2c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xerox System Integration Standard</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/xerox-system-integration-standard/</link>
+      <pubDate>Fri, 01 Jun 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/xerox-system-integration-standard/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

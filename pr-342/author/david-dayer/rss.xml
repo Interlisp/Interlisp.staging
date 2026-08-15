@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/david-dayer/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 1982 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/david-dayer/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interlisp-VAX Users Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/8ab9npk7/</link>
+      <pubDate>Sun, 05 Dec 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/8ab9npk7/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>David, Dayer</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/david-dayer/</link>
+      <pubDate>Sun, 05 Dec 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/david-dayer/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

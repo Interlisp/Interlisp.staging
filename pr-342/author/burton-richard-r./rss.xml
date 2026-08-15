@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/burton-richard-r./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 1983 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/burton-richard-r./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Papers on Interlisp-D
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/9b3eshmp/</link>
+      <pubDate>Thu, 01 Sep 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/9b3eshmp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Burton, Richard R.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/burton-richard-r./</link>
+      <pubDate>Thu, 01 Sep 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/burton-richard-r./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Overview and status of DoradoLisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/wpdgqv37/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/wpdgqv37/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Semantic grammar: an engineering technique for constructing natural language understanding systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/p5mucjx3/</link>
+      <pubDate>Tue, 01 Feb 1977 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/p5mucjx3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SOPHIE: a pragmatic use of artificial intelligence in CAI
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/iz7sete3/</link>
+      <pubDate>Tue, 01 Jan 1974 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/iz7sete3/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

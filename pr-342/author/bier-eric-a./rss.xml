@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/bier-eric-a./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jan 1994 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/bier-eric-a./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Iterative technique for phrase query formation and an information retrieval...
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ci5ab787/</link>
+      <pubDate>Tue, 11 Jan 1994 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ci5ab787/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bier, Eric A.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/bier-eric-a./</link>
+      <pubDate>Tue, 11 Jan 1994 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/bier-eric-a./</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

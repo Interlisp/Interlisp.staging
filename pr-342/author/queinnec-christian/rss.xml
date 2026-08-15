@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/queinnec-christian/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jul 1989 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/queinnec-christian/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A subjective view of Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ev5zt2wl/</link>
+      <pubDate>Sat, 01 Jul 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ev5zt2wl/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Queinnec, Christian</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/queinnec-christian/</link>
+      <pubDate>Sat, 01 Jul 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/queinnec-christian/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Desiderata for the standardization of LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/fhbwrwvs/</link>
+      <pubDate>Fri, 08 Aug 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/fhbwrwvs/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

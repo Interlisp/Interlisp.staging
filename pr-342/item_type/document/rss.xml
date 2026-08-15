@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/document/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2025 17:56:57 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/item_type/document/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LFG Grammar Writer’s Workbench Documentation
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mpe7r87m/</link>
+      <pubDate>Sat, 01 Mar 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mpe7r87m/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>document</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/document/</link>
+      <pubDate>Fri, 24 Oct 2025 17:56:57 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/item_type/document/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>X3J13 Charter
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/hvtrfs6c/</link>
+      <pubDate>Sun, 18 Apr 1999 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/hvtrfs6c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Medley for DOS User&#39;s Guide
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/w8wwblya/</link>
+      <pubDate>Mon, 01 Mar 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/w8wwblya/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Medley for the Novice
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6kjpheql/</link>
+      <pubDate>Sun, 02 Feb 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6kjpheql/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Medley for the Sun Workstation  User&#39;s Guide
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5bkr522l/</link>
+      <pubDate>Sun, 02 Jun 1991 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5bkr522l/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MEDLEY 1.2-S RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/7bwazk3g/</link>
+      <pubDate>Mon, 01 Oct 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/7bwazk3g/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MEDLEY 1.15-S RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/rztyzvcf/</link>
+      <pubDate>Sun, 01 Apr 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/rztyzvcf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Places that use hiloc/loloc and what for
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/tx942aks/</link>
+      <pubDate>Mon, 23 Jan 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/tx942aks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>1108 USER&#39;S GUIDE
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/wxmqhqcz/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/wxmqhqcz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LISP LIBRARY MODULES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/7tp9k59s/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/7tp9k59s/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LISP RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5eu7zruu/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5eu7zruu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LISPUSERS&#39; MODULES MANUAL
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3n6tcdvn/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3n6tcdvn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ROOMS
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yqg25vqw/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yqg25vqw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 12
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/qsbu8u4y/</link>
+      <pubDate>Thu, 07 Apr 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/qsbu8u4y/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>EVERYTHING YOU WANTED TO KNOW ABOUT THE AR DATA BASE BUT WERE AFRAID TO QUERY
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/u5y98khm/</link>
+      <pubDate>Wed, 09 Mar 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/u5y98khm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 11
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/v3qyz3wq/</link>
+      <pubDate>Fri, 05 Feb 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/v3qyz3wq/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 10
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ct3pa7bv/</link>
+      <pubDate>Fri, 15 Jan 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ct3pa7bv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>STRUCTURAL DESIGN LANGUAGE AND A KNOWLEDGE-BASED EXPERT SYSTEM FOR DESIGN OF STEEL BUILDING STRUCTURES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/7agfradx/</link>
+      <pubDate>Fri, 01 Jan 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/7agfradx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 9
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yibpvfyi/</link>
+      <pubDate>Fri, 18 Dec 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yibpvfyi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 8
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/g6ylf4jj/</link>
+      <pubDate>Fri, 04 Dec 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/g6ylf4jj/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 7
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4lvac7md/</link>
+      <pubDate>Fri, 13 Nov 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4lvac7md/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 6
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6icfeu4z/</link>
+      <pubDate>Fri, 06 Nov 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6icfeu4z/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 5
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3dpf9bem/</link>
+      <pubDate>Fri, 16 Oct 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3dpf9bem/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 4
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/n62sma3m/</link>
+      <pubDate>Fri, 02 Oct 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/n62sma3m/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 3
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/irwfqm5s/</link>
+      <pubDate>Fri, 25 Sep 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/irwfqm5s/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 2
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3pyx8mht/</link>
+      <pubDate>Fri, 04 Sep 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3pyx8mht/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HOTLINE! Bulletin 1
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ahm2l42i/</link>
+      <pubDate>Tue, 01 Sep 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ahm2l42i/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>1186 HARDWARE INSTALLATION
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/pnii25vf/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/pnii25vf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A User&#39;s Guide to Sketch
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/h69pbn8i/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/h69pbn8i/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A User&#39;s Guide to TEdit
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/575n32vi/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/575n32vi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Index to Xerox Common Lisp Implementation Notes
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4sb6zscy/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4sb6zscy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Xerox 1186 Artificial Intelligence Workstation
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/z9xfplzv/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/z9xfplzv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>XEROX COMMON LISP IMPLEMENTATION NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/25tejpha/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/25tejpha/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>XEROX COMMON LISP IMPLEMENTATION NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ug8sicc3/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ug8sicc3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>XEROX LISP RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/qge55dyx/</link>
+      <pubDate>Mon, 01 Jun 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/qge55dyx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LOOPS: A Friendly Primer
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/f9xe85c9/</link>
+      <pubDate>Sun, 01 Mar 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/f9xe85c9/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AGAST Overview Draft
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/sjwcw69k/</link>
+      <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/sjwcw69k/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>TKDORADO
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/9mdnllv9/</link>
+      <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/9mdnllv9/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp-D: A Friendly Primer
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yeuxrbgz/</link>
+      <pubDate>Sat, 01 Nov 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yeuxrbgz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CACHEOBJECT
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/49tbvyce/</link>
+      <pubDate>Thu, 04 Sep 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/49tbvyce/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>1186 USER&#39;S GUIDE
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ep3szwr9/</link>
+      <pubDate>Thu, 01 May 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ep3szwr9/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>1186 USER&#39;S GUIDE
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/hiazfwry/</link>
+      <pubDate>Sat, 01 Feb 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/hiazfwry/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Soar User&#39;s Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6v976hkg/</link>
+      <pubDate>Fri, 31 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6v976hkg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A USER’S GUIDE TO LAFITE: THE INTERLISP MAIL SYSTEM
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ncggaykx/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ncggaykx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SpinPro™ Ultracentrifugation Expert System Product Brochure
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/vp8mt67c/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/vp8mt67c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp-D Release Notes
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/pmxcam4y/</link>
+      <pubDate>Sun, 01 Dec 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/pmxcam4y/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Koto INTERLISP-D RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yc65pt77/</link>
+      <pubDate>Sun, 01 Dec 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/yc65pt77/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Errors and related matters in CommonLoops - A Proposal
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/arpjpuze/</link>
+      <pubDate>Sun, 11 Aug 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/arpjpuze/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MASTERSCOPE Volume 1, Number 3
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/pw6bdwq2/</link>
+      <pubDate>Thu, 01 Aug 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/pw6bdwq2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MASTERSCOPE Volume 1, Number 2
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mcavqbmu/</link>
+      <pubDate>Mon, 01 Apr 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/mcavqbmu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NoteCards Release 1.1 Reference Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4nnbzq8z/</link>
+      <pubDate>Tue, 05 Mar 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4nnbzq8z/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Implementation of Device-Independent Graphics Through Imagestreams
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5zywgr7b/</link>
+      <pubDate>Tue, 26 Feb 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5zywgr7b/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MASTERSCOPE Volume 1, Number 1
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/vem4jrmg/</link>
+      <pubDate>Fri, 01 Feb 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/vem4jrmg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HARMONY RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/nvdtz3l2/</link>
+      <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/nvdtz3l2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Intermezzo Release Notes
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/lyvrmqb2/</link>
+      <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/lyvrmqb2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LispCourse Overview
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/j3zeikmj/</link>
+      <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/j3zeikmj/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Chat Streams
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/rlcp2idh/</link>
+      <pubDate>Sat, 25 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/rlcp2idh/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>FUGUE.6 RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4ujc8mzs/</link>
+      <pubDate>Sun, 01 Apr 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4ujc8mzs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CAROL RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/nv5d3xcv/</link>
+      <pubDate>Sun, 01 Jan 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/nv5d3xcv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The LOOPS Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/dcx9vpqc/</link>
+      <pubDate>Thu, 01 Dec 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/dcx9vpqc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The LOOPS Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/x8je697i/</link>
+      <pubDate>Thu, 01 Dec 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/x8je697i/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>FUGUE.4 RELEASE NOTES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/nri8i8v8/</link>
+      <pubDate>Sat, 01 Oct 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/nri8i8v8/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LOOPS Class Roster, July 11-15, 1983
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ub23smec/</link>
+      <pubDate>Fri, 15 Jul 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ub23smec/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp reference manual: Revised
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/l378bfrq/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/l378bfrq/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp-VAX Users Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/8ab9npk7/</link>
+      <pubDate>Sun, 05 Dec 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/8ab9npk7/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>INSIDE INTERLISP: TWO IMPLEMENTATIONS
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jew9ihtc/</link>
+      <pubDate>Sun, 26 Nov 1978 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jew9ihtc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Display primitives in Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/k4lsmpde/</link>
+      <pubDate>Mon, 18 Nov 1974 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/k4lsmpde/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>BBN - LISP, TENEX Reference Manual, Revised
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/kp33m4dp/</link>
+      <pubDate>Tue, 01 Aug 1972 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/kp33m4dp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>J778.SYSREM DOC on SYS05 (LISP features designed to aid the LISP programmer)
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5mwt6g4d/</link>
+      <pubDate>Sat, 01 Jan 1972 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5mwt6g4d/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>BBN - LISP, TENEX Reference Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jcvvquvd/</link>
+      <pubDate>Thu, 01 Jul 1971 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/jcvvquvd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Preliminary Guide to the LISP Editor
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/zk7mfmne/</link>
+      <pubDate>Tue, 18 Apr 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/zk7mfmne/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>General Structure of LISP 1.69
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/si447sfb/</link>
+      <pubDate>Thu, 23 Mar 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/si447sfb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Preliminary Specification for BBN 940 LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6m8iseul/</link>
+      <pubDate>Thu, 13 Oct 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/6m8iseul/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>930 LISP Reference Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/rtrayutg/</link>
+      <pubDate>Sat, 05 Jun 1965 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/rtrayutg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PDP-1 Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/y8ft8niv/</link>
+      <pubDate>Fri, 01 Jan 1960 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/y8ft8niv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LOOPS-FB
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ub73fjtp/</link>
+      <pubDate>Fri, 24 Oct 2025 17:56:57 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/ub73fjtp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UNIXMAIL
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/m2hxtn7j/</link>
+      <pubDate>Fri, 24 Oct 2025 17:43:51 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/m2hxtn7j/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LispNerd
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/fhqdfeu2/</link>
+      <pubDate>Fri, 24 Oct 2025 17:38:24 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/fhqdfeu2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A proposed design for big bitmaps (for Maiko Color (aka Kaleidoscope))
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/57lcuide/</link>
+      <pubDate>Fri, 24 Oct 2025 17:14:30 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/57lcuide/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LISP USERS’ TEMPLATE
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4extb254/</link>
+      <pubDate>Fri, 24 Oct 2025 17:11:30 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/4extb254/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp to Common Lisp Concordia
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/62cfbrgc/</link>
+      <pubDate>Fri, 11 Oct 2024 17:32:43 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/62cfbrgc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The dld-link SUBR opcode
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/n8gzr74c/</link>
+      <pubDate>Fri, 11 Oct 2024 17:13:57 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/n8gzr74c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CALL-C Specification
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5mui5s55/</link>
+      <pubDate>Fri, 11 Oct 2024 17:02:21 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/5mui5s55/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CLOS BROWSER
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/q32awagr/</link>
+      <pubDate>Mon, 23 Sep 2024 16:54:28 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/q32awagr/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp-D fixed allocations: conversion to Intermezzo
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3citkshc/</link>
+      <pubDate>Sat, 13 Apr 2024 10:20:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/3citkshc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Script for testing Inspect macro interface
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/8ddpa3hd/</link>
+      <pubDate>Fri, 24 Nov 2023 12:24:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/8ddpa3hd/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/clancey-william/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 1985 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-342/author/clancey-william/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guidon-Watch: A Graphic Interface for Viewing a Knowledge-Based System
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/qjtt25le/</link>
+      <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/history/bibliography/qjtt25le/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Clancey, William</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-342/author/clancey-william/</link>
+      <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-342/author/clancey-william/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

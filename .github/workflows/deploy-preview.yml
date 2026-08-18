@@ -88,6 +88,15 @@ jobs:
           publish_dir: ./preview
           destination_dir: pr-${{ inputs.pr_number }}
           keep_files: true
+          full_commit_message: deploy preview pr-${{ inputs.pr_number }} to https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/
+
+      - name: Report exact preview path
+        run: |
+          echo "## Staging preview deployed" >> "${GITHUB_STEP_SUMMARY}"
+          echo "" >> "${GITHUB_STEP_SUMMARY}"
+          echo "The staging site for pull request #${{ inputs.pr_number }} is live at:" >> "${GITHUB_STEP_SUMMARY}"
+          echo "" >> "${GITHUB_STEP_SUMMARY}"
+          echo "https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/" >> "${GITHUB_STEP_SUMMARY}"
 
       - name: Mint GitHub App token for commenting
         id: comment-token

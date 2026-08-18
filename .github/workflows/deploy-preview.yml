@@ -88,6 +88,7 @@ jobs:
           publish_dir: ./preview
           destination_dir: pr-${{ inputs.pr_number }}
           keep_files: true
+          full_commit_message: deploy preview pr-${{ inputs.pr_number }} to https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/
 
       - name: Report exact preview path
         run: |

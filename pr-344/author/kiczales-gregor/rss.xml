@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/kiczales-gregor/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 1988 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/kiczales-gregor/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Common Lisp Object System specification
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ydk5v6xm/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ydk5v6xm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kiczales, Gregor</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/kiczales-gregor/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/kiczales-gregor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CommonLoops: merging Lisp and object-oriented programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yr58ny6f/</link>
+      <pubDate>Sun, 01 Jun 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yr58ny6f/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

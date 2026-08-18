@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/sproull-robert-f./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Aug 1979 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/sproull-robert-f./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raster graphics for interactive programming environments
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/pe98qz2l/</link>
+      <pubDate>Wed, 01 Aug 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/pe98qz2l/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sproull, Robert F.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/sproull-robert-f./</link>
+      <pubDate>Wed, 01 Aug 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/sproull-robert-f./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Raster Graphics for Interactive Programming Environments
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/kr9mihru/</link>
+      <pubDate>Fri, 01 Jun 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/kr9mihru/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>INTERLISP DISPLAY PRIMITIVES
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/s82ms337/</link>
+      <pubDate>Fri, 01 Jul 1977 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/s82ms337/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A clipping divider
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/kz7fu59i/</link>
+      <pubDate>Mon, 01 Jan 1968 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/kz7fu59i/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

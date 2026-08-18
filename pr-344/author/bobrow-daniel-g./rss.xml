@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/bobrow-daniel-g./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jan 1994 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/bobrow-daniel-g./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Iterative technique for phrase query formation and an information retrieval...
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ci5ab787/</link>
+      <pubDate>Tue, 11 Jan 1994 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ci5ab787/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bobrow, Daniel G.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/bobrow-daniel-g./</link>
+      <pubDate>Tue, 11 Jan 1994 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/bobrow-daniel-g./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp Object System specification
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ydk5v6xm/</link>
+      <pubDate>Thu, 01 Sep 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ydk5v6xm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Darn Toward a Community Memory for Diagnosis and Repair Tasks
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/74cymt7r/</link>
+      <pubDate>Fri, 01 Jan 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/74cymt7r/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CommonLoops: merging Lisp and object-oriented programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yr58ny6f/</link>
+      <pubDate>Sun, 01 Jun 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yr58ny6f/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Perspectives on Artificial Intelligence Programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/gzu4tbq5/</link>
+      <pubDate>Fri, 28 Feb 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/gzu4tbq5/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Access-Oriented Programming for a Multiparadigm Environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/3vk4ib8t/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/3vk4ib8t/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Object-Oriented Programming: Themes and Variations
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/45rytqtd/</link>
+      <pubDate>Sun, 15 Dec 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/45rytqtd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The LOOPS Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/x8je697i/</link>
+      <pubDate>Thu, 01 Dec 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/x8je697i/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>KNOWLEDGE PROGRAMMING IN LOOPS
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/a7zzfykb/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/a7zzfykb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LOOPS: Data and Object Oriented Programming for Interlisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/f3ilhmq5/</link>
+      <pubDate>Fri, 01 Jan 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/f3ilhmq5/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Overview and status of DoradoLisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/wpdgqv37/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/wpdgqv37/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Compact Encodings of List Structure
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/bse5uv9a/</link>
+      <pubDate>Mon, 01 Oct 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/bse5uv9a/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Extending Interlisp for modularization and efficiency
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/h5q65h3m/</link>
+      <pubDate>Fri, 01 Jun 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/h5q65h3m/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An efficient, incremental, automatic garbage collector
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/raaskhre/</link>
+      <pubDate>Thu, 01 Jan 1976 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/raaskhre/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A note on hash linking
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/qfbsw8az/</link>
+      <pubDate>Wed, 01 Jan 1975 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/qfbsw8az/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A model and stack implementation of multiple environments
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/em6wjf9a/</link>
+      <pubDate>Mon, 01 Jan 1973 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/em6wjf9a/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A note on the efficiency of a LISP computation in a paged machine
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/dncvygjc/</link>
+      <pubDate>Thu, 01 Aug 1968 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/dncvygjc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The BBN 940 LISP SYSTEM
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/lqaa78hi/</link>
+      <pubDate>Sat, 15 Jul 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/lqaa78hi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Structure of a LISP system using two-level storage: Communications of the ACM
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/g796kzsg/</link>
+      <pubDate>Sun, 01 Jan 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/g796kzsg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>THE STRUCTURE OF A LISP SYSTEM USING TWO-LEVEL STORAGE, SCIENTIFIC REPORT
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/6rae6dbf/</link>
+      <pubDate>Fri, 04 Nov 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/6rae6dbf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Preliminary Specification for BBN 940 LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/6m8iseul/</link>
+      <pubDate>Thu, 13 Oct 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/6m8iseul/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Storage Management in LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/36tcme67/</link>
+      <pubDate>Wed, 01 Jun 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/36tcme67/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Format-directed list processing in LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/lqqwkmez/</link>
+      <pubDate>Sat, 01 Jan 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/lqqwkmez/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

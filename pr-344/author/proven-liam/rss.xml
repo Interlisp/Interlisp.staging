@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/proven-liam/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/proven-liam/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some thoughts about raising the profile of Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yy43z6f6/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yy43z6f6/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Proven, Liam</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/proven-liam/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/proven-liam/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

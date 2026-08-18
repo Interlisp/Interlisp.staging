@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/strandh-robert/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Aug 2014 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/strandh-robert/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Improvement to Sliding Garbage Collection
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/szjrbqaf/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/szjrbqaf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Fast Generic Dispatch for Common Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/4y6c6gis/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/4y6c6gis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Strandh, Robert</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/strandh-robert/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/strandh-robert/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

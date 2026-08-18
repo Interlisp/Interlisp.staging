@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/steele-guy-l./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 May 1995 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/steele-guy-l./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Parallelism in Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/qhte5i6x/</link>
+      <pubDate>Fri, 05 May 1995 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/qhte5i6x/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Steele, Guy L.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/steele-guy-l./</link>
+      <pubDate>Fri, 05 May 1995 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/steele-guy-l./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The evolution of Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/jsw29waw/</link>
+      <pubDate>Mon, 01 Mar 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/jsw29waw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp the Language, 2nd Edition
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/glimjdiw/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/glimjdiw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>COMMON LISP : the language
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/cayfcpib/</link>
+      <pubDate>Sun, 01 Jan 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/cayfcpib/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An overview of COMMON LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/vvgljbde/</link>
+      <pubDate>Sun, 15 Aug 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/vvgljbde/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

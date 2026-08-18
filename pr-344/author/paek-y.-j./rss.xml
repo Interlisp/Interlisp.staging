@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/paek-y.-j./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 1985 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/paek-y.-j./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computer-aided analysis of structures in INTERLISP environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/pb5l9avm/</link>
+      <pubDate>Mon, 01 Jul 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/pb5l9avm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Paek, Y. J.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/paek-y.-j./</link>
+      <pubDate>Mon, 01 Jul 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/paek-y.-j./</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/henderson-austin/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Dec 1997 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/author/henderson-austin/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tailoring Mechanisms in Three Research Technologies.
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/f4y4l8uj/</link>
+      <pubDate>Mon, 01 Dec 1997 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/f4y4l8uj/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Henderson, Austin</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/author/henderson-austin/</link>
+      <pubDate>Mon, 01 Dec 1997 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/author/henderson-austin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Trillium: A Design Environment for Copier Interfaces: The System and Its Impact on Design, Tape 1 of 2
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/di3fslyw/</link>
+      <pubDate>Thu, 23 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/di3fslyw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Trillium: A Design Environment for Copier Interfaces: The System and Its Impact on Design, Tape 2 of 2
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/mljcuyrs/</link>
+      <pubDate>Thu, 23 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/mljcuyrs/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

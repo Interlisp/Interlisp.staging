@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jun 2026 04:05:35 +0200</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/project/status/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>News and Status Reports</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/</link>
+      <pubDate>Fri, 26 Jun 2026 04:05:35 +0200</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/</guid>
+      <description>&lt;h2 id=&#34;near-fm-interview-with-larry-masinter-and-frank-halasz&#34;&gt;Near FM interview with Larry Masinter and Frank Halasz&lt;/h2&gt;
+&lt;p&gt;In June of 2026 Patrick Domanico published a &lt;a href=&#34;https://www.patrickdomanico.com/bpm/2026/06/16/inventing-the-future-one-lisp-machine-at-a-time&#34;&gt;writeup on his interview with Larry Masinter and Frank Halasz&lt;/a&gt;. Domanico hosted the interview in the March 10, 2025 episode of his show &lt;em&gt;Do You Speak Tech?&lt;/em&gt; at Near FM community radio in Dublin.&lt;/p&gt;
+&lt;h2 id=&#34;2025-annual-report-released&#34;&gt;2025 Annual Report released&lt;/h2&gt;
+&lt;p&gt;We released the &lt;a href=&#34;https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2025medleyannualreport/&#34;&gt;2025 Medley Interlisp Annual Report&lt;/a&gt; which covers the 5th year of the Medley Interlisp project.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>2025 Medley Interlisp Annual Report</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2025medleyannualreport/</link>
+      <pubDate>Wed, 25 Feb 2026 18:48:54 -0500</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2025medleyannualreport/</guid>
+      <description>&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-344/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;2025 marked the fifth year of the &lt;a href=&#34;https://interlisp.org&#34;&gt;Medley Interlisp Project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We began the project in 2020 by merging code fragments from different sources and versions which last ran two decades earlier on long-obsolete machines. Over the intervening five years we consolidated the code and ported it to run on all major operating systems, as well as online via web browsers.&lt;/p&gt;
+&lt;p&gt;Medley can now run most of its original applications and support the development of new ones, such as the tools and games we created over these years.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>2024 Medley Interlisp Annual Report</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2024medleyannualreport/</link>
+      <pubDate>Wed, 25 Feb 2026 18:48:54 -0500</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2024medleyannualreport/</guid>
+      <description>&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-344/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Interlisp-D (and the Medley version of it) were originally developed at the Xerox Palo Alto Research Center (PARC) in the 1970’s and 80’s. It was a software environment for rapid prototyping, research and Artificial Intelligence, combining the power of the Lisp language and system elements with the now common PARC-born Windows/Icon/Mouse/Pointer graphical user interface.&lt;/p&gt;
+&lt;p&gt;The Medley Interlisp project was started in 2020 by a few of the original developers, focusing on reviving the software, making it usable and useful on modern systems. With permission from the last licensee of the software, we are able to release the system as open source. This report highlights the accomplishments and continuing projects over 2024.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>2023 Annual Report</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2023medleyannualreport/</link>
+      <pubDate>Wed, 25 Feb 2026 18:48:54 -0500</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2023medleyannualreport/</guid>
+      <description>&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-344/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+
+&lt;h3 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The Medley Interlisp Project has made significant progress toward its goals of preserving, extending, and documenting the “experience” of Interlisp for now and for the future. This annual report highlights our achievements and ongoing efforts.&lt;/p&gt;
+&lt;h3 id=&#34;key-accomplishments&#34;&gt;&lt;strong&gt;Key Accomplishments&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We’ve structured our work around project objectives: lower barriers to entry, adapt to modern environments and user expectations, complete “work in progress”, demonstrate applications built in and for the system.&lt;/p&gt;
+&lt;h4 id=&#34;lower-barriers-to-entry&#34;&gt;&lt;strong&gt;Lower Barriers to Entry&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;We want to allow newcomers to experience the system and ease of use without complex setup and configuration, so that more individuals can participate.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>2021 Medley Interlisp Annual Report</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2021medleyannualreport/</link>
+      <pubDate>Wed, 23 Jul 2025 20:55:35 -0400</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2021medleyannualreport/</guid>
+      <description>&lt;p&gt;November 15, 2021&lt;/p&gt;
+&lt;p&gt;Join &lt;a href=&#34;https://groups.google.com/g/interlisp&#34;&gt;Interlisp group&lt;/a&gt; or follow @&lt;a href=&#34;https://github.com/Interlisp&#34;&gt;interlisp on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;To “revive” something is to make it live again. Making Medley Interlisp live again means putting the system in order so that others without a previous deep background in Interlisp can use and appreciate it (if only as a virtual antique).&lt;/p&gt;
+&lt;p&gt;The Medley Interlisp project started in earnest in March of 2020 (at the beginning of the pandemic). This report focuses on activities and accomplishments since the December 2020 virtual meeting of &lt;a href=&#34;https://lispnyc.org/&#34;&gt;LispNYC&lt;/a&gt; (recording at: &lt;a href=&#34;https://www.youtube.com/watch?v=x6-b%5c_hazcyk&#34;&gt;https://www.youtube.com/watch?v=x6-b_hazcyk&lt;/a&gt;).&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>2022 Medley Interlisp Annual Report</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2022medleyannualreport/</link>
+      <pubDate>Wed, 25 Jun 2025 13:38:11 -0400</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/project/status/2022medleyannualreport/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;We have made considerable progress on the Interlisp software preservation project, and we want to offer tours and collaboration for those engaged in similar or related software preservation efforts.&lt;/p&gt;
+&lt;p&gt;Interlisp was an early and unique software development environment (IDE) developed in the 1970’s and 1980’s at Xerox PARC, and a testbed for novel software development tools. The Medley version of Interlisp-D was built as a portable Virtual Machine, which has allowed us to bring the system forward to run on a wide variety of modern hardware and operating systems.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

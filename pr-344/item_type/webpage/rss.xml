@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-344/item_type/webpage/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2025 22:40:38 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-344/item_type/webpage/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Doug Lenat&#39;s source code for AM and possibly EURISKO w/Traveller found in public archives
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/qb7i4cxc/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/qb7i4cxc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>webpage</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/item_type/webpage/</link>
+      <pubDate>Fri, 24 Oct 2025 22:40:38 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/item_type/webpage/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lisp and Symbolic Computation
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/3unhv59n/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/3unhv59n/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Email Archives about Common Lisp Standard and Other Related Topics
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/24b6qe9b/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/24b6qe9b/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Some thoughts about raising the profile of Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yy43z6f6/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/yy43z6f6/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PLDI 2021: The Evolution of Smalltalk from Smalltalk-72 through Squeak
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/2hh65nkz/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/2hh65nkz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Introducing the Smalltalk Zoo
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/m74edus2/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/m74edus2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Attendees | Larry Masinter, The Medley Interlisp Project: Status and Plans | Meetup
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/u7ggh7he/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/u7ggh7he/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp-D at AAAI-82
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/s2zc62qx/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/s2zc62qx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Running Lisp in Production
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/zpqt7yky/</link>
+      <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/zpqt7yky/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dan Murphy&#39;s Collection of TECO, TENEX, and TOPS-20 Papers
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/5bcfd3vw/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/5bcfd3vw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Lisp Conference 2014
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/4ivlxuaf/</link>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/4ivlxuaf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interlisp was the so-called &#34;west coast&#34; Lisp that emphasized an interactive pro... | Hacker News
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/wfp2799r/</link>
+      <pubDate>Sun, 30 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/wfp2799r/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Medley
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ikajuf8s/</link>
+      <pubDate>Thu, 04 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ikajuf8s/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PDP-10 software archive
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/88gp5kt3/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/88gp5kt3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>FAQ: Lisp Implementations and Mailing Lists 4/7 [Monthly posting] - [4-1] Commercial Common Lisp implementations.
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/phi92fui/</link>
+      <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/phi92fui/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>1992 ACM Software System Award
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/5b4g424j/</link>
+      <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/5b4g424j/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hypertext&#39;89 Trip Report
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/gdwukluh/</link>
+      <pubDate>Sun, 01 Apr 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/gdwukluh/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp the Language, 2nd Edition
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/glimjdiw/</link>
+      <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/glimjdiw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Format for proposals to the cleanup committee (Version 14)
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ivlm3wcs/</link>
+      <pubDate>Wed, 05 Oct 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/ivlm3wcs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp Condition System
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/w8i3uzc8/</link>
+      <pubDate>Sat, 12 Mar 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/w8i3uzc8/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Essays on Object Lens, A Tool for Supporting Information-Sharing
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/rukcd423/</link>
+      <pubDate>Sat, 22 Aug 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/rukcd423/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Industry Briefs
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/e4ccuz35/</link>
+      <pubDate>Fri, 24 Oct 2025 22:40:38 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/e4ccuz35/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Warren Teitelman Memoir
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/a4bwuehm/</link>
+      <pubDate>Wed, 31 Jul 2024 16:19:37 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/a4bwuehm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>On repl-driven programming - by mikel evins
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/klimrhqi/</link>
+      <pubDate>Fri, 24 Nov 2023 04:21:22 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/klimrhqi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NOTES ON XEROX LISP MACH DEMO
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/cer4pf8k/</link>
+      <pubDate>Fri, 28 Apr 2023 06:37:01 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/cer4pf8k/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xerox Alto Emulator
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/b63f5q8e/</link>
+      <pubDate>Fri, 20 Aug 2021 03:31:59 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-344/history/bibliography/b63f5q8e/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

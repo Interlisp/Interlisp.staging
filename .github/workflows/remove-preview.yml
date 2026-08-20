@@ -37,9 +37,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if gh api "repos/Interlisp/Interlisp.staging/branches/gh-pages" --jq .name > /dev/null 2>&1; then
-            echo "exists=true"
+            echo "exists=true" >> "$GITHUB_OUTPUT"
           else
-            echo "exists=false"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Check out gh-pages branch

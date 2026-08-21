@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/lanning-stan/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2025 17:56:57 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/lanning-stan/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CACHEOBJECT
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/49tbvyce/</link>
+      <pubDate>Thu, 04 Sep 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/49tbvyce/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lanning, Stan</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/lanning-stan/</link>
+      <pubDate>Fri, 24 Oct 2025 17:56:57 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/lanning-stan/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LOOPS-FB
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ub73fjtp/</link>
+      <pubDate>Fri, 24 Oct 2025 17:56:57 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ub73fjtp/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

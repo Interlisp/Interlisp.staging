@@ -1,0 +1,415 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="shortcut icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/apple-touch-icon.png" sizes="180x180">
+
+<title>Interlisp Basics for Common Lisp users | Staging Environment</title>
+<meta name="description" content="If you are familiar with Common Lisp, this guide helps with some unexpected features.
+Advice for newcomers A coding project is a great learning experience. But porting existing Common Lisp software to Medley may be challenging as a first project.
+Modern Common Lisps are similar and implement most of ANSI Common Lisp. Adapting software to these environments usually involves minor modifications you can carry out with familiar tools. But the Medley environment is very different and its Common Lisp farther from ANSI.">
+<meta property="og:url" content="https://interlisp.github.io/Interlisp.staging/pr-345/software/using-medley/cl-using/">
+  <meta property="og:site_name" content="Staging Environment">
+  <meta property="og:title" content="Interlisp Basics for Common Lisp users">
+  <meta property="og:description" content="If you are familiar with Common Lisp, this guide helps with some unexpected features.
+Advice for newcomers A coding project is a great learning experience. But porting existing Common Lisp software to Medley may be challenging as a first project.
+Modern Common Lisps are similar and implement most of ANSI Common Lisp. Adapting software to these environments usually involves minor modifications you can carry out with familiar tools. But the Medley environment is very different and its Common Lisp farther from ANSI.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="software">
+    <meta property="article:published_time" content="2024-03-12T18:40:10-07:00">
+    <meta property="article:modified_time" content="2024-03-12T18:40:10-07:00">
+
+  <meta itemprop="name" content="Interlisp Basics for Common Lisp users">
+  <meta itemprop="description" content="If you are familiar with Common Lisp, this guide helps with some unexpected features.
+Advice for newcomers A coding project is a great learning experience. But porting existing Common Lisp software to Medley may be challenging as a first project.
+Modern Common Lisps are similar and implement most of ANSI Common Lisp. Adapting software to these environments usually involves minor modifications you can carry out with familiar tools. But the Medley environment is very different and its Common Lisp farther from ANSI.">
+  <meta itemprop="datePublished" content="2024-03-12T18:40:10-07:00">
+  <meta itemprop="dateModified" content="2024-03-12T18:40:10-07:00">
+  <meta itemprop="wordCount" content="1056">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Interlisp Basics for Common Lisp users">
+  <meta name="twitter:description" content="If you are familiar with Common Lisp, this guide helps with some unexpected features.
+Advice for newcomers A coding project is a great learning experience. But porting existing Common Lisp software to Medley may be challenging as a first project.
+Modern Common Lisps are similar and implement most of ANSI Common Lisp. Adapting software to these environments usually involves minor modifications you can carry out with familiar tools. But the Medley environment is very different and its Common Lisp farther from ANSI.">
+<link href="/Interlisp.staging/pr-345/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<link rel="canonical" href="https://interlisp.github.io/Interlisp.staging/pr-345/software/using-medley/cl-using/">
+<link rel="me" href="https://fosstodon.org/@interlisp">
+
+
+  </head>
+  <body class="td-page">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="td-navbar-container container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/Interlisp.staging/pr-345/"><span class="navbar-brand__logo navbar-logo"><svg id="d" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 412.86 292"><defs><symbol id="a" viewBox="0 0 372 300"><rect id="b" x="10" y="10" width="352" height="280" style="fill:#fff;stroke:#000;stroke-width:20px"/><line id="c" x1="10" y1="270" x2="362" y2="270" style="fill:none;stroke:#000;stroke-width:20px"/></symbol><clipPath id="g"><rect x="231.92" y="62" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="i"><rect x="188" y="22.47" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="k"><rect x="128" y="8" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="m"><rect x="68" y="22.47" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="o"><rect x="24.08" y="62" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="q"><rect x="8" y="116" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="s"><rect x="24.08" y="170" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="u"><rect x="68" y="209.53" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="w"><rect x="128" y="224" width="74.4" height="60" style="fill:none"/></clipPath></defs><rect id="e" x="94.9" y="210.92" width="1.4" height="4.2" style="fill:#a50000"/><g id="f"><g style="clip-path:url(#g)"><use id="h" width="372" height="300" transform="translate(231.92 122) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#i)"><use id="j" width="372" height="300" transform="translate(188 82.47) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#k)"><use id="l" width="372" height="300" transform="translate(128 68) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#m)"><use id="n" width="372" height="300" transform="translate(68 82.47) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#o)"><use id="p" width="372" height="300" transform="translate(24.08 122) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#q)"><use id="r" width="372" height="300" transform="translate(8 176) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#s)"><use id="t" width="372" height="300" transform="translate(24.08 230) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#u)"><use id="v" width="372" height="300" transform="translate(68 269.53) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#w)"><use id="x" width="372" height="300" transform="translate(128 284) scale(.2 -.2)" xlink:href="#a"/></g></g><g id="y" style="isolation:isolate"><text transform="translate(119.53 200.02)" style="fill:#fff;font-family:TimesNewRomanPSMT,times new roman;font-size:96px;isolation:isolate"><tspan x="0" y="0">Medley</tspan></text><text transform="translate(119.53 200.02)" style="fill:none;font-family:TimesNewRomanPSMT,times new roman;font-size:96px;isolation:isolate;stroke:#fff;stroke-width:.15px"><tspan x="0" y="0">Medley</tspan></text></g></svg></span><span class="navbar-brand__name">Staging Environment</span></a>
+  <div class="td-navbar__main td-navbar-nav-scroll td-navbar-nav-scroll--indicator" id="main_navbar">
+    <div class="scroll-indicator scroll-left"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/history/"><i class='fas fa-book'></i><span>History</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/project/"><i class='fas fa-globe'></i><span>Project</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/software/"><i class='fas fa-cube'></i><span>Software</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/getinvolved/"><i class='fas fa-handshake-simple'></i><span>Get Involved</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/interlisp" target="_blank" rel="noopener"><i class='fab fa-github'></i><span>GitHub</span></a>
+      </li>
+      </ul>
+    <div class="scroll-indicator scroll-right"></div>
+  </div>
+  <div class="td-navbar__search d-none d-lg-block">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main" data-bs-spy="scroll" data-bs-target=".td-toc" data-bs-root-margin="0px 0px -10%">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+  <script>
+    $(function() {
+    $("#td-section-nav a").removeClass("active");
+    $("#td-section-nav #m-interlispstagingpr-345softwareusing-medleycl-using").addClass("active");
+    $("#td-section-nav #m-interlispstagingpr-345softwareusing-medleycl-using-li span").addClass("td-sidebar-nav-active-item");
+    $("#td-section-nav #m-interlispstagingpr-345softwareusing-medleycl-using").parents("li").addClass("active-path");
+    $("#td-section-nav li.active-path").addClass("show");
+    $("#td-section-nav li.active-path").children("input").prop('checked', true);
+    $("#td-section-nav #m-interlispstagingpr-345softwareusing-medleycl-using-li").siblings("li").addClass("show");
+    $("#td-section-nav #m-interlispstagingpr-345softwareusing-medleycl-using-li").children("ul").children("li").addClass("show");
+    $("#td-sidebar-menu").toggleClass("d-none");
+    });
+  </script>
+  <div id="td-sidebar-menu" class="td-sidebar__inner d-none">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
+</div>
+    <button class="btn btn-link td-sidebar__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse foldable-nav" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345software-li">
+    <a href="/Interlisp.staging/pr-345/software/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-interlispstagingpr-345software"><span class="">Software</span></a>
+    <ul class="ul-1">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345softwareinstall-and-run-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-run-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-run-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-run"><span class="">Install and Run</span></a></label>
+    
+    <ul class="ul-2 foldable">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runlinux-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runlinux-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runlinux-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/linux/" title="Install and Run on Linux" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runlinux"><span class="">Linux</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runmacos-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runmacos-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runmacos-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/macos/" title="Install and Run on MacOS" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runmacos"><span class="">MacOS</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345softwareinstall-and-runwindows-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runwindows-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runwindows-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/windows/" title="Install and Run on Windows" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runwindows"><span class="">Windows</span></a></label>
+    
+    <ul class="ul-3 foldable">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runwindowswsl-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runwindowswsl-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runwindowswsl-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/windows/wsl/" title="Install and Run on Windows with WSL" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runwindowswsl"><span class="">WSL</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runwindowsnative-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runwindowsnative-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runwindowsnative-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/windows/native/" title="Install and Run on Windows &#34;native&#34;" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runwindowsnative"><span class="">native</span></a></label>
+    
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareaccess-online-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareaccess-online-check"/>
+    <label for="m-interlispstagingpr-345softwareaccess-online-check"><a href="/Interlisp.staging/pr-345/software/access-online/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareaccess-online"><span class="">Access Medley Online</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345softwareusing-medley-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medley-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medley-check"><a href="/Interlisp.staging/pr-345/software/using-medley/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareusing-medley"><span class="">Documentation</span></a></label>
+    
+    <ul class="ul-2 foldable">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleyil-using-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleyil-using-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleyil-using-check"><a href="/Interlisp.staging/pr-345/software/using-medley/il-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleyil-using"><span class="">Using Medley Interlisp Basics</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleycl-using-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleycl-using-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleycl-using-check"><a href="/Interlisp.staging/pr-345/software/using-medley/cl-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleycl-using"><span class="">Interlisp Basics for Common Lisp users</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleykeystrokes-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleykeystrokes-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleykeystrokes-check"><a href="/Interlisp.staging/pr-345/software/using-medley/keystrokes/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleykeystrokes"><span class="">Keystrokes, Mouse menus and Gestures</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleyonline-using-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleyonline-using-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleyonline-using-check"><a href="/Interlisp.staging/pr-345/software/using-medley/online-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleyonline-using"><span class="">Using Medley Online</span></a></label>
+    
+  </li>
+    </ul>
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwarescreenshots-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwarescreenshots-check"/>
+    <label for="m-interlispstagingpr-345softwarescreenshots-check"><a href="/Interlisp.staging/pr-345/software/screenshots/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwarescreenshots"><span class="">Gallery of Screenshots</span></a></label>
+    
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="td-sidebar-toc">
+            
+
+<div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+	
+</div>
+
+            <div class="td-toc" data-proofer-ignore>
+<div class="td-toc-title">
+      <span class="td-toc-title__text">On this page</span>
+      <a class="td-toc-title__link" title="Top of page" href="#"></a>
+    </div>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#advice-for-newcomers">Advice for newcomers</a></li>
+      </ul>
+    </li>
+    <li><a href="#interlisp">Interlisp</a>
+      <ul>
+        <li><a href="#upper--and-lower-case">Upper- and Lower Case</a></li>
+        <li><a href="#variables">Variables</a></li>
+        <li><a href="#lisp-2">LISP-2</a></li>
+        <li><a href="#lambda--nlambda--cllambda">LAMBDA &amp; NLAMBDA &amp; CL:LAMBDA</a></li>
+        <li><a href="#macros">Macros</a></li>
+      </ul>
+    </li>
+    <li><a href="#medley-common-lisp">Medley Common Lisp</a></li>
+  </ul>
+</nav>
+  </div>
+
+            
+	
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/Interlisp.staging/pr-345/software/">Software</a></li>
+  <li class="breadcrumb-item">
+    <a href="/Interlisp.staging/pr-345/software/using-medley/">Documentation</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    Interlisp Basics for Common Lisp users</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Interlisp Basics for Common Lisp users</h1>
+	
+	<header class="article-meta">
+		
+  </header>
+	<p>If you are familiar with Common Lisp, this guide helps with some unexpected features.</p>
+<h3 id="advice-for-newcomers">Advice for newcomers</h3>
+<p>A coding project is a great learning experience. But porting existing Common Lisp software to Medley may be challenging as a first project.</p>
+<p>Modern Common Lisps are similar and implement most of ANSI Common Lisp. Adapting software to these environments usually involves minor modifications you can carry out with familiar tools. But the Medley environment is very different and its Common Lisp farther from ANSI.</p>
+<p>Porting to Medley is a substantial task for a newcomer who has to deal at the same time with an incomplete Common Lisp implementation, unfamiliar tools, and an unknown workflow.</p>
+<p>It&rsquo;s like hustling the move to a new country you barely speak the language and know the culture of. Within hours of landing at the airport you attempt to open a bank account, apply for a loan, file for health care, register with the tax system, negotiate renting an apartment, and do the paperwork for requesting the services of utility companies. Doing all this immediately after your arrival is overwhelming at best.</p>
+<p>For a more enjoyable stay take the time to settle, absorb the local language and culture, and live like a native.</p>
+<p>Rather than porting Common Lisp programs, it&rsquo;s better to start with small Interlisp projects that rely only on Medley&rsquo;s features and resources with no external dependencies or interactions. Write Interlisp code from scratch instead of bringing in existing software.</p>
+<p>We recommend to take Medley a little bit at a time. <a href="/Interlisp.staging/pr-345/software/using-medley/#introductory-material">Read the introductory material</a>, and write at least one or two small Interlisp programs of no more than a thousand lines of code.</p>
+<h2 id="interlisp">Interlisp</h2>
+<p>Interlisp is a dialect of Lisp and as such, it is based on the familiar syntax of left-parenthesis, function name, arguments, and right-parenthesis.  Besides many of the functions having different names and/or arguments compared to Common Lisp, Interlisp has many other, more fundamental, differences from Common Lisp.  While this section will not go into any of the functional differences between Interlisp and Common Lisp, it will attempt to detail the more fundamental differences between the two.</p>
+<h3 id="upper--and-lower-case">Upper- and Lower Case</h3>
+<p>Interlisp uses mixed case.  That is, upper-case letters and lower-case
+letters are treated as different.  This means you can have a variable
+name <code>my-var</code> and a variable named <code>MY-VAR</code> that are unique and
+unrelated to each other. This is true for Common Lisp too, but
+the READ function in Common Lisp translates (unescaped) lower-case to upper-case within symbols. Most Interlisp primitives are upper case.</p>
+<p>As a side note, the Medley system includes feature called DWIM (Do
+What I Mean).  When code would ordinarily cause an error to occur,
+DWIM first  attempts to correct the error, e.g., by spelling correction
+on variables and function names. In many situations DWIM will ask the
+user to approve the change, but in some situations (like evaluating
+a typed in variable using the wrong case-shift). DWIM will just
+make the change, printing out that what it did.
+It may appear that the case doesn&rsquo;t matter - but it does.</p>
+<h3 id="variables">Variables</h3>
+<p>Except for Special Variables, variables in Common Lisp are lexically
+scoped.  This means that local variables are only visible within the
+scope they are defined.  This means, among other things, that
+variables defined in one function are not visible to other functions.</p>
+<p>In functions that are running interpretively (as opposed to having
+been compiled), variables in Interlisp are dynamically scoped.  This
+means that variables are visible within the dynamic environment they
+are in.  For example, let&rsquo;s say we create two functions <code>FUN1</code>
+and <code>FUN2</code>.  If <code>FUN1</code> introduced a local variable and then
+called <code>FUN2</code>, then <code>FUN2</code> would have access to the variable
+since it is in the dynamic environment of being called by <code>FUN1</code>.
+In other words, the variable was in existence when <code>FUN2</code> was
+called.  However, the Interlisp compiler &ldquo;hides&rdquo; variables unless
+they are &ldquo;declared special&rdquo;, so that they are essentially lexically scoped,
+as in Common Lisp.</p>
+<p>Common Lisp also supports dynamic variables as well.  They are called
+the Special Variables.</p>
+<h3 id="lisp-2">LISP-2</h3>
+<p>Like Common Lisp but unlike Scheme, Interlisp is a LISP-2 language.
+This means, in part, that the namespace for variables is separate from
+the namespace for functions.  For example, in Interlisp and
+Common Lisp, you can simultaneously have a variable named <code>ABC</code>
+and a function named <code>ABC</code> that are unrelated.</p>
+<h3 id="lambda--nlambda--cllambda">LAMBDA &amp; NLAMBDA &amp; CL:LAMBDA</h3>
+<p>Interlisp shares the notion of <code>LAMBDA</code> expressions with Common Lisp,
+as a way of defining functions. Interlisp <code>LAMBDA</code> specifies a list
+of parameters; Common Lisp parameter lists can be decorated with
+<code>&amp;OPTIONAL</code>, <code>&amp;REST</code> and <code>&amp;KEYWORD</code> parameters. Interlisp also
+adds the notion of an <code>NLAMBDA</code> function that doesn&rsquo;t evaluate
+its arguments &ndash;  arguments to
+<code>NLAMBDA</code> function are passed directly into a function without
+being evaluated.</p>
+<p>Interlisp supports spread and no-spread lambda arguments similar to
+Common Lisp.  However, Interlisp treats all arguments as
+optional (if not provided they default to NIL) and ignores extra arguments
+(no warning or error is raised).</p>
+<h3 id="macros">Macros</h3>
+<p>Interlisp supports macros but unlike Common Lisp, Interlisp symbols
+may simultaneously have a function definition and a macro definition.
+If a symbol has both a function definition and a macro definition, the
+function definition is used by the interpreter and the macro
+is used by the compiler.  This allows for extra error checking during
+development and fast operation during production use.</p>
+<p>Interlisp also has a backquote facility similar to Common Lisp&rsquo;s `
+and , read macros.</p>
+<p>Unlike Common Lisp, Interlisp does not have a special function for
+defining macros.  Macros are defined by placing their definition on
+the property list of the symbol.</p>
+<p>Medley handling of macros is different: from a Common Lisp point of view, Interlisp &ldquo;macros&rdquo; are treated as compiler-optimizers (if the symbol has a function definition) or as (Common Lisp) macros.</p>
+<h2 id="medley-common-lisp">Medley Common Lisp</h2>
+<p>The term &ldquo;Common Lisp&rdquo; covers a range of development stages, first
+defined by the book &ldquo;Common Lisp, the Language&rdquo; editions 1 (aka CLtL1)
+and 2 (aka CLtL2) and ultimately the ANSI Standard Common Lisp (aka ANSI).
+The Common Lisp currently supported by Medley is somewhere between
+CLtl1 and CLtl2.  We are hoping to complete the move to
+CLtl2.</p>
+<p>In Medley Common Lisp and Interlisp are fully
+integrated.  From within Common Lisp, Interlisp functions may be
+accessed through the Common Lisp package nicknamed ``IL&rsquo;'.</p>
+<div class="mx-auto">
+ <a class="btn btn-lg btn-danger mr-3 mb-4" href="/Interlisp.staging/pr-345/software/using-medley/">
+  Guide to Using Medley <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+ </a>
+</div>
+
+	
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Email" aria-label="Email">
+	<a target="_blank" rel="noopener" href="mailto:info@interlisp.org" aria-label="Email">
+	  <i class="fa fa-envelope"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Mastodon" aria-label="Mastodon">
+	<a target="_blank" rel="noopener" href="https://fosstodon.org/@interlisp" aria-label="Mastodon">
+	  <i class="fa-brands fa-mastodon"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Bluesky" aria-label="Bluesky">
+	<a target="_blank" rel="noopener" href="https://bsky.app/profile/interlisp.org" aria-label="Bluesky">
+	  <i class="fa-brands fa-bluesky"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="YouTube" aria-label="YouTube">
+	<a target="_blank" rel="noopener" href="https://www.youtube.com/@Interlisp" aria-label="YouTube">
+	  <i class="fa-brands fa-youtube"></i>
+	</a>
+  
+  
+		 
+		<li class="td-footer__links-item" data-bs-toggle="tooltip" title="RSS" aria-label="RSS">
+			<a target="_blank" rel="noopener" href="https://interlisp.github.io/Interlisp.staging/pr-345/project/status/rss.xml" aria-label="RSS">
+				<i class="fas fa-rss"></i>
+			</a>
+		</li>
+	
+  
+
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="On GitHub" aria-label="On GitHub">
+	<a target="_blank" rel="noopener" href="https://github.com/interlisp" aria-label="On GitHub">
+	  <i class="fab fa-github"></i>
+	</a>
+  
+  
+
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2024&ndash;2026
+    <span class="td-footer__authors">Interlisp.org</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="/Interlisp.staging/pr-345/js/main.js"></script>
+<script defer src="/Interlisp.staging/pr-345/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/Interlisp.staging/pr-345/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

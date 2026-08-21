@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/dekleer-johan/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/dekleer-johan/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Daniel G. Bobrow: In Memoriam
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/5qc8xebv/</link>
+      <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/5qc8xebv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DeKleer, Johan</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/dekleer-johan/</link>
+      <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/dekleer-johan/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Darn Toward a Community Memory for Diagnosis and Repair Tasks
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/74cymt7r/</link>
+      <pubDate>Fri, 01 Jan 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/74cymt7r/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

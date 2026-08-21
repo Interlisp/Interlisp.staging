@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/frawley-bud/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1981 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/frawley-bud/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The DIPMETER ADVISOR: Interpretation of Geologic Signals.
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/a94jy5ad/</link>
+      <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/a94jy5ad/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Frawley, Bud</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/frawley-bud/</link>
+      <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/frawley-bud/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

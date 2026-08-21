@@ -1,0 +1,448 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="shortcut icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="https://interlisp.github.io/Interlisp.staging/pr-345/favicons/apple-touch-icon.png" sizes="180x180">
+
+<title>Install and Run on Windows with WSL | Staging Environment</title>
+<meta name="description" content="Prerequisite: Install WSL Medley can be installed and run on either WSL1 or WSL2. WSL2 is preferred, but for older machines that do not support virtualization (see here) or Windows builds prior to Windows 10 Build 19041, WSL1 will work just fine although it will be limited to the VNC mode (see below).
+To install/activate WSL on Windows, see How to install Linux on Windows with WSL.
+To use WSL, you must install one or more Linux “distros” on top of WSL. Medley has been tested most extensively on the Ubuntu (20.04 and later) distros. But Medley can be installed and run on (almost) any of the Linux distros available for WSL (Alpine Linux, is one known exception).">
+<meta property="og:url" content="https://interlisp.github.io/Interlisp.staging/pr-345/software/install-and-run/windows/wsl/">
+  <meta property="og:site_name" content="Staging Environment">
+  <meta property="og:title" content="Install and Run on Windows with WSL">
+  <meta property="og:description" content="Prerequisite: Install WSL Medley can be installed and run on either WSL1 or WSL2. WSL2 is preferred, but for older machines that do not support virtualization (see here) or Windows builds prior to Windows 10 Build 19041, WSL1 will work just fine although it will be limited to the VNC mode (see below).
+To install/activate WSL on Windows, see How to install Linux on Windows with WSL.
+To use WSL, you must install one or more Linux “distros” on top of WSL. Medley has been tested most extensively on the Ubuntu (20.04 and later) distros. But Medley can be installed and run on (almost) any of the Linux distros available for WSL (Alpine Linux, is one known exception).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Install and Run on Windows with WSL">
+  <meta itemprop="description" content="Prerequisite: Install WSL Medley can be installed and run on either WSL1 or WSL2. WSL2 is preferred, but for older machines that do not support virtualization (see here) or Windows builds prior to Windows 10 Build 19041, WSL1 will work just fine although it will be limited to the VNC mode (see below).
+To install/activate WSL on Windows, see How to install Linux on Windows with WSL.
+To use WSL, you must install one or more Linux “distros” on top of WSL. Medley has been tested most extensively on the Ubuntu (20.04 and later) distros. But Medley can be installed and run on (almost) any of the Linux distros available for WSL (Alpine Linux, is one known exception).">
+  <meta itemprop="datePublished" content="2025-07-23T20:55:35-04:00">
+  <meta itemprop="dateModified" content="2025-07-23T20:55:35-04:00">
+  <meta itemprop="wordCount" content="1288">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Install and Run on Windows with WSL">
+  <meta name="twitter:description" content="Prerequisite: Install WSL Medley can be installed and run on either WSL1 or WSL2. WSL2 is preferred, but for older machines that do not support virtualization (see here) or Windows builds prior to Windows 10 Build 19041, WSL1 will work just fine although it will be limited to the VNC mode (see below).
+To install/activate WSL on Windows, see How to install Linux on Windows with WSL.
+To use WSL, you must install one or more Linux “distros” on top of WSL. Medley has been tested most extensively on the Ubuntu (20.04 and later) distros. But Medley can be installed and run on (almost) any of the Linux distros available for WSL (Alpine Linux, is one known exception).">
+<link href="/Interlisp.staging/pr-345/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<link rel="canonical" href="https://interlisp.github.io/Interlisp.staging/pr-345/software/install-and-run/windows/wsl/">
+<link rel="me" href="https://fosstodon.org/@interlisp">
+
+
+  </head>
+  <body class="td-section">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="td-navbar-container container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/Interlisp.staging/pr-345/"><span class="navbar-brand__logo navbar-logo"><svg id="d" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 412.86 292"><defs><symbol id="a" viewBox="0 0 372 300"><rect id="b" x="10" y="10" width="352" height="280" style="fill:#fff;stroke:#000;stroke-width:20px"/><line id="c" x1="10" y1="270" x2="362" y2="270" style="fill:none;stroke:#000;stroke-width:20px"/></symbol><clipPath id="g"><rect x="231.92" y="62" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="i"><rect x="188" y="22.47" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="k"><rect x="128" y="8" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="m"><rect x="68" y="22.47" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="o"><rect x="24.08" y="62" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="q"><rect x="8" y="116" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="s"><rect x="24.08" y="170" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="u"><rect x="68" y="209.53" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="w"><rect x="128" y="224" width="74.4" height="60" style="fill:none"/></clipPath></defs><rect id="e" x="94.9" y="210.92" width="1.4" height="4.2" style="fill:#a50000"/><g id="f"><g style="clip-path:url(#g)"><use id="h" width="372" height="300" transform="translate(231.92 122) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#i)"><use id="j" width="372" height="300" transform="translate(188 82.47) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#k)"><use id="l" width="372" height="300" transform="translate(128 68) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#m)"><use id="n" width="372" height="300" transform="translate(68 82.47) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#o)"><use id="p" width="372" height="300" transform="translate(24.08 122) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#q)"><use id="r" width="372" height="300" transform="translate(8 176) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#s)"><use id="t" width="372" height="300" transform="translate(24.08 230) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#u)"><use id="v" width="372" height="300" transform="translate(68 269.53) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#w)"><use id="x" width="372" height="300" transform="translate(128 284) scale(.2 -.2)" xlink:href="#a"/></g></g><g id="y" style="isolation:isolate"><text transform="translate(119.53 200.02)" style="fill:#fff;font-family:TimesNewRomanPSMT,times new roman;font-size:96px;isolation:isolate"><tspan x="0" y="0">Medley</tspan></text><text transform="translate(119.53 200.02)" style="fill:none;font-family:TimesNewRomanPSMT,times new roman;font-size:96px;isolation:isolate;stroke:#fff;stroke-width:.15px"><tspan x="0" y="0">Medley</tspan></text></g></svg></span><span class="navbar-brand__name">Staging Environment</span></a>
+  <div class="td-navbar__main td-navbar-nav-scroll td-navbar-nav-scroll--indicator" id="main_navbar">
+    <div class="scroll-indicator scroll-left"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/history/"><i class='fas fa-book'></i><span>History</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/project/"><i class='fas fa-globe'></i><span>Project</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/software/"><i class='fas fa-cube'></i><span>Software</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-345/getinvolved/"><i class='fas fa-handshake-simple'></i><span>Get Involved</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/interlisp" target="_blank" rel="noopener"><i class='fab fa-github'></i><span>GitHub</span></a>
+      </li>
+      </ul>
+    <div class="scroll-indicator scroll-right"></div>
+  </div>
+  <div class="td-navbar__search d-none d-lg-block">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main" data-bs-spy="scroll" data-bs-target=".td-toc" data-bs-root-margin="0px 0px -10%">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+  <script>
+    $(function() {
+    $("#td-section-nav a").removeClass("active");
+    $("#td-section-nav #m-interlispstagingpr-345softwareinstall-and-runwindowswsl").addClass("active");
+    $("#td-section-nav #m-interlispstagingpr-345softwareinstall-and-runwindowswsl-li span").addClass("td-sidebar-nav-active-item");
+    $("#td-section-nav #m-interlispstagingpr-345softwareinstall-and-runwindowswsl").parents("li").addClass("active-path");
+    $("#td-section-nav li.active-path").addClass("show");
+    $("#td-section-nav li.active-path").children("input").prop('checked', true);
+    $("#td-section-nav #m-interlispstagingpr-345softwareinstall-and-runwindowswsl-li").siblings("li").addClass("show");
+    $("#td-section-nav #m-interlispstagingpr-345softwareinstall-and-runwindowswsl-li").children("ul").children("li").addClass("show");
+    $("#td-sidebar-menu").toggleClass("d-none");
+    });
+  </script>
+  <div id="td-sidebar-menu" class="td-sidebar__inner d-none">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
+</div>
+    <button class="btn btn-link td-sidebar__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse foldable-nav" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345software-li">
+    <a href="/Interlisp.staging/pr-345/software/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-interlispstagingpr-345software"><span class="">Software</span></a>
+    <ul class="ul-1">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345softwareinstall-and-run-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-run-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-run-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-run"><span class="">Install and Run</span></a></label>
+    
+    <ul class="ul-2 foldable">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runlinux-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runlinux-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runlinux-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/linux/" title="Install and Run on Linux" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runlinux"><span class="">Linux</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runmacos-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runmacos-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runmacos-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/macos/" title="Install and Run on MacOS" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runmacos"><span class="">MacOS</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345softwareinstall-and-runwindows-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runwindows-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runwindows-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/windows/" title="Install and Run on Windows" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runwindows"><span class="">Windows</span></a></label>
+    
+    <ul class="ul-3 foldable">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runwindowswsl-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runwindowswsl-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runwindowswsl-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/windows/wsl/" title="Install and Run on Windows with WSL" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runwindowswsl"><span class="">WSL</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareinstall-and-runwindowsnative-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareinstall-and-runwindowsnative-check"/>
+    <label for="m-interlispstagingpr-345softwareinstall-and-runwindowsnative-check"><a href="/Interlisp.staging/pr-345/software/install-and-run/windows/native/" title="Install and Run on Windows &#34;native&#34;" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareinstall-and-runwindowsnative"><span class="">native</span></a></label>
+    
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareaccess-online-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareaccess-online-check"/>
+    <label for="m-interlispstagingpr-345softwareaccess-online-check"><a href="/Interlisp.staging/pr-345/software/access-online/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareaccess-online"><span class="">Access Medley Online</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-345softwareusing-medley-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medley-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medley-check"><a href="/Interlisp.staging/pr-345/software/using-medley/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwareusing-medley"><span class="">Documentation</span></a></label>
+    
+    <ul class="ul-2 foldable">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleyil-using-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleyil-using-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleyil-using-check"><a href="/Interlisp.staging/pr-345/software/using-medley/il-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleyil-using"><span class="">Using Medley Interlisp Basics</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleycl-using-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleycl-using-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleycl-using-check"><a href="/Interlisp.staging/pr-345/software/using-medley/cl-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleycl-using"><span class="">Interlisp Basics for Common Lisp users</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleykeystrokes-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleykeystrokes-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleykeystrokes-check"><a href="/Interlisp.staging/pr-345/software/using-medley/keystrokes/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleykeystrokes"><span class="">Keystrokes, Mouse menus and Gestures</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwareusing-medleyonline-using-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwareusing-medleyonline-using-check"/>
+    <label for="m-interlispstagingpr-345softwareusing-medleyonline-using-check"><a href="/Interlisp.staging/pr-345/software/using-medley/online-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-345softwareusing-medleyonline-using"><span class="">Using Medley Online</span></a></label>
+    
+  </li>
+    </ul>
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-345softwarescreenshots-li">
+    <input type="checkbox" id="m-interlispstagingpr-345softwarescreenshots-check"/>
+    <label for="m-interlispstagingpr-345softwarescreenshots-check"><a href="/Interlisp.staging/pr-345/software/screenshots/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-345softwarescreenshots"><span class="">Gallery of Screenshots</span></a></label>
+    
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="td-sidebar-toc">
+            
+
+<div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+	
+</div>
+
+            <div class="td-toc" data-proofer-ignore>
+<div class="td-toc-title">
+      <span class="td-toc-title__text">On this page</span>
+      <a class="td-toc-title__link" title="Top of page" href="#"></a>
+    </div>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#prerequisite-install-wsl">Prerequisite: Install WSL</a></li>
+      </ul>
+    </li>
+    <li><a href="#install-medley">Install Medley</a>
+      <ul>
+        <li><a href="#standard-installation-for-debian-based-distros-only">Standard Installation (for Debian-based distros only)</a></li>
+        <li><a href="#local-installation">Local Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#multiple-installations">Multiple Installations</a>
+      <ul>
+        <li><a href="#standard-installations">Standard Installations</a></li>
+        <li><a href="#local-installations">Local Installations</a></li>
+      </ul>
+    </li>
+    <li><a href="#update-medley">Update Medley</a></li>
+    <li><a href="#run-medley">Run Medley</a>
+      <ul>
+        <li><a href="#standard-installations-1">Standard Installations</a></li>
+        <li><a href="#local-installations-1">Local Installations</a></li>
+        <li><a href="#x-windows-mode-versus-vnc-mode">X-Windows mode versus VNC mode</a></li>
+      </ul>
+    </li>
+    <li><a href="#use-medley">Use Medley</a></li>
+    <li><a href="#important-notes">Important Notes</a></li>
+  </ul>
+</nav>
+  </div>
+
+            
+	
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/Interlisp.staging/pr-345/software/">Software</a></li>
+  <li class="breadcrumb-item">
+    <a href="/Interlisp.staging/pr-345/software/install-and-run/">Install and Run</a></li>
+  <li class="breadcrumb-item">
+    <a href="/Interlisp.staging/pr-345/software/install-and-run/windows/">Windows</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    WSL</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Install and Run on Windows with WSL</h1>
+  
+	<header class="article-meta">
+		
+  </header>
+	<h3 id="prerequisite-install-wsl">Prerequisite: Install WSL</h3>
+<p>Medley can be installed and run on either WSL1 or WSL2.  WSL2 is preferred, but for older machines that do not support virtualization (see
+<a href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">here</a>)
+or Windows builds prior to Windows 10 Build 19041, WSL1 will work just fine although it will be limited to the VNC mode (see below).</p>
+<p>To install/activate WSL on Windows, see <a href="https://learn.microsoft.com/en-us/windows/wsl/install">How to install Linux on Windows with WSL</a>.</p>
+<p>To use WSL, you must install one or more Linux &ldquo;distros&rdquo; on top of WSL.   Medley has been tested most extensively on the Ubuntu (20.04 and later) distros.  But Medley can be installed and run on (almost) any of the Linux distros available for WSL (Alpine Linux, is one known exception).</p>
+<h2 id="install-medley">Install Medley</h2>
+<p>Medley can be installed on WSL in one of two configurations: <em>standard</em> and <em>local</em>.</p>
+<ul>
+<li>Standard installation is available only for Debian-based distros (e.g., Debian, Ubuntu, MX Linux, Mint Linux, etc.).  It will install Medley into system directories (i.e., /usr/local/interlisp) and automatically install any prerequisite packages.</li>
+<li>Local installation will install Medley into any user directory but any prerequisite packages must be installed manually.</li>
+</ul>
+<p>Standard installations are ideal for users who want to explore Medley (including its system code) or to develop applications built on top of Medley.  Standard installations are not good for users who want to modify the Medley system code, since that code is installed in protected locations.</p>
+<h3 id="standard-installation-for-debian-based-distros-only">Standard Installation (for Debian-based distros only)</h3>
+<ol>
+<li>Download the installation file (.deb) for the latest release from the <a href="https://online.interlisp.org/downloads/medley_downloads.html">Medley downloads site</a>  from under the heading Linux/Standard/WSL.  There are are separate .deb files for X86_64 and ARM64 systems.  Download the one that corresponds to your machine architecture.  We will refer to the downloaded file as <em><strong>&lt;deb_filepath&gt;</strong></em></li>
+</ol>
+ <div align="center"><img alt="Medley Downloads Page" width=500 src="../images/downloads-page-wsl-standard.png"><p>&nbsp;</p></div>
+<blockquote>
+<blockquote>
+<p>Alternatively, you can download the .deb files for the current or any previous release from the Medley Releases page on the Interlisp GitHub site.  <a href="/Interlisp.staging/pr-345/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/">Instructions for this can be found here</a>.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><em><strong>Note</strong></em>:  under WSL, you can download the file either using a Windows browser into the Windows file system or using a Linux browser into the Linux file system.  If you download into the Windows file system, you will need to copy the file from the Windows file system into the Linux file system for your distro.  See <a href="https://megamorf.gitlab.io/2021/08/11/copy-files-from-windows-to-your-wsl-instance/">Copy files from Windows to your WSL instance</a>.</p>
+</blockquote>
+<blockquote>
+<p>In these instructions, <em><strong>&lt;deb_filepath&gt;</strong></em> refers to a file in the Linux file system.</p>
+</blockquote>
+<ol start="2">
+<li>
+<p>Into a WSL terminal, enter the following commands.  This will install Medley and all prerequisite packages.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ubuntu@oio:~$ sudo apt update
+</span></span><span style="display:flex;"><span>ubuntu@oio:~$ sudo apt install -y &lt;deb_filepath&gt;
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="local-installation">Local Installation</h3>
+<ol>
+<li>
+<p>In the WSL file system for your distro, create a directory into which Medley will be installed.  We will refer to this directory as <em><strong>&lt;install_dir&gt;</strong></em></p>
+</li>
+<li>
+<p>Download the release tar file (.tgz) for the latest release from the <a href="https://online.interlisp.org/downloads/medley_downloads.html">Medley downloads site</a>  from under the heading Linux/Local/WSL.  There are are separate .tgz files for X86_64 and ARM64 systems.  Download the one that corresponds to your machine architecture.  We will refer to the downloaded file as <em><strong>&lt;tgz_filepath&gt;</strong></em></p>
+</li>
+</ol>
+<div align="center"><img alt="Medley Downloads Page" width=500 src="../images/downloads-page-wsl-local.png"><p>&nbsp;</p></div>
+<blockquote>
+<blockquote>
+<p>Alternatively, you can download the .deb files for the current or any previous release from the Medley Releases page on the Interlisp GitHub site.  <a href="/Interlisp.staging/pr-345/software/install-and-run/windows/wsl/windows-wsl-local-from-github/">Instructions for this can be found here</a>.</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><em><strong>Note</strong></em>: Under WSL, you can download the .tgz file either using a Windows browser into the Windows file system or using a Linux browser into the Linux file system.  If you download into the Windows file system, you will need to copy the file from the Windows file system into the Linux file system for your distro.  See <a href="https://megamorf.gitlab.io/2021/08/11/copy-files-from-windows-to-your-wsl-instance/">Copy files from Windows to your WSL instance</a>.</p>
+</blockquote>
+<blockquote>
+<p>In these instructions, <em><strong>&lt;tgz_filepath&gt;</strong></em> refers to a file in the Linux file system.</p>
+</blockquote>
+<ol start="3">
+<li>Untar <em><strong>&lt;tgz_filepath&gt;</strong></em> using the following command:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ubuntu@oio:~$ tar -xz -C &lt;install_dir&gt; -f &lt;tgz_filepath&gt;
+</span></span></code></pre></div></li>
+<li>Using the package manager for your distro (e.g., apt for Debian and Ubuntu distros), install the following packages:
+a) man-db
+b) wslu
+c) tigervnc</li>
+</ol>
+<blockquote>
+<p><em><strong>Notes:</strong></em>
+4.1.  If <em>wslu</em> is not available via the standard package repos for your WSL distro, then see <a href="https://wslu.wedotstud.io/wslu/install.html">the wslu wiki</a>.  If <em>wslu</em> is still not available, then try installing the <em>xdg-utils</em> package instead.  If <em>xdg-utils</em> is not available either, then Medley will still run well, with the exception of a few sub-systems that require opening external (to Medley) files.</p>
+</blockquote>
+<blockquote>
+<p>4.2. On Debian-based systems (including Ubuntu), the tigervnc package is not available.  Instead install both the <em>tigervnc-standalone-server package</em> and the <em>tigervnc-xorg-extension</em> package.</p>
+</blockquote>
+<h2 id="multiple-installations">Multiple Installations</h2>
+<h3 id="standard-installations">Standard Installations</h3>
+<p>Multiple standard installations are not possible on a single WSL distro.  It is possible to have a single Standard installation alongside one or more Local installations on a single WSL distro.</p>
+<h3 id="local-installations">Local Installations</h3>
+<p>For local installations, you can install multiple copies of Medley (e.g. different releases) on a single WSL distro.  Simply place each installation into a separate <em><strong>install_dir</strong></em>. And follow the install instructions above.</p>
+<p>Each Medley installation so installed will operate independently of other Medley installations.  The Medley system code for each installation will remain separate. However, in general the installations will share a single file system (which is the WSL file system for the distro). So care must be taken to coordinate access to the file system.</p>
+<h2 id="update-medley">Update Medley</h2>
+<p>To update any given Medley installation (e.g., to install a new release), download the updated .deb or .tgz installer file as described above.  Then (re)run the appropriate install procedure as described above.</p>
+<p>The chosen Medley installation will be updated.  Any user files (i.e., files created by the user that are not part of the Medley distribution) in the Medley file system will remain intact.</p>
+<h2 id="run-medley">Run Medley</h2>
+<p>Medley is started from the WSL terminal for your distro using the following commands.</p>
+<h3 id="standard-installations-1">Standard Installations</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>medley &lt;flags and options&gt;
+</span></span></code></pre></div><p>Example:
+<img alt="Start Medley Standard" width=500 src="../images/windows-wsl-standard.png"></p>
+<h3 id="local-installations-1">Local Installations</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cd &lt;install_dir&gt;
+</span></span><span style="display:flex;"><span>./medley &lt;flags and options&gt;
+</span></span></code></pre></div><p>Example:
+<img alt="Start Medley Standard" width=500 src="../images/windows-wsl-local.png"></p>
+<p>Documentation for the <code>&lt;flags and options&gt;</code> to the <code>medley</code> command can be found <a href="https://online.interlisp.org/downloads/man_medley.html">here</a></p>
+<p>For first-time users: <code>medley --vnc --apps --interlisp --noscroll</code> or, equivalently, <code>medley -v -a -e -n</code> is a good starting point.  This will give you a fully populated Medley system, including the applications built on Medley such as Notecards and Rooms.</p>
+<p>This will bring up the Medley environment in a separate Window on your Windows desktop.  The Medley desktop and windows will all be contained within this Window as shown below.</p>
+<p><img src="../images/Medley-on-Windows.png" alt="Medley window open on Windows desktop"></p>
+<h3 id="x-windows-mode-versus-vnc-mode">X-Windows mode versus VNC mode</h3>
+<p>On WSL2, Medley will normally run using the X-Windows built into WSL to display the Medley window on the Windows desktop.  This works well as long a you do not have a hi-dpi monitor.  But X-Windows on WSL2 does not scale well and ignores the Windows display scaling settings.  On hi-dpi monitors, this often results in the Medley window being to small to use effectively.</p>
+<p>By using the &ndash;vnc (or -v) option to the <em>medley</em> command, you can instruct Medley to display into a VNC viewer contained in a standard Windows window.  The VNC viewer window scales effectively on the Windows desktop and follows the Windows display scale settings.  The result is a much more useable Medley window on hi-dpi displays.</p>
+<p>Aside from this scaling issue, running in VNC mode is no different from running in the default X-Windows mode on WSL2.</p>
+<p>For WSL1, X-Windows mode is not available - Medley is always run in VNC mode.</p>
+<h2 id="use-medley">Use Medley</h2>
+<p>Once Medley is up and running, see <a href="/Interlisp.staging/pr-345/software/using-medley/">here</a> for tips on how to navigate and use the Medley environment.</p>
+<p>To exit Medley, type <code>(IL:LOGOUT)</code> at any Exec window prompt.</p>
+<h2 id="important-notes">Important Notes</h2>
+<ol>
+<li>The file system from Medley&rsquo;s perspective corresponds to the file system from the Linux distro perspective.  Note that this differs somewhat from the file systems as seen from the Windows perspective.  See <a href="https://learn.microsoft.com/en-us/windows/wsl/filesystems">Working across Windows and Linux file systems</a> for more information.</li>
+<li>Your Medley LOGINDIR will be  <em><strong>/home/&lt;name&gt;/il</strong></em>  in the Linux file system, where <em><strong>&lt;name&gt;</strong></em> is your login name for the WSL distro.</li>
+</ol>
+
+	<div class="section-index">
+    
+    
+    </div>
+</div>
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Email" aria-label="Email">
+	<a target="_blank" rel="noopener" href="mailto:info@interlisp.org" aria-label="Email">
+	  <i class="fa fa-envelope"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Mastodon" aria-label="Mastodon">
+	<a target="_blank" rel="noopener" href="https://fosstodon.org/@interlisp" aria-label="Mastodon">
+	  <i class="fa-brands fa-mastodon"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Bluesky" aria-label="Bluesky">
+	<a target="_blank" rel="noopener" href="https://bsky.app/profile/interlisp.org" aria-label="Bluesky">
+	  <i class="fa-brands fa-bluesky"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="YouTube" aria-label="YouTube">
+	<a target="_blank" rel="noopener" href="https://www.youtube.com/@Interlisp" aria-label="YouTube">
+	  <i class="fa-brands fa-youtube"></i>
+	</a>
+  
+  
+		 
+		<li class="td-footer__links-item" data-bs-toggle="tooltip" title="RSS" aria-label="RSS">
+			<a target="_blank" rel="noopener" href="https://interlisp.github.io/Interlisp.staging/pr-345/project/status/rss.xml" aria-label="RSS">
+				<i class="fas fa-rss"></i>
+			</a>
+		</li>
+	
+  
+
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="On GitHub" aria-label="On GitHub">
+	<a target="_blank" rel="noopener" href="https://github.com/interlisp" aria-label="On GitHub">
+	  <i class="fab fa-github"></i>
+	</a>
+  
+  
+
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2024&ndash;2026
+    <span class="td-footer__authors">Interlisp.org</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="/Interlisp.staging/pr-345/js/main.js"></script>
+<script defer src="/Interlisp.staging/pr-345/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/Interlisp.staging/pr-345/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

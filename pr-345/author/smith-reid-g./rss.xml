@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/smith-reid-g./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 1992 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/smith-reid-g./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Object-oriented framework for menu definition
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/px3pwi8c/</link>
+      <pubDate>Tue, 02 Jun 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/px3pwi8c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Smith, Reid G.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/smith-reid-g./</link>
+      <pubDate>Tue, 02 Jun 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/smith-reid-g./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Impulse-86: a substrate for object-oriented interface design
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/xr7p479v/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/xr7p479v/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>On the Development of Commercial Expert Systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/t4z3dhwc/</link>
+      <pubDate>Sat, 15 Sep 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/t4z3dhwc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>IMPULSE: A Display Oriented Editor for STROBE
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/mcldggmu/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/mcldggmu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>STROBE: SUPPORT FOR STRUCTURED OBJECT KNOWLEDGE REPRESENTATION
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/nibvyyd5/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/nibvyyd5/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

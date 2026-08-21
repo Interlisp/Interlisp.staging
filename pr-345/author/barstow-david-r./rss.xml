@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/barstow-david-r./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Aug 1981 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/barstow-david-r./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview of a display-oriented editor for INTERLISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/w96jccyh/</link>
+      <pubDate>Mon, 24 Aug 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/w96jccyh/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Barstow, David R.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/barstow-david-r./</link>
+      <pubDate>Mon, 24 Aug 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/barstow-david-r./</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

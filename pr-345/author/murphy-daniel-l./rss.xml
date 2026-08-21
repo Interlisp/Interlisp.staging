@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/murphy-daniel-l./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Aug 1968 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/murphy-daniel-l./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A note on the efficiency of a LISP computation in a paged machine
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/dncvygjc/</link>
+      <pubDate>Thu, 01 Aug 1968 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/dncvygjc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Murphy, Daniel L.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/murphy-daniel-l./</link>
+      <pubDate>Thu, 01 Aug 1968 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/murphy-daniel-l./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The BBN 940 LISP SYSTEM
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqaa78hi/</link>
+      <pubDate>Sat, 15 Jul 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqaa78hi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Structure of a LISP system using two-level storage: Communications of the ACM
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/g796kzsg/</link>
+      <pubDate>Sun, 01 Jan 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/g796kzsg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>THE STRUCTURE OF A LISP SYSTEM USING TWO-LEVEL STORAGE, SCIENTIFIC REPORT
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6rae6dbf/</link>
+      <pubDate>Fri, 04 Nov 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6rae6dbf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Preliminary Specification for BBN 940 LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6m8iseul/</link>
+      <pubDate>Thu, 13 Oct 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6m8iseul/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

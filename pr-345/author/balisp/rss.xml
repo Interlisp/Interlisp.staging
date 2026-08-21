@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/balisp/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/balisp/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Medley Interlisp Project 2023 for BALISP 3/18/23
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6jeu83su/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6jeu83su/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>BALISP</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/balisp/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/balisp/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

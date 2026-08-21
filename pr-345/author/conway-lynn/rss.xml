@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/conway-lynn/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jan 1983 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/conway-lynn/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KNOWLEDGE PROGRAMMING IN LOOPS
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/a7zzfykb/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/a7zzfykb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Truckin’ and the Knowledge Competitions | MJSBlog
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/v3as6ur5/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/v3as6ur5/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Conway, Lynn</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/conway-lynn/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/conway-lynn/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

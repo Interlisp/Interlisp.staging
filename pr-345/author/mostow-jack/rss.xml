@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/mostow-jack/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Aug 1985 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/mostow-jack/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automating Program Speedup by Deciding What to Cache
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/g6k7sc2k/</link>
+      <pubDate>Sun, 18 Aug 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/g6k7sc2k/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mostow, Jack</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/mostow-jack/</link>
+      <pubDate>Sun, 18 Aug 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/mostow-jack/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

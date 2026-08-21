@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/deutsch-l.-peter/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Aug 1980 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/deutsch-l.-peter/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ByteLisp and its Alto implementation
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/8smp58aa/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/8smp58aa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Local optimization in a compiler for stack-based Lisp machines
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/4edhakdb/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/4edhakdb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deutsch, L. Peter</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/deutsch-l.-peter/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/deutsch-l.-peter/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Extending Interlisp for modularization and efficiency
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/h5q65h3m/</link>
+      <pubDate>Fri, 01 Jun 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/h5q65h3m/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>INSIDE INTERLISP: TWO IMPLEMENTATIONS
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/jew9ihtc/</link>
+      <pubDate>Sun, 26 Nov 1978 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/jew9ihtc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Experience with a microprogrammed Interlisp system
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qxzfuw4u/</link>
+      <pubDate>Sun, 19 Nov 1978 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qxzfuw4u/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An efficient, incremental, automatic garbage collector
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/raaskhre/</link>
+      <pubDate>Thu, 01 Jan 1976 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/raaskhre/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PIVOT source listing
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/kqm2n5fw/</link>
+      <pubDate>Wed, 19 Mar 1975 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/kqm2n5fw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A LISP machine with very compact programs
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/nqxp9qh8/</link>
+      <pubDate>Mon, 20 Aug 1973 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/nqxp9qh8/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An interactive program verifier
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/i5ah4b95/</link>
+      <pubDate>Tue, 01 May 1973 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/i5ah4b95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The BBN 940 LISP SYSTEM
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqaa78hi/</link>
+      <pubDate>Sat, 15 Jul 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqaa78hi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>930 LISP Reference Manual
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/rtrayutg/</link>
+      <pubDate>Sat, 05 Jun 1965 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/rtrayutg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PDP-1 Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/y8ft8niv/</link>
+      <pubDate>Fri, 01 Jan 1960 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/y8ft8niv/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

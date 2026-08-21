@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/allen-paul-g./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/allen-paul-g./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xerox Alto Is Rebuilt and Reconnected by the Living Computer Museum
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/yhtjmqlu/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/yhtjmqlu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Allen, Paul G.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/allen-paul-g./</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/allen-paul-g./</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

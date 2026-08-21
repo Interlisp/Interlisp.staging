@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/denber-michel-j./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Oct 1993 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/denber-michel-j./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Method and apparatus for thinning printed images
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/78b7is7f/</link>
+      <pubDate>Tue, 05 Oct 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/78b7is7f/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Denber, Michel J.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/denber-michel-j./</link>
+      <pubDate>Tue, 05 Oct 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/denber-michel-j./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Graphics display system with improved dynamic menu selection
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lp7u9czk/</link>
+      <pubDate>Wed, 08 Jan 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lp7u9czk/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/nielsen-jakob/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 1990 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/nielsen-jakob/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hypertext&#39;89 Trip Report
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/gdwukluh/</link>
+      <pubDate>Sun, 01 Apr 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/gdwukluh/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nielsen, Jakob</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/nielsen-jakob/</link>
+      <pubDate>Sun, 01 Apr 1990 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/nielsen-jakob/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

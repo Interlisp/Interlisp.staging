@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/kidwell-peggy-aldrich/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2015 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/kidwell-peggy-aldrich/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Annals of the History of Computing Vol. 37 Issue 1
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ra5vu2aq/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ra5vu2aq/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kidwell, Peggy Aldrich</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/kidwell-peggy-aldrich/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/kidwell-peggy-aldrich/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

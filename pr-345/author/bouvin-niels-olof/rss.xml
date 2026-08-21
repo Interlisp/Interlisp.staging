@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/bouvin-niels-olof/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/bouvin-niels-olof/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From NoteCards to Notebooks: There and Back Again
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/etmy665q/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/etmy665q/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bouvin, Niels Olof</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/bouvin-niels-olof/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/bouvin-niels-olof/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

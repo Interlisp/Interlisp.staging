@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/masinter-larry/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/masinter-larry/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interlisp-D at AAAI-82
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/s2zc62qx/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/s2zc62qx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Masinter, Larry</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/masinter-larry/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/masinter-larry/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rich interaction in the digital library
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/a52363yk/</link>
+      <pubDate>Sat, 01 Apr 1995 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/a52363yk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Extensions to Common LISP to Support International Character Sets
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/igcgz4z8/</link>
+      <pubDate>Sun, 01 Jan 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/igcgz4z8/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp Cleanup. — Software Preservation Group
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lydgrgw4/</link>
+      <pubDate>Sun, 10 Jan 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lydgrgw4/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CommonLoops: merging Lisp and object-oriented programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/yr58ny6f/</link>
+      <pubDate>Sun, 01 Jun 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/yr58ny6f/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Interlisp Programming Environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/7t3av4pm/</link>
+      <pubDate>Wed, 01 Apr 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/7t3av4pm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Emails to/from PARC INTERLISP maintainers
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/p43bue35/</link>
+      <pubDate>Thu, 01 Jan 1976 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/p43bue35/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>J778.SYSREM DOC on SYS05 (LISP features designed to aid the LISP programmer)
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/5mwt6g4d/</link>
+      <pubDate>Sat, 01 Jan 1972 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/5mwt6g4d/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

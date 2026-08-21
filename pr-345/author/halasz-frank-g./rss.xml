@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/halasz-frank-g./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jul 1988 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/halasz-frank-g./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reflections on NoteCards: seven issues for the next generation of hypermedia systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/9rrr7g7f/</link>
+      <pubDate>Fri, 01 Jul 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/9rrr7g7f/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Halasz, Frank G.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/halasz-frank-g./</link>
+      <pubDate>Fri, 01 Jul 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/halasz-frank-g./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Notecards in a nutshell
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/yeqk68gn/</link>
+      <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/yeqk68gn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Supporting collaboration in notecards
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/bg9bwbaa/</link>
+      <pubDate>Wed, 03 Dec 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/bg9bwbaa/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

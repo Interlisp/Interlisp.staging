@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/teitelman-warren/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Oct 2008 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-345/author/teitelman-warren/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>History of Interlisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/dvgrz62h/</link>
+      <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/dvgrz62h/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Teitelman, Warren</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/author/teitelman-warren/</link>
+      <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/author/teitelman-warren/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ten Years of Window Systems - A Retrospective View
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ah85w4de/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ah85w4de/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Interlisp Programming Environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/7t3av4pm/</link>
+      <pubDate>Wed, 01 Apr 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/7t3av4pm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A display oriented programmer&#39;s assistant
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/iz6p44n3/</link>
+      <pubDate>Thu, 01 Mar 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/iz6p44n3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Email Exchanges about Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/398x5wqz/</link>
+      <pubDate>Mon, 01 Jan 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/398x5wqz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>1978 Interlisp Reference Manual (disambiguation)
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/bzwkci4x/</link>
+      <pubDate>Sun, 01 Jan 1978 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/bzwkci4x/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A display oriented programmer&#39;s assistant
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/3h5f6tba/</link>
+      <pubDate>Mon, 22 Aug 1977 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/3h5f6tba/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A Display Oriented Programmers Assistant
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ffaksc38/</link>
+      <pubDate>Tue, 01 Mar 1977 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/ffaksc38/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Clisp: Conversational Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qbbqsh3v/</link>
+      <pubDate>Thu, 01 Apr 1976 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qbbqsh3v/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>INTERLISP Documentation Bulletin
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qq4warpf/</link>
+      <pubDate>Fri, 01 Feb 1974 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qq4warpf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>1974 Interlisp Reference Manual (disambiguation)
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/syguerke/</link>
+      <pubDate>Tue, 01 Jan 1974 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/syguerke/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>INTERLISP Progress Report
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lsjrvju8/</link>
+      <pubDate>Sat, 01 Dec 1973 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lsjrvju8/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Automated programmering: the programmer&#39;s assistant
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qwkix8dw/</link>
+      <pubDate>Tue, 05 Dec 1972 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/qwkix8dw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DESIGN AND IMPLEMENTATION OF FLIP, A LISP FORMAT DIRECTED LIST PROCESSOR
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6kklxerd/</link>
+      <pubDate>Sat, 15 Jul 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/6kklxerd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The BBN 940 LISP SYSTEM
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqaa78hi/</link>
+      <pubDate>Sat, 15 Jul 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqaa78hi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Recent Improvements to 940 LISP Library
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/pggc8gaz/</link>
+      <pubDate>Mon, 10 Apr 1967 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/pggc8gaz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PILOT: A Step Toward Man-Computer Symbiosis
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/rqwu8zw9/</link>
+      <pubDate>Thu, 01 Sep 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/rqwu8zw9/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Format-directed list processing in LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqqwkmez/</link>
+      <pubDate>Sat, 01 Jan 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-345/history/bibliography/lqqwkmez/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

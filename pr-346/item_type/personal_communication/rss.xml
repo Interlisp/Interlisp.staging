@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-346/item_type/personal_communication/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Apr 1989 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-346/item_type/personal_communication/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Array Space: Misc Notes
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wlpgwjd6/</link>
+      <pubDate>Mon, 03 Apr 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wlpgwjd6/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>personal_communication</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/item_type/personal_communication/</link>
+      <pubDate>Mon, 03 Apr 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/item_type/personal_communication/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Want faster GETPROP [1982 BUGS]
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ezk52s4l/</link>
+      <pubDate>Fri, 12 Feb 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ezk52s4l/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Email Exchanges about Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/398x5wqz/</link>
+      <pubDate>Mon, 01 Jan 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/398x5wqz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Emails to/from PARC INTERLISP maintainers
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/p43bue35/</link>
+      <pubDate>Thu, 01 Jan 1976 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/p43bue35/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

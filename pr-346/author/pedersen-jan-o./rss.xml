@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/pedersen-jan-o./</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Apr 1995 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-346/author/pedersen-jan-o./rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rich interaction in the digital library
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/a52363yk/</link>
+      <pubDate>Sat, 01 Apr 1995 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/a52363yk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pedersen, Jan O.</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/pedersen-jan-o./</link>
+      <pubDate>Sat, 01 Apr 1995 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/author/pedersen-jan-o./</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Iterative technique for phrase query formation and an information retrieval...
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ci5ab787/</link>
+      <pubDate>Tue, 11 Jan 1994 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ci5ab787/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/snow-will/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 1989 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-346/author/snow-will/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Places that use hiloc/loloc and what for
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/tx942aks/</link>
+      <pubDate>Mon, 23 Jan 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/tx942aks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Snow, Will</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/snow-will/</link>
+      <pubDate>Mon, 23 Jan 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/author/snow-will/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/kahn-kenneth/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 1986 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-346/author/kahn-kenneth/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CommonLoops: merging Lisp and object-oriented programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/yr58ny6f/</link>
+      <pubDate>Sun, 01 Jun 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/yr58ny6f/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kahn, Kenneth</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/kahn-kenneth/</link>
+      <pubDate>Sun, 01 Jun 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/author/kahn-kenneth/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Integrating Access-Oriented Programming into a Multiparadigm Environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/btuf3tn2/</link>
+      <pubDate>Sat, 01 Feb 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/btuf3tn2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Access-Oriented Programming for a Multiparadigm Environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3vk4ib8t/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3vk4ib8t/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/kurlander-david/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jun 1992 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-346/author/kurlander-david/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interactive constraint-based search and replace
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/9seivvba/</link>
+      <pubDate>Mon, 01 Jun 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/9seivvba/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kurlander, David</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/author/kurlander-david/</link>
+      <pubDate>Mon, 01 Jun 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/author/kurlander-david/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

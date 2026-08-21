@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.github.io/Interlisp.staging/pr-346/item_type/paper-conference/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-346/item_type/paper-conference/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>W(h)ither Spatial Hypertext?
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/iune3b2u/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/iune3b2u/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>paper-conference</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/item_type/paper-conference/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/item_type/paper-conference/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>From NoteCards to Notebooks: There and Back Again
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/etmy665q/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/etmy665q/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An Improvement to Sliding Garbage Collection
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/szjrbqaf/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/szjrbqaf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp&#39;s Predilection for Mathematical Programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/78ymfd8r/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/78ymfd8r/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Fast Generic Dispatch for Common Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/4y6c6gis/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/4y6c6gis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LP/LISP: literate programming for Lisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/gpx7b6f7/</link>
+      <pubDate>Tue, 19 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/gpx7b6f7/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp: the untold story
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/2kurwnzm/</link>
+      <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/2kurwnzm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>History of Interlisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/dvgrz62h/</link>
+      <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/dvgrz62h/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lisp 50 years ago
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ri94xgiv/</link>
+      <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ri94xgiv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A reference-counting garbage collection algorithm for cyclical functional programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/nezyjt4y/</link>
+      <pubDate>Sat, 07 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/nezyjt4y/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lisp: themes and history
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/jqgy7e57/</link>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/jqgy7e57/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A New Technique for Website Design Using an Interactive Visualization Hypertext Tool
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3hwm5umn/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3hwm5umn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Simplifying data integration: the design of the desert software development environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/j67qxuea/</link>
+      <pubDate>Wed, 01 May 1996 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/j67qxuea/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hyperform: using extensibility to develop dynamic, open, and distributed hypertext systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/j6wnhtxx/</link>
+      <pubDate>Wed, 01 Dec 1993 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/j6wnhtxx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interactive constraint-based search and replace
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/9seivvba/</link>
+      <pubDate>Mon, 01 Jun 1992 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/9seivvba/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PEPYS: Generating Autobiographies by Automatic Tracking
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/tn3w6xln/</link>
+      <pubDate>Tue, 01 Jan 1991 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/tn3w6xln/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The PepPro™ Peptide Synthesis Expert System
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/gpmcn5xc/</link>
+      <pubDate>Tue, 28 Mar 1989 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/gpmcn5xc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Design and implementation of the UW Illustrated compiler
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/5cidp5g7/</link>
+      <pubDate>Wed, 01 Jun 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/5cidp5g7/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Effective Browsing in Hypertext Systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/cc6lybjj/</link>
+      <pubDate>Mon, 21 Mar 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/cc6lybjj/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Common Lisp Cleanup. — Software Preservation Group
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/lydgrgw4/</link>
+      <pubDate>Sun, 10 Jan 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/lydgrgw4/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An implementation of portable standard LISP on the BBN butterfly
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/lt8jp57t/</link>
+      <pubDate>Fri, 01 Jan 1988 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/lt8jp57t/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The background of INTERNIST I and QMR
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/efhc285d/</link>
+      <pubDate>Tue, 01 Dec 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/efhc285d/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hypertext habitats: experiences of writers in NoteCards
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/692eznzv/</link>
+      <pubDate>Sun, 01 Nov 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/692eznzv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Common Lisp Object System: An Overview
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/aa2lk9ee/</link>
+      <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/aa2lk9ee/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Supporting collaboration in notecards
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/bg9bwbaa/</link>
+      <pubDate>Wed, 03 Dec 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/bg9bwbaa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Desiderata for the standardization of LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/fhbwrwvs/</link>
+      <pubDate>Fri, 08 Aug 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/fhbwrwvs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CommonLoops: merging Lisp and object-oriented programming
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/yr58ny6f/</link>
+      <pubDate>Sun, 01 Jun 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/yr58ny6f/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Trillium User Interface Design Environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/4bghz32m/</link>
+      <pubDate>Tue, 01 Apr 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/4bghz32m/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Access-Oriented Programming for a Multiparadigm Environment
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3vk4ib8t/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3vk4ib8t/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Object-Oriented Data Representations for Statistical Data Analysis
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ulle9ma2/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ulle9ma2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ten Years of Window Systems - A Retrospective View
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ah85w4de/</link>
+      <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/ah85w4de/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Automating Program Speedup by Deciding What to Cache
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/g6k7sc2k/</link>
+      <pubDate>Sun, 18 Aug 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/g6k7sc2k/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Language-based environment for natural language parsing
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/fkdcvzj5/</link>
+      <pubDate>Wed, 27 Mar 1985 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/fkdcvzj5/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Early LISP history (1956 - 1959)
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/gi8mchkf/</link>
+      <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/gi8mchkf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Garbage collection in a large LISP system
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/cvq8efwq/</link>
+      <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/cvq8efwq/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Queue-based multi-processing LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/h6nzgeih/</link>
+      <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/h6nzgeih/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Recent developments in ISI-interlisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/bnayt94g/</link>
+      <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/bnayt94g/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Large-scale system development in several lisp environments
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/xr77bb2t/</link>
+      <pubDate>Mon, 08 Aug 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/xr77bb2t/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>IMPULSE: A Display Oriented Editor for STROBE
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/mcldggmu/</link>
+      <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/mcldggmu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An overview of COMMON LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/vvgljbde/</link>
+      <pubDate>Sun, 15 Aug 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/vvgljbde/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Implementation of Interlisp on the VAX
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/g4f5fznd/</link>
+      <pubDate>Sun, 01 Aug 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/g4f5fznd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Translating KL-One from Interlisp to FranzLisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/rnaz2xuw/</link>
+      <pubDate>Tue, 01 Jun 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/rnaz2xuw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LOOPS: Data and Object Oriented Programming for Interlisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/f3ilhmq5/</link>
+      <pubDate>Fri, 01 Jan 1982 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/f3ilhmq5/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Overview of a display-oriented editor for INTERLISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/w96jccyh/</link>
+      <pubDate>Mon, 24 Aug 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/w96jccyh/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The DIPMETER ADVISOR: Interpretation of Geologic Signals.
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/a94jy5ad/</link>
+      <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/a94jy5ad/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ByteLisp and its Alto implementation
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/8smp58aa/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/8smp58aa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LISP - notes on its past and future
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/v8b837ij/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/v8b837ij/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Local optimization in a compiler for stack-based Lisp machines
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/4edhakdb/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/4edhakdb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>On compiling embedded languages in LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/almxaiqc/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/almxaiqc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Overview and status of DoradoLisp
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wpdgqv37/</link>
+      <pubDate>Mon, 25 Aug 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wpdgqv37/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adding Type Declarations to Interlisp.
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/6ir4di6l/</link>
+      <pubDate>Tue, 01 Jan 1980 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/6ir4di6l/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>An examination of a frame-structured representation system
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/hdtbedyf/</link>
+      <pubDate>Wed, 01 Aug 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/hdtbedyf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Raster graphics for interactive programming environments
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/pe98qz2l/</link>
+      <pubDate>Wed, 01 Aug 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/pe98qz2l/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Extending Interlisp for modularization and efficiency
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/h5q65h3m/</link>
+      <pubDate>Fri, 01 Jun 1979 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/h5q65h3m/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A display oriented programmer&#39;s assistant
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3h5f6tba/</link>
+      <pubDate>Mon, 22 Aug 1977 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/3h5f6tba/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Qlisp: a language for the interactive development of complex systems
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wrhc5yi7/</link>
+      <pubDate>Thu, 01 Jan 1976 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wrhc5yi7/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A language-independent programmer&#39;s interface
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/eldjngjz/</link>
+      <pubDate>Mon, 06 May 1974 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/eldjngjz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SOPHIE: a pragmatic use of artificial intelligence in CAI
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/iz7sete3/</link>
+      <pubDate>Tue, 01 Jan 1974 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/iz7sete3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A LISP machine with very compact programs
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/nqxp9qh8/</link>
+      <pubDate>Mon, 20 Aug 1973 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/nqxp9qh8/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Automated programmering: the programmer&#39;s assistant
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/qwkix8dw/</link>
+      <pubDate>Tue, 05 Dec 1972 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/qwkix8dw/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A clipping divider
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/kz7fu59i/</link>
+      <pubDate>Mon, 01 Jan 1968 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/kz7fu59i/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Format-directed list processing in LISP
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/lqqwkmez/</link>
+      <pubDate>Sat, 01 Jan 1966 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/lqqwkmez/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LISP: a programming system for symbolic manipulations
+</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wj7dbztl/</link>
+      <pubDate>Tue, 01 Sep 1959 00:00:00 +0000</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-346/history/bibliography/wj7dbztl/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

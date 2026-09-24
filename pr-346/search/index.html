@@ -38,7 +38,7 @@
 <link rel="me" href="https://fosstodon.org/@interlisp">
 
 
-<script src="/Interlisp.staging/pr-346/js/vertex-search.0dde04c057877de1207f7b04762821a87c2cb7ff82ebf204c2c65c1aba6179b6.js" defer></script>
+<script src="/Interlisp.staging/pr-346/js/vertex-search.3a14d98c8ef27bad6d9ba23b6d9dbacc17e96fc2c2253e7e6b521f37557ef893.js" defer></script>
 
 
   </head>
@@ -84,7 +84,44 @@
   <div class="col-12 col-md-8 offset-md-2">
     <h2 class="ms-4">Search Results</h2>
 
-    <div id="vertex-search-container" class="ms-4 mt-4">
+    
+    
+
+    <div class="ms-4 mt-3 mb-2" role="radiogroup" aria-label="Search mode">
+      <div class="btn-group search-mode-toggle" role="radiogroup" aria-label="Choose search mode">
+        <input type="radio" class="btn-check" name="search-mode" id="search-mode-standard"
+          autocomplete="off" checked >
+        <label class="btn btn-outline-primary" for="search-mode-standard">Standard</label>
+
+        <input type="radio" class="btn-check" name="search-mode" id="search-mode-ai"
+          autocomplete="off" >
+        <label class="btn btn-outline-primary" for="search-mode-ai">
+          <i class="fas fa-robot"></i> AI-assisted
+        </label>
+      </div>
+      <div id="search-mode-note" class="form-text mt-1">
+        Standard search uses Google. Turn on AI-assisted search for an AI summary with cited sources.
+      </div>
+    </div>
+
+    
+    <div id="google-search-container" class="ms-4 mt-2">
+      <script>
+      (function() {
+      var cx = '33ef4cbe0703b4f3a';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+      })();
+      </script>
+      <gcse:searchresults-only></gcse:searchresults-only>
+      </div>
+
+    
+    <div id="vertex-search-container" class="ms-4 mt-2" hidden>
 
       
       <div id="vertex-search-config"

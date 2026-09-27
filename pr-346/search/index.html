@@ -72,6 +72,15 @@
     <div class="td-search">
   <div class="td-search__icon"></div>
   <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
+</div><div class="td-search-mode-switch" role="group" aria-label="Search mode">
+  <button type="button" class="td-search-mode-label is-active" data-search-mode="standard"
+    title="Standard search (Google)">Standard</button>
+  <div class="form-check form-switch">
+    <input class="form-check-input td-search-mode" type="checkbox" role="switch"
+      aria-label="AI-assisted search" title="Toggle AI-assisted search">
+  </div>
+  <button type="button" class="td-search-mode-label" data-search-mode="ai"
+    title="AI-assisted search">AI</button>
 </div>
   </div>
 </div>
@@ -87,8 +96,8 @@
     
     
 
-    <div class="ms-4 mt-3 mb-2" role="radiogroup" aria-label="Search mode">
-      <div class="btn-group search-mode-toggle" role="radiogroup" aria-label="Choose search mode">
+    <div class="ms-4 mt-3 mb-2">
+      <div class="btn-group search-mode-toggle" role="radiogroup" aria-label="Search mode" aria-describedby="search-mode-note">
         <input type="radio" class="btn-check" name="search-mode" id="search-mode-standard"
           autocomplete="off" checked >
         <label class="btn btn-outline-primary" for="search-mode-standard">Standard</label>

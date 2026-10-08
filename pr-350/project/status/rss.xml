@@ -24,6 +24,32 @@
     
     
     <item>
+      <title>Annual Reports</title>
+      <link>https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/</link>
+      <pubDate>Thu, 08 Oct 2026 07:16:28 -0400</pubDate>
+      
+      <guid>https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/</guid>
+      <description>&lt;p&gt;Each year the Medley Interlisp Project publishes an annual report summarizing accomplishments and ongoing work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/2025medleyannualreport/&#34;&gt;2025 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/2024medleyannualreport/&#34;&gt;2024 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/2023medleyannualreport/&#34;&gt;2023 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/2022medleyannualreport/&#34;&gt;2022 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/2021medleyannualreport/&#34;&gt;2021 Report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2025-medley-interlisp-annual-report&#34;&gt;2025 Medley Interlisp Annual Report&lt;/h2&gt;
+&lt;!-- To publish a new annual report: add the new year file in this folder and
+     update the include-page path below to point at it. --&gt;
+&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-350/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;2025 marked the fifth year of the &lt;a href=&#34;https://interlisp.org&#34;&gt;Medley Interlisp Project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We began the project in 2020 by merging code fragments from different sources and versions which last ran two decades earlier on long-obsolete machines. Over the intervening five years we consolidated the code and ported it to run on all major operating systems, as well as online via web browsers.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>2025 Medley Interlisp Annual Report</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/2025medleyannualreport/</link>
       <pubDate>Tue, 06 Oct 2026 23:32:59 -0400</pubDate>
@@ -92,23 +118,6 @@
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;To “revive” something is to make it live again. Making Medley Interlisp live again means putting the system in order so that others without a previous deep background in Interlisp can use and appreciate it (if only as a virtual antique).&lt;/p&gt;
 &lt;p&gt;The Medley Interlisp project started in earnest in March of 2020 (at the beginning of the pandemic). This report focuses on activities and accomplishments since the December 2020 virtual meeting of &lt;a href=&#34;https://lispnyc.org/&#34;&gt;LispNYC&lt;/a&gt; (recording at: &lt;a href=&#34;https://www.youtube.com/watch?v=x6-b%5c_hazcyk&#34;&gt;https://www.youtube.com/watch?v=x6-b_hazcyk&lt;/a&gt;).&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Annual Reports</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/</link>
-      <pubDate>Tue, 06 Oct 2026 23:32:59 -0400</pubDate>
-      
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-350/project/status/reports/</guid>
-      <description>&lt;p&gt;Each year the Medley Interlisp Project publishes an annual report summarizing accomplishments and ongoing work.  The current report is below.  All reports are listed in the left sidebar.&lt;/p&gt;
-&lt;!-- To publish a new annual report: add the new year file in this folder and
-     update the include-page path below to point at it. --&gt;
-&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-350/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
-
-&lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;2025 marked the fifth year of the &lt;a href=&#34;https://interlisp.org&#34;&gt;Medley Interlisp Project&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We began the project in 2020 by merging code fragments from different sources and versions which last ran two decades earlier on long-obsolete machines. Over the intervening five years we consolidated the code and ported it to run on all major operating systems, as well as online via web browsers.&lt;/p&gt;</description>
       
     </item>
     

@@ -16,27 +16,27 @@
 We’d like to improve keyboard handling but haven’t yet found a path.
 At an “exec” (i.e., the REPL) character action Backspace delete the previous character Ctrl-H (same as backspace) Enter if terminates a valid expression evaluate, otherwise newline Ctrl-M (same as Enter) Ctrl-Alt-J move down Ctrl-Alt-L move to start of line (some OSes capture this for system functions, e.g. screen lock on Linux) Ctrl-Alt-Y invoke an old-style executive (REPL), but uses the package and readtable of its caller Interrupt characters These are enabled per-process. Medley maintains, for each process, a “termtable” which enables different kinds of interrupts.">
 <meta property="og:url" content="https://interlisp.github.io/Interlisp.staging/pr-352/software/using-medley/keystrokes/">
-  <meta property="og:site_name" content="Staging Environment">
-  <meta property="og:title" content="Keystrokes, Mouse menus and Gestures">
-  <meta property="og:description" content="The handling of keyboard and mouse clicks and gestures is different and varied within the Medley environment. This chart shows common keystrokes. On macOS the Option key is equivalent to Alt. See Table of Keystrokes for more data.
+	<meta property="og:site_name" content="Staging Environment">
+	<meta property="og:title" content="Keystrokes, Mouse menus and Gestures">
+	<meta property="og:description" content="The handling of keyboard and mouse clicks and gestures is different and varied within the Medley environment. This chart shows common keystrokes. On macOS the Option key is equivalent to Alt. See Table of Keystrokes for more data.
 We’d like to improve keyboard handling but haven’t yet found a path.
 At an “exec” (i.e., the REPL) character action Backspace delete the previous character Ctrl-H (same as backspace) Enter if terminates a valid expression evaluate, otherwise newline Ctrl-M (same as Enter) Ctrl-Alt-J move down Ctrl-Alt-L move to start of line (some OSes capture this for system functions, e.g. screen lock on Linux) Ctrl-Alt-Y invoke an old-style executive (REPL), but uses the package and readtable of its caller Interrupt characters These are enabled per-process. Medley maintains, for each process, a “termtable” which enables different kinds of interrupts.">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="software">
-    <meta property="article:published_time" content="2026-03-05T17:16:28+01:00">
-    <meta property="article:modified_time" content="2026-03-05T17:16:28+01:00">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="software">
+		<meta property="article:published_time" content="2026-03-05T17:16:28+01:00">
+		<meta property="article:modified_time" content="2026-03-05T17:16:28+01:00">
 
-  <meta itemprop="name" content="Keystrokes, Mouse menus and Gestures">
-  <meta itemprop="description" content="The handling of keyboard and mouse clicks and gestures is different and varied within the Medley environment. This chart shows common keystrokes. On macOS the Option key is equivalent to Alt. See Table of Keystrokes for more data.
+	<meta itemprop="name" content="Keystrokes, Mouse menus and Gestures">
+	<meta itemprop="description" content="The handling of keyboard and mouse clicks and gestures is different and varied within the Medley environment. This chart shows common keystrokes. On macOS the Option key is equivalent to Alt. See Table of Keystrokes for more data.
 We’d like to improve keyboard handling but haven’t yet found a path.
 At an “exec” (i.e., the REPL) character action Backspace delete the previous character Ctrl-H (same as backspace) Enter if terminates a valid expression evaluate, otherwise newline Ctrl-M (same as Enter) Ctrl-Alt-J move down Ctrl-Alt-L move to start of line (some OSes capture this for system functions, e.g. screen lock on Linux) Ctrl-Alt-Y invoke an old-style executive (REPL), but uses the package and readtable of its caller Interrupt characters These are enabled per-process. Medley maintains, for each process, a “termtable” which enables different kinds of interrupts.">
-  <meta itemprop="datePublished" content="2026-03-05T17:16:28+01:00">
-  <meta itemprop="dateModified" content="2026-03-05T17:16:28+01:00">
-  <meta itemprop="wordCount" content="255">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Keystrokes, Mouse menus and Gestures">
-  <meta name="twitter:description" content="The handling of keyboard and mouse clicks and gestures is different and varied within the Medley environment. This chart shows common keystrokes. On macOS the Option key is equivalent to Alt. See Table of Keystrokes for more data.
+	<meta itemprop="datePublished" content="2026-03-05T17:16:28+01:00">
+	<meta itemprop="dateModified" content="2026-03-05T17:16:28+01:00">
+	<meta itemprop="wordCount" content="255">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Keystrokes, Mouse menus and Gestures">
+	<meta name="twitter:description" content="The handling of keyboard and mouse clicks and gestures is different and varied within the Medley environment. This chart shows common keystrokes. On macOS the Option key is equivalent to Alt. See Table of Keystrokes for more data.
 We’d like to improve keyboard handling but haven’t yet found a path.
 At an “exec” (i.e., the REPL) character action Backspace delete the previous character Ctrl-H (same as backspace) Enter if terminates a valid expression evaluate, otherwise newline Ctrl-M (same as Enter) Ctrl-Alt-J move down Ctrl-Alt-L move to start of line (some OSes capture this for system functions, e.g. screen lock on Linux) Ctrl-Alt-Y invoke an old-style executive (REPL), but uses the package and readtable of its caller Interrupt characters These are enabled per-process. Medley maintains, for each process, a “termtable” which enables different kinds of interrupts.">
 <link href="/Interlisp.staging/pr-352/scss/main.css" rel="stylesheet">
@@ -88,21 +88,7 @@ At an “exec” (i.e., the REPL) character action Backspace delete the previous
       <div class="td-main" data-bs-spy="scroll" data-bs-target=".td-toc" data-bs-root-margin="0px 0px -10%">
         <div class="row flex-xl-nowrap">
           <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
-            
-  <script>
-    $(function() {
-    $("#td-section-nav a").removeClass("active");
-    $("#td-section-nav #m-interlispstagingpr-352softwareusing-medleykeystrokes").addClass("active");
-    $("#td-section-nav #m-interlispstagingpr-352softwareusing-medleykeystrokes-li span").addClass("td-sidebar-nav-active-item");
-    $("#td-section-nav #m-interlispstagingpr-352softwareusing-medleykeystrokes").parents("li").addClass("active-path");
-    $("#td-section-nav li.active-path").addClass("show");
-    $("#td-section-nav li.active-path").children("input").prop('checked', true);
-    $("#td-section-nav #m-interlispstagingpr-352softwareusing-medleykeystrokes-li").siblings("li").addClass("show");
-    $("#td-section-nav #m-interlispstagingpr-352softwareusing-medleykeystrokes-li").children("ul").children("li").addClass("show");
-    $("#td-sidebar-menu").toggleClass("d-none");
-    });
-  </script>
-  <div id="td-sidebar-menu" class="td-sidebar__inner d-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner d-none">
   <form class="td-sidebar__search d-flex align-items-center">
     <div class="td-search">
   <div class="td-search__icon"></div>
@@ -183,7 +169,6 @@ At an “exec” (i.e., the REPL) character action Backspace delete the previous
     </ul>
   </nav>
 </div>
-
           </aside>
           <aside class="td-sidebar-toc">
             
@@ -231,42 +216,42 @@ At an “exec” (i.e., the REPL) character action Backspace delete the previous
 <p>We&rsquo;d like to improve keyboard handling but haven&rsquo;t yet found a path.</p>
 <h2 id="at-an-exec-ie-the-repl">At an &ldquo;exec&rdquo; (i.e., the REPL)</h2>
 <table>
-  <thead>
-      <tr>
-          <th>character</th>
-          <th>action</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Backspace</td>
-          <td>delete the previous character</td>
-      </tr>
-      <tr>
-          <td>Ctrl-H</td>
-          <td>(same as backspace)</td>
-      </tr>
-      <tr>
-          <td>Enter</td>
-          <td>if terminates a valid expression evaluate, otherwise newline</td>
-      </tr>
-      <tr>
-          <td>Ctrl-M</td>
-          <td>(same as Enter)</td>
-      </tr>
-      <tr>
-          <td>Ctrl-Alt-J</td>
-          <td>move down</td>
-      </tr>
-      <tr>
-          <td>Ctrl-Alt-L</td>
-          <td>move to start of line (some OSes capture this for system functions, e.g. screen lock on Linux)</td>
-      </tr>
-      <tr>
-          <td>Ctrl-Alt-Y</td>
-          <td>invoke an old-style executive (REPL), but uses the package and readtable of its caller</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>character</th>
+					<th>action</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Backspace</td>
+					<td>delete the previous character</td>
+			</tr>
+			<tr>
+					<td>Ctrl-H</td>
+					<td>(same as backspace)</td>
+			</tr>
+			<tr>
+					<td>Enter</td>
+					<td>if terminates a valid expression evaluate, otherwise newline</td>
+			</tr>
+			<tr>
+					<td>Ctrl-M</td>
+					<td>(same as Enter)</td>
+			</tr>
+			<tr>
+					<td>Ctrl-Alt-J</td>
+					<td>move down</td>
+			</tr>
+			<tr>
+					<td>Ctrl-Alt-L</td>
+					<td>move to start of line (some OSes capture this for system functions, e.g. screen lock on Linux)</td>
+			</tr>
+			<tr>
+					<td>Ctrl-Alt-Y</td>
+					<td>invoke an old-style executive (REPL), but uses the package and readtable of its caller</td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="interrupt-characters">Interrupt characters</h2>
 <p>These are enabled per-process. Medley maintains, for each process, a &ldquo;termtable&rdquo; which enables different kinds of interrupts.</p>
@@ -276,34 +261,34 @@ the mouse process, if it is currently busy executing a menu command or waiting
 for the user to specify a region on the screen. Most of the interrupt characters
 below take place in the mouse process if it is busy, otherwise the TTY process.</p>
 <table>
-  <thead>
-      <tr>
-          <th>character</th>
-          <th>action</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Ctrl-B</td>
-          <td>stop the process and enter a break window</td>
-      </tr>
-      <tr>
-          <td>Ctrl-D</td>
-          <td>reset the process, unwind the stack to the top level</td>
-      </tr>
-      <tr>
-          <td>Ctrl-E</td>
-          <td>unwind the stack as if an error occured without break</td>
-      </tr>
-      <tr>
-          <td>Ctrl-G</td>
-          <td>interrupt a non TTY process and open the debugger</td>
-      </tr>
-      <tr>
-          <td>Ctrl-P</td>
-          <td>interrupt printing and reset the PRINTLEVEL</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>character</th>
+					<th>action</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Ctrl-B</td>
+					<td>stop the process and enter a break window</td>
+			</tr>
+			<tr>
+					<td>Ctrl-D</td>
+					<td>reset the process, unwind the stack to the top level</td>
+			</tr>
+			<tr>
+					<td>Ctrl-E</td>
+					<td>unwind the stack as if an error occured without break</td>
+			</tr>
+			<tr>
+					<td>Ctrl-G</td>
+					<td>interrupt a non TTY process and open the debugger</td>
+			</tr>
+			<tr>
+					<td>Ctrl-P</td>
+					<td>interrupt printing and reset the PRINTLEVEL</td>
+			</tr>
+	</tbody>
 </table>
 
 	
@@ -379,7 +364,6 @@ below take place in the mouse process if it is busy, otherwise the TTY process.<
     </div>
   </div>
 </footer>
-
     </div>
     <script src="/Interlisp.staging/pr-352/js/main.js"></script>
 <script defer src="/Interlisp.staging/pr-352/js/click-to-copy.js" crossorigin="anonymous"></script>

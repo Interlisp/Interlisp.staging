@@ -33,10 +33,6 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
 	<meta name="twitter:description" content="Reviving a Groundbreaking System What are we trying to accomplish? Our aim is to allow Medley to “live again”: to be usable enough on modern systems that someone could develop some code and experience what it was like to use this groundbreaking system. You could think of this as a kind of “vintage software” project, to try to capture the sense of fluidity in the development cycle.
 As part of this effort we explore alternate system technologies such as SDL2/SDL3 as a graphics backend and running Medley in the browser via WebAssembly (experimental, doesn’t save files).">
 <link href="/Interlisp.staging/pr-352/scss/main.css" rel="stylesheet">
-<script
-  src="https://code.jquery.com/jquery-3.7.1.min.js"
-  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-  crossorigin="anonymous"></script>
 <link rel="canonical" href="https://interlisp.github.io/Interlisp.staging/pr-352/project/">
 <link rel="me" href="https://fosstodon.org/@interlisp">
 
@@ -70,7 +66,7 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
   </div>
   <div class="td-navbar__search d-none d-lg-block">
     <div class="td-search">
-  <div class="td-search__icon"></div>
+  <div class="td-search__icon" aria-hidden="true"></div>
   <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
 </div>
   </div>
@@ -84,7 +80,7 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
             <div id="td-sidebar-menu" class="td-sidebar__inner d-none">
   <form class="td-sidebar__search d-flex align-items-center">
     <div class="td-search">
-  <div class="td-search__icon"></div>
+  <div class="td-search__icon" aria-hidden="true"></div>
   <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
 </div>
     <button class="btn btn-link td-sidebar__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
@@ -218,9 +214,9 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
           </aside>
           <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
             
-            <nav aria-label="breadcrumb" class="td-breadcrumbs td-breadcrumbs__single">
-  <ol class="breadcrumb">
-  <li class="breadcrumb-item active" aria-current="page">
+            <nav aria-label="breadcrumb" class="td-breadcrumbs td-breadcrumbs--single">
+  <ol class="td-breadcrumbs__list">
+  <li class="td-breadcrumbs__item" aria-current="page">
     The Medley Interlisp Project</li>
   </ol>
 </nav>
@@ -324,8 +320,8 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
 </footer>
     </div>
     <script src="/Interlisp.staging/pr-352/js/main.js"></script>
-<script defer src="/Interlisp.staging/pr-352/js/click-to-copy.js" crossorigin="anonymous"></script>
-<script src='/Interlisp.staging/pr-352/js/tabpane-persist.js'></script>
+<script defer src="/Interlisp.staging/pr-352/js/plugins/click-to-copy.5f1205dcdf80d75fbdd65bd95d10651b2362af9debcfea77157b9cc45cdd2e5d.js" integrity="sha256-XxIF3N&#43;A11&#43;91lvZXRBlGyNir53rz&#43;p3FXucxFzdLl0=" crossorigin="anonymous"></script>
+<script src="/Interlisp.staging/pr-352/js/plugins/tabpane-persist.988852526f9d15d0f9cf26c003e4835a534d606a75f72d5fbb281a10402d1529.js" integrity="sha256-mIhSUm&#43;dFdD5zybAA&#43;SDWlNNYGp19y1fuygaEEAtFSk=" crossorigin="anonymous"></script>
 
   </body>
 </html>

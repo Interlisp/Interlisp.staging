@@ -154,38 +154,8 @@
   </url>
   
   <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/linux/linux-local-from-github/</loc>
-    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/linux/linux-standard-from-github/</loc>
-    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/using-medley/online-using/</loc>
     <lastmod>2024-03-12T18:40:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/macos/macos-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/windows/native/windows-native-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/windows/wsl/windows-wsl-local-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
   </url>
   
   <url>
@@ -391,6 +361,36 @@
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-352/history/bibliography/a4bwuehm/</loc>
     <lastmod>2024-07-31T16:19:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/linux/linux-local-from-github/</loc>
+    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/linux/linux-standard-from-github/</loc>
+    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/macos/macos-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/windows/native/windows-native-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/windows/wsl/windows-wsl-local-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-352/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
   </url>
   
   <url>

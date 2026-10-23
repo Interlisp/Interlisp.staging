@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/dyomkin-vsevolod/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Fri, 26 Jun 2015 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/dyomkin-vsevolod/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Running Lisp in Production</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/zpqt7yky/</link>
       <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/zpqt7yky/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Dyomkin, Vsevolod</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/dyomkin-vsevolod/</link>
       <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/dyomkin-vsevolod/</guid>
       <description></description>
       

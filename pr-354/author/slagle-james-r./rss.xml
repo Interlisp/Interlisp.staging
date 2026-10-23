@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/slagle-james-r./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 01 Oct 1963 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/slagle-james-r./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>A Heuristic Program that Solves Symbolic Integration Problems in Freshman Calculus</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/eiatqtvr/</link>
       <pubDate>Tue, 01 Oct 1963 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/eiatqtvr/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Slagle, James R.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/slagle-james-r./</link>
       <pubDate>Tue, 01 Oct 1963 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/slagle-james-r./</guid>
       <description></description>
       

@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/smith-reid-g./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 02 Jun 1992 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/smith-reid-g./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Object-oriented framework for menu definition</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/px3pwi8c/</link>
       <pubDate>Tue, 02 Jun 1992 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/px3pwi8c/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Smith, Reid G.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/smith-reid-g./</link>
       <pubDate>Tue, 02 Jun 1992 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/smith-reid-g./</guid>
       <description></description>
       
@@ -46,7 +48,7 @@
       <title>Impulse-86: a substrate for object-oriented interface design</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/xr7p479v/</link>
       <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/xr7p479v/</guid>
       <description></description>
       
@@ -56,7 +58,7 @@
       <title>On the Development of Commercial Expert Systems</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/t4z3dhwc/</link>
       <pubDate>Sat, 15 Sep 1984 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/t4z3dhwc/</guid>
       <description></description>
       
@@ -66,7 +68,7 @@
       <title>IMPULSE: A Display Oriented Editor for STROBE</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/mcldggmu/</link>
       <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/mcldggmu/</guid>
       <description></description>
       
@@ -76,7 +78,7 @@
       <title>STROBE: SUPPORT FOR STRUCTURED OBJECT KNOWLEDGE REPRESENTATION</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/nibvyyd5/</link>
       <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/nibvyyd5/</guid>
       <description></description>
       

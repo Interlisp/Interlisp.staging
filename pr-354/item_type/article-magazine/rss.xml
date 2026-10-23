@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/article-magazine/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Wed, 01 Dec 1993 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/item_type/article-magazine/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Medley Advertisement: &#34;LISP, with the Right Tools&#34;</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/k342fq59/</link>
       <pubDate>Wed, 01 Dec 1993 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/k342fq59/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>article-magazine</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/article-magazine/</link>
       <pubDate>Wed, 01 Dec 1993 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/article-magazine/</guid>
       <description></description>
       
@@ -46,7 +48,7 @@
       <title>PC AI - Application Corner: SpinPro</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/z7p6jkzf/</link>
       <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/z7p6jkzf/</guid>
       <description></description>
       
@@ -56,7 +58,7 @@
       <title>Object-Oriented Programming: Themes and Variations</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/45rytqtd/</link>
       <pubDate>Sun, 15 Dec 1985 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/45rytqtd/</guid>
       <description></description>
       
@@ -66,7 +68,7 @@
       <title>KNOWLEDGE PROGRAMMING IN LOOPS</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/a7zzfykb/</link>
       <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/a7zzfykb/</guid>
       <description></description>
       

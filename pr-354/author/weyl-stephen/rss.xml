@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/weyl-stephen/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Wed, 01 Oct 1975 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/weyl-stephen/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>An Interlisp Relational Data Base System.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/fw3z9tsw/</link>
       <pubDate>Wed, 01 Oct 1975 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/fw3z9tsw/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Weyl, Stephen</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/weyl-stephen/</link>
       <pubDate>Wed, 01 Oct 1975 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/weyl-stephen/</guid>
       <description></description>
       

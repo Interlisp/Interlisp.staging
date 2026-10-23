@@ -154,38 +154,8 @@
   </url>
   
   <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/linux/linux-local-from-github/</loc>
-    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/linux/linux-standard-from-github/</loc>
-    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/using-medley/online-using/</loc>
     <lastmod>2024-03-12T18:40:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/macos/macos-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/windows/native/windows-native-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/windows/wsl/windows-wsl-local-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/</loc>
-    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
   </url>
   
   <url>
@@ -240,7 +210,7 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/zotero-resources/</loc>
-    <lastmod>2026-10-21T08:16:02-04:00</lastmod>
+    <lastmod>2026-10-23T07:57:57-04:00</lastmod>
   </url>
   
   <url>
@@ -255,7 +225,7 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/</loc>
-    <lastmod>2026-10-08T21:36:22+00:00</lastmod>
+    <lastmod>2026-10-22T23:15:09+00:00</lastmod>
   </url>
   
   <url>
@@ -265,7 +235,7 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/document/</loc>
-    <lastmod>2026-10-08T21:36:22+00:00</lastmod>
+    <lastmod>2026-10-22T23:15:09+00:00</lastmod>
   </url>
   
   <url>
@@ -275,7 +245,7 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/report/</loc>
-    <lastmod>2026-09-29T05:43:42+00:00</lastmod>
+    <lastmod>2026-10-22T21:30:33+00:00</lastmod>
   </url>
   
   <url>
@@ -396,6 +366,36 @@
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/a4bwuehm/</loc>
     <lastmod>2024-07-31T16:19:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/linux/linux-local-from-github/</loc>
+    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/linux/linux-standard-from-github/</loc>
+    <lastmod>2024-03-12T18:40:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/macos/macos-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/windows/native/windows-native-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/windows/wsl/windows-wsl-local-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/</loc>
+    <lastmod>2024-02-13T23:07:35-08:00</lastmod>
   </url>
   
   <url>
@@ -635,11 +635,6 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/nmbe4l5f/</loc>
-    <lastmod>2026-09-29T05:59:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/transcript/</loc>
     <lastmod>2026-09-29T05:59:16+00:00</lastmod>
   </url>
   
@@ -1639,12 +1634,12 @@
   </url>
   
   <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/n5eahw2c/</loc>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/standard/</loc>
     <lastmod>2026-02-07T21:47:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/item_type/xerox-system-integration-standard/</loc>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/n5eahw2c/</loc>
     <lastmod>2026-02-07T21:47:24+00:00</lastmod>
   </url>
   
@@ -1906,6 +1901,11 @@
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/author/yamamoto-w.-k./</loc>
     <lastmod>2024-09-04T16:32:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/krls2g57/</loc>
+    <lastmod>2026-10-22T21:30:33+00:00</lastmod>
   </url>
   
   <url>
@@ -2745,7 +2745,7 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/pw6bdwq2/</loc>
-    <lastmod>2025-04-05T06:48:37+00:00</lastmod>
+    <lastmod>2026-10-22T23:15:09+00:00</lastmod>
   </url>
   
   <url>
@@ -2765,7 +2765,7 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/mcavqbmu/</loc>
-    <lastmod>2023-11-28T10:55:09+00:00</lastmod>
+    <lastmod>2026-10-22T23:14:59+00:00</lastmod>
   </url>
   
   <url>
@@ -2830,7 +2830,7 @@
   
   <url>
     <loc>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/vem4jrmg/</loc>
-    <lastmod>2023-11-28T10:50:51+00:00</lastmod>
+    <lastmod>2026-10-22T23:14:44+00:00</lastmod>
   </url>
   
   <url>

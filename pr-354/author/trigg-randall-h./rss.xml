@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/trigg-randall-h./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Sun, 01 Nov 1987 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/trigg-randall-h./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Hypertext habitats: experiences of writers in NoteCards</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/692eznzv/</link>
       <pubDate>Sun, 01 Nov 1987 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/692eznzv/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Trigg, Randall H.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/trigg-randall-h./</link>
       <pubDate>Sun, 01 Nov 1987 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/trigg-randall-h./</guid>
       <description></description>
       
@@ -46,7 +48,7 @@
       <title>Notecards in a nutshell</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/yeqk68gn/</link>
       <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/yeqk68gn/</guid>
       <description></description>
       
@@ -56,7 +58,7 @@
       <title>Supporting collaboration in notecards</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/bg9bwbaa/</link>
       <pubDate>Wed, 03 Dec 1986 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/bg9bwbaa/</guid>
       <description></description>
       

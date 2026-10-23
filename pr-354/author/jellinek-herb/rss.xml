@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/jellinek-herb/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 26 Feb 1985 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/jellinek-herb/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>The Implementation of Device-Independent Graphics Through Imagestreams</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/5zywgr7b/</link>
       <pubDate>Tue, 26 Feb 1985 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/5zywgr7b/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Jellinek, Herb</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/jellinek-herb/</link>
       <pubDate>Tue, 26 Feb 1985 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/jellinek-herb/</guid>
       <description></description>
       

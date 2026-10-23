@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/maxwell-john-t./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Sat, 01 Mar 2003 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/maxwell-john-t./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>LFG Grammar Writer’s Workbench Documentation</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/mpe7r87m/</link>
       <pubDate>Sat, 01 Mar 2003 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/mpe7r87m/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Maxwell, John T.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/maxwell-john-t./</link>
       <pubDate>Sat, 01 Mar 2003 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/maxwell-john-t./</guid>
       <description></description>
       
@@ -46,7 +48,7 @@
       <title>User interface with multiple workspaces for sharing display system objects</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/kxvs2rbt/</link>
       <pubDate>Tue, 10 Dec 1991 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/kxvs2rbt/</guid>
       <description></description>
       

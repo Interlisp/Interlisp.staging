@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/wegbreit-ben/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Mon, 01 Jan 1973 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/wegbreit-ben/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>A model and stack implementation of multiple environments</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/em6wjf9a/</link>
       <pubDate>Mon, 01 Jan 1973 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/em6wjf9a/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Wegbreit, Ben</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/wegbreit-ben/</link>
       <pubDate>Mon, 01 Jan 1973 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/wegbreit-ben/</guid>
       <description></description>
       

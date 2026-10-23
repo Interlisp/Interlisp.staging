@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/sannella-michael/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Sat, 01 Jan 1983 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/sannella-michael/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Interlisp reference manual: Revised</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/l378bfrq/</link>
       <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/l378bfrq/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Sannella, Michael</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/sannella-michael/</link>
       <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/sannella-michael/</guid>
       <description></description>
       

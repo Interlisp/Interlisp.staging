@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/panos-rodney-m./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 15 Jan 1991 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/panos-rodney-m./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Method of and apparatus for composing a press imposition</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/j62ghlsj/</link>
       <pubDate>Tue, 15 Jan 1991 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/j62ghlsj/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Panos, Rodney M.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/panos-rodney-m./</link>
       <pubDate>Tue, 15 Jan 1991 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/panos-rodney-m./</guid>
       <description></description>
       

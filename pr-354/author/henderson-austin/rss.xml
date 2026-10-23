@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/henderson-austin/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Mon, 01 Dec 1997 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/henderson-austin/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Tailoring Mechanisms in Three Research Technologies.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/f4y4l8uj/</link>
       <pubDate>Mon, 01 Dec 1997 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/f4y4l8uj/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Henderson, Austin</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/henderson-austin/</link>
       <pubDate>Mon, 01 Dec 1997 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/henderson-austin/</guid>
       <description></description>
       
@@ -46,7 +48,7 @@
       <title>Trillium: A Design Environment for Copier Interfaces: The System and Its Impact on Design</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/di3fslyw/</link>
       <pubDate>Thu, 23 Aug 1984 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/di3fslyw/</guid>
       <description></description>
       

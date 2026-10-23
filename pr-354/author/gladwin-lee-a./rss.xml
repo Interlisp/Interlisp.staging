@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/gladwin-lee-a./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Wed, 01 Jul 1987 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/gladwin-lee-a./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Review of &#34;InterLisp: The Language and Its Usage&#34;</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/y73ecka4/</link>
       <pubDate>Wed, 01 Jul 1987 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/y73ecka4/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Gladwin, Lee A.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/gladwin-lee-a./</link>
       <pubDate>Wed, 01 Jul 1987 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/gladwin-lee-a./</guid>
       <description></description>
       

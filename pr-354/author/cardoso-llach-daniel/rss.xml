@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/cardoso-llach-daniel/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Mon, 18 Oct 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/cardoso-llach-daniel/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>An Archive of Interfaces: Exploring the Potential of Emulation for Software Research, Pedagogy, and Design</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/rcfrzy85/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/rcfrzy85/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Cardoso-Llach, Daniel</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/cardoso-llach-daniel/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/cardoso-llach-daniel/</guid>
       <description></description>
       

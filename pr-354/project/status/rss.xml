@@ -17,7 +17,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Wed, 14 Oct 2026 18:47:01 -0400</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/project/status/rss.xml" rel="self" type="application/rss+xml" />
@@ -27,7 +29,7 @@
       <title>2025 Medley Interlisp Annual Report</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2025medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2025medleyannualreport/</guid>
       <description>&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-354/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
 
@@ -42,7 +44,7 @@
       <title>2024 Medley Interlisp Annual Report</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2024medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2024medleyannualreport/</guid>
       <description>&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-354/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
 
@@ -56,7 +58,7 @@
       <title>2023 Annual Report</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2023medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2023medleyannualreport/</guid>
       <description>&lt;img src=&#34;https://interlisp.github.io/Interlisp.staging/pr-354/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
 
@@ -73,7 +75,7 @@
       <title>2022 Medley Interlisp Annual Report</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2022medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2022medleyannualreport/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;We have made considerable progress on the Interlisp software preservation project, and we want to offer tours and collaboration for those engaged in similar or related software preservation efforts.&lt;/p&gt;
@@ -85,7 +87,7 @@
       <title>2021 Medley Interlisp Annual Report</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2021medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/2021medleyannualreport/</guid>
       <description>&lt;p&gt;November 15, 2021&lt;/p&gt;
 &lt;p&gt;Join &lt;a href=&#34;https://groups.google.com/g/interlisp&#34;&gt;Interlisp group&lt;/a&gt; or follow @&lt;a href=&#34;https://github.com/Interlisp&#34;&gt;interlisp on GitHub&lt;/a&gt;&lt;/p&gt;
@@ -99,7 +101,7 @@
       <title>Annual Reports</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/</guid>
       <description>&lt;p&gt;Each year the Medley Interlisp Project publishes an annual report summarizing accomplishments and ongoing work:&lt;/p&gt;
 &lt;ul&gt;
@@ -125,7 +127,7 @@
       <title>News and Status Reports</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/project/status/</guid>
       <description>&lt;h2 id=&#34;annual-reports&#34;&gt;Annual Reports&lt;/h2&gt;
 &lt;p&gt;Each year we publish a Medley Interlisp Annual Report summarizing the project&amp;rsquo;s accomplishments and ongoing work. Find them all under &lt;a href=&#34;https://interlisp.github.io/Interlisp.staging/pr-354/project/status/reports/&#34;&gt;Annual Reports&lt;/a&gt;, including the most current report.&lt;/p&gt;

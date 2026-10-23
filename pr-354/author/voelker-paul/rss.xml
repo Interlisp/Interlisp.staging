@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/voelker-paul/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 28 Mar 1989 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/voelker-paul/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>The PepPro™ Peptide Synthesis Expert System</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/gpmcn5xc/</link>
       <pubDate>Tue, 28 Mar 1989 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/gpmcn5xc/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Voelker, Paul</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/voelker-paul/</link>
       <pubDate>Tue, 28 Mar 1989 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/voelker-paul/</guid>
       <description></description>
       

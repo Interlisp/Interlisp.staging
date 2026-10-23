@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/teitelman-w./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 26 Oct 1976 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/teitelman-w./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Proposal for Research on Interlisp and Network-Based Systems</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/gcaqs8mg/</link>
       <pubDate>Tue, 26 Oct 1976 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/gcaqs8mg/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Teitelman, W.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/teitelman-w./</link>
       <pubDate>Tue, 26 Oct 1976 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/teitelman-w./</guid>
       <description></description>
       
@@ -46,7 +48,7 @@
       <title>BBN - LISP, TENEX Reference Manual, Revised</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/kp33m4dp/</link>
       <pubDate>Tue, 01 Aug 1972 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/kp33m4dp/</guid>
       <description></description>
       
@@ -56,7 +58,7 @@
       <title>BBN - LISP, TENEX Reference Manual</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/jcvvquvd/</link>
       <pubDate>Thu, 01 Jul 1971 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/jcvvquvd/</guid>
       <description></description>
       

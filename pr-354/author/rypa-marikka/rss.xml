@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/rypa-marikka/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Fri, 01 Apr 1988 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/rypa-marikka/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Semantics of Procedures: A Cognitive Basis for Maintenance Training Competency</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/r4lbc39y/</link>
       <pubDate>Fri, 01 Apr 1988 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/r4lbc39y/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Rypa, Marikka</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/rypa-marikka/</link>
       <pubDate>Fri, 01 Apr 1988 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/rypa-marikka/</guid>
       <description></description>
       

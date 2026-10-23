@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/becker-jeffrey-m./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Thu, 01 Sep 1983 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/becker-jeffrey-m./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>AQINTERLISP: An INTERLISP Program for Inductive Generalization of VL1 Event Sets</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/e5ndsa26/</link>
       <pubDate>Thu, 01 Sep 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/e5ndsa26/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Becker, Jeffrey M.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/becker-jeffrey-m./</link>
       <pubDate>Thu, 01 Sep 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/becker-jeffrey-m./</guid>
       <description></description>
       

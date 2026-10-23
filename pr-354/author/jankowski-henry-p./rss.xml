@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/jankowski-henry-p./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 05 Oct 1993 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/jankowski-henry-p./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Method and apparatus for thinning printed images</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/78b7is7f/</link>
       <pubDate>Tue, 05 Oct 1993 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/78b7is7f/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Jankowski, Henry P.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/jankowski-henry-p./</link>
       <pubDate>Tue, 05 Oct 1993 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/jankowski-henry-p./</guid>
       <description></description>
       

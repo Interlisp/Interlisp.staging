@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/xerox/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Sat, 01 Nov 1986 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/xerox/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,17 +28,17 @@
       <title>Interlisp-D: A Friendly Primer</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/yeuxrbgz/</link>
       <pubDate>Sat, 01 Nov 1986 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/yeuxrbgz/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>XEROX</title>
+      <title>Xerox</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/xerox/</link>
       <pubDate>Sat, 01 Nov 1986 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/xerox/</guid>
       <description></description>
       
@@ -46,7 +48,7 @@
       <title>Interlisp-D Release Notes</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/pmxcam4y/</link>
       <pubDate>Sun, 01 Dec 1985 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/pmxcam4y/</guid>
       <description></description>
       
@@ -56,7 +58,7 @@
       <title>1983 Interlisp Reference Manual (disambiguation)</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/msbz5imi/</link>
       <pubDate>Sat, 01 Oct 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/msbz5imi/</guid>
       <description></description>
       

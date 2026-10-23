@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/bouvin-niels-olof/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/bouvin-niels-olof/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>From NoteCards to Notebooks: There and Back Again</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/etmy665q/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/etmy665q/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Bouvin, Niels Olof</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/bouvin-niels-olof/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/bouvin-niels-olof/</guid>
       <description></description>
       

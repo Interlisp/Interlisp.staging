@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/fitch-john/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Fri, 08 Aug 1986 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/fitch-john/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Desiderata for the standardization of LISP</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/fhbwrwvs/</link>
       <pubDate>Fri, 08 Aug 1986 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/fhbwrwvs/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Fitch, John</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/fitch-john/</link>
       <pubDate>Fri, 08 Aug 1986 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/fitch-john/</guid>
       <description></description>
       

@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/proven-liam/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 31 Aug 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/proven-liam/rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Some thoughts about raising the profile of Lisp</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/yy43z6f6/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/yy43z6f6/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Proven, Liam</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/proven-liam/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/proven-liam/</guid>
       <description></description>
       

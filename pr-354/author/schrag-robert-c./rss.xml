@@ -16,7 +16,9 @@
     <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/schrag-robert-c./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Sat, 01 Jan 1983 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-354/author/schrag-robert-c./rss.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +28,7 @@
       <title>Notes on the Conversion of LogLisp from Rutgers/UCI-Lisp to InterLisp,</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/pveex4bt/</link>
       <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/pveex4bt/</guid>
       <description></description>
       
@@ -36,7 +38,7 @@
       <title>Schrag, Robert C.</title>
       <link>https://interlisp.github.io/Interlisp.staging/pr-354/author/schrag-robert-c./</link>
       <pubDate>Sat, 01 Jan 1983 00:00:00 +0000</pubDate>
-      
+      <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.github.io/Interlisp.staging/pr-354/author/schrag-robert-c./</guid>
       <description></description>
       

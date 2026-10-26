@@ -105,6 +105,19 @@ jobs:
           keep_files: true
           full_commit_message: deploy preview pr-${{ inputs.pr_number }} to https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/
 
+      - name: Deploy 404.html to site root
+        # The 404.html must be deployed separately to the site root
+        # (without destination_dir) because GitHub Pages looks for a custom
+        # 404 only at the root level, not in subdirectories. The previous
+        # step deployed the preview to pr-XXX/ while this step deploys the
+        # root-level files to keep them available for all missing requests.
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./preview
+          keep_files: true
+          full_commit_message: update site root 404.html
+
       - name: Report exact preview path
         run: |
           echo "## Staging preview deployed" >> "${GITHUB_STEP_SUMMARY}"

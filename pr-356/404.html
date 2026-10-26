@@ -175,10 +175,11 @@
 
     </div>
   </aside>
-</div><script type="application/json" id="bibliography-removed-data">[{"key":"47P4BUHS","title":"Script for testing defstruct and the inspector with defstruct"},{"key":"4R2EXMY4","title":"TEST APPRENTICE"},{"key":"59UEUE22","title":"THE INTERLISP-D TESTING SYSTEM - USER GUIDE"},{"key":"7KUMIRNC","title":"Special Files on \u003cTest\u003eARs\u003e"},{"key":"D8B2SFFU","title":"Running AR Test Cases \u0026 Recording the Results"},{"key":"ERU4YWDT","title":"Script for INSPECTALLFIELDSFLG"},{"key":"F7XLXRG5","title":"Lyric Manual Test procedures"},{"key":"JFGREFUI","title":"THE INTERLISP-D TESTING SYSTEM"},{"key":"KHWFGC5M","title":"Debugger, Error System, and Unwinder test report"},{"key":"LJQYU5HX","title":"Scripts for testing the record package"},{"key":"RJLLRQDR","title":"SEdit test report"},{"key":"SHRDJ9J4","title":"Testing Report"},{"key":"SVIQ724G","title":"Test Utilities"},{"key":"TAYYCYB8","title":"DEdit test report"},{"key":"TTHB6JCX","title":"Testing the programmatic interface to INSPECTW"},{"key":"UIS8C4AI","title":"Script to check code inspectors on frames"}]</script>
+</div><script type="application/json" id="bibliography-removed-data">[{"key":"379EU7V9","title":"Wayback Machine"},{"key":"47P4BUHS","title":"Script for testing defstruct and the inspector with defstruct"},{"key":"4R2EXMY4","title":"TEST APPRENTICE"},{"key":"59UEUE22","title":"THE INTERLISP-D TESTING SYSTEM - USER GUIDE"},{"key":"7KUMIRNC","title":"Special Files on \u003cTest\u003eARs\u003e"},{"key":"BN67LP42","title":"Medley DO-TEST"},{"key":"D8B2SFFU","title":"Running AR Test Cases \u0026 Recording the Results"},{"key":"DM2GTMUL","title":"Why AM and Eurisko Appear to Work"},{"key":"ERU4YWDT","title":"Script for INSPECTALLFIELDSFLG"},{"key":"F7XLXRG5","title":"Lyric Manual Test procedures"},{"key":"J2DJDSP6","title":""},{"key":"JFGREFUI","title":"THE INTERLISP-D TESTING SYSTEM"},{"key":"KHWFGC5M","title":"Debugger, Error System, and Unwinder test report"},{"key":"KN94D7N7","title":"DO-TEST functions"},{"key":"LJQYU5HX","title":"Scripts for testing the record package"},{"key":"MKX86XFD","title":"KNOWLEDGE PROGRAMMING IN LOOPS:"},{"key":"MSPJNWAV","title":"Performance and Evaluation of LISP Systems"},{"key":"RJLLRQDR","title":"SEdit test report"},{"key":"RUKCD423","title":"Essays on Object Lens, A Tool for Supporting Information-Sharing"},{"key":"SHRDJ9J4","title":"Testing Report"},{"key":"SVIQ724G","title":"Test Utilities"},{"key":"TAYYCYB8","title":"DEdit test report"},{"key":"TTHB6JCX","title":"Testing the programmatic interface to INSPECTW"},{"key":"U8JDT3B5","title":"Medley Interlisp weekly Agendas and Notes 2023"},{"key":"UIS8C4AI","title":"Script to check code inspectors on frames"},{"key":"XSVG2PVI","title":"THE BBN 940 LISP SYSTEM"}]</script>
 <script id="not-found-script">
   (function () {
     const path = window.location.pathname;
+    console.log("[404 Script] Pathname:", path);
 
     
     
@@ -187,18 +188,29 @@
     
     
     const match = path.match(/\/history\/bibliography\/([A-Za-z0-9]{8})\/?$/);
-    if (!match) return;
+    console.log("[404 Script] Regex match result:", match);
+    if (!match) {
+      console.log("[404 Script] No bibliography entry match - showing generic 404");
+      return;
+    }
 
     const key = match[1];
     
     const siteRoot = path.slice(0, match.index + 1);
 
+    console.log("[404 Script] Found bibliography entry - key:", key, "siteRoot:", siteRoot);
+
     const generic = document.getElementById("not-found-generic");
     const bib = document.getElementById("not-found-bibliography");
-    if (!generic || !bib) return;
+    console.log("[404 Script] Found elements - generic:", !!generic, "bib:", !!bib);
+    if (!generic || !bib) {
+      console.log("[404 Script] ERROR: Missing DOM elements");
+      return;
+    }
 
     generic.classList.add("d-none");
     bib.classList.remove("d-none");
+    console.log("[404 Script] Toggled visibility - generic hidden, bib shown");
 
     
     
@@ -211,13 +223,17 @@
     const displayKey = key.toUpperCase();
     document.getElementById("not-found-bib-key").textContent = displayKey;
     document.title = "Bibliography entry not found | The Medley Interlisp Project";
+    console.log("[404 Script] Set key and title - key display:", displayKey);
 
     let removed = [];
     const data = document.getElementById("bibliography-removed-data");
+    console.log("[404 Script] Found removed data element:", !!data);
     if (data) {
       try {
         removed = JSON.parse(data.textContent) || [];
+        console.log("[404 Script] Loaded removed entries count:", removed.length);
       } catch (e) {
+        console.error("[404 Script] Failed to parse removed data:", e);
         removed = [];
       }
     }
@@ -226,13 +242,16 @@
       return String(item.key || "").toUpperCase() === displayKey;
     });
     if (entry && entry.title) {
+      console.log("[404 Script] Found entry in removed list:", entry.title);
       document.getElementById("not-found-bib-title").textContent = entry.title;
     } else {
+      console.log("[404 Script] Entry not in removed list - hiding title wrap");
       document.getElementById("not-found-bib-title-wrap").classList.add("d-none");
     }
 
     document.getElementById("not-found-bib-zotero").href =
       "https://www.zotero.org/groups/2914042/items/" + encodeURIComponent(displayKey);
+    console.log("[404 Script] Completed successfully");
   })();
 </script>
 

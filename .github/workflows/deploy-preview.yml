@@ -14,7 +14,13 @@
 #  (pr-<N>/) of this repo's Pages site, so many previews can be reviewed
 #  simultaneously:
 #
-#    https://interlisp.github.io/Interlisp.staging/pr-123/
+#    https://interlisp.org/Interlisp.staging/pr-123/
+#
+#  GitHub Pages serves a custom 404.html from the project site root
+#  (/Interlisp.staging/404.html) for all missing pages under the site,
+#  including PR previews. The 404.html is deployed to the staging root
+#  (not just to pr-<N>/) so it applies to all previews and the staging
+#  root itself.
 #
 #  Cross-repository access uses a GitHub App installation token minted by
 #  actions/create-github-app-token (org variable STAGING_APP_ID and
@@ -63,7 +69,7 @@ jobs:
       ref: ${{ inputs.pr_sha }}
       hugo-version: ${{ inputs.hugo_version }}
       hugo-environment: staging
-      base-url: https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/
+      base-url: https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/
       run-build-tests: false
 
   deploy:
@@ -80,7 +86,16 @@ jobs:
       - name: Extract build site
         run: |
           mkdir -p ./preview
-          tar -xf ./download/artifact.tar -C ./preview 
+          tar -xf ./download/artifact.tar -C ./preview
+      - name: Deploy custom 404 to staging root
+        run: |
+          # GitHub Pages serves a custom 404.html from the project site root
+          # for all paths under the site. Copy it to the repo root so it's
+          # included in the gh-pages branch commit and serves for all requests
+          # to missing pages, including in PR previews.
+          cp ./preview/404.html 404.html
+          echo "Copied 404.html to repo root for GitHub Pages"
+          ls -lh 404.html
       - name: Deploy preview to /pr-${{ inputs.pr_number }}/
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -88,7 +103,7 @@ jobs:
           publish_dir: ./preview
           destination_dir: pr-${{ inputs.pr_number }}
           keep_files: true
-          full_commit_message: deploy preview pr-${{ inputs.pr_number }} to https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/
+          full_commit_message: deploy preview pr-${{ inputs.pr_number }} to https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/
 
       - name: Report exact preview path
         run: |
@@ -96,7 +111,7 @@ jobs:
           echo "" >> "${GITHUB_STEP_SUMMARY}"
           echo "The staging site for pull request #${{ inputs.pr_number }} is live at:" >> "${GITHUB_STEP_SUMMARY}"
           echo "" >> "${GITHUB_STEP_SUMMARY}"
-          echo "https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/" >> "${GITHUB_STEP_SUMMARY}"
+          echo "https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/" >> "${GITHUB_STEP_SUMMARY}"
 
       - name: Mint GitHub App token for commenting
         id: comment-token
@@ -113,7 +128,7 @@ jobs:
         with:
           github-token: ${{ steps.comment-token.outputs.token }}
           script: |
-            const url = 'https://interlisp.github.io/Interlisp.staging/pr-${{ inputs.pr_number }}/';
+            const url = 'https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/';
             await github.rest.issues.createComment({
               owner: 'Interlisp',
               repo: 'Interlisp.github.io',

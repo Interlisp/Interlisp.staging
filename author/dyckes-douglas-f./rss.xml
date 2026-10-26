@@ -13,7 +13,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.org/Interlisp.staging/pr-356/author/dyckes-douglas-f./</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-355/author/dyckes-douglas-f./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -21,25 +21,25 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 28 Mar 1989 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://interlisp.org/Interlisp.staging/pr-356/author/dyckes-douglas-f./rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/author/dyckes-douglas-f./rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The PepPro™ Peptide Synthesis Expert System</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/gpmcn5xc/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/gpmcn5xc/</link>
       <pubDate>Tue, 28 Mar 1989 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/gpmcn5xc/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/gpmcn5xc/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Dyckes, Douglas F.</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/author/dyckes-douglas-f./</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/author/dyckes-douglas-f./</link>
       <pubDate>Tue, 28 Mar 1989 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/author/dyckes-douglas-f./</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/author/dyckes-douglas-f./</guid>
       <description></description>
       
     </item>

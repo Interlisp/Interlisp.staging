@@ -13,7 +13,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.org/Interlisp.staging/pr-356/item_type/newsletter/</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-355/item_type/newsletter/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -21,65 +21,65 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Wed, 01 Jul 1987 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://interlisp.org/Interlisp.staging/pr-356/item_type/newsletter/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/item_type/newsletter/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MASTERSCOPE Volume 3, Number 3</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/c4duec39/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/c4duec39/</link>
       <pubDate>Wed, 01 Jul 1987 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/c4duec39/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/c4duec39/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Newsletter</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/item_type/newsletter/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/item_type/newsletter/</link>
       <pubDate>Wed, 01 Jul 1987 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/item_type/newsletter/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/item_type/newsletter/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MASTERSCOPE Volume 3, Number 2</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/l4mp736r/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/l4mp736r/</link>
       <pubDate>Wed, 01 Apr 1987 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/l4mp736r/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/l4mp736r/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MASTERSCOPE Volume 3, Number 1</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/9976jfjt/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/9976jfjt/</link>
       <pubDate>Thu, 01 Jan 1987 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/9976jfjt/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/9976jfjt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MASTERSCOPE Volume 2, Number 1</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/8a2wry65/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/8a2wry65/</link>
       <pubDate>Fri, 01 Aug 1986 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/8a2wry65/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/8a2wry65/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MASTERSCOPE Volume 1, Number 1</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/vem4jrmg/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/vem4jrmg/</link>
       <pubDate>Fri, 01 Feb 1985 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-356/history/bibliography/vem4jrmg/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/vem4jrmg/</guid>
       <description></description>
       
     </item>

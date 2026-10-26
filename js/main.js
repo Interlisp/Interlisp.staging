@@ -6902,7 +6902,7 @@ limitations under the License.
 
     e.preventDefault();
     document.location =
-      'https://interlisp.org/Interlisp.staging/pr-356/search/?q=' + encodeURIComponent(input.value);
+      'https://interlisp.org/Interlisp.staging/pr-355/search/?q=' + encodeURIComponent(input.value);
   });
 })();
 

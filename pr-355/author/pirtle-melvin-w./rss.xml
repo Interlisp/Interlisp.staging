@@ -13,7 +13,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.github.io/Interlisp.staging/pr-355/author/pirtle-melvin-w./</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-355/author/pirtle-melvin-w./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -21,25 +21,25 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Tue, 03 Apr 1990 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-355/author/pirtle-melvin-w./rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/author/pirtle-melvin-w./rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Design system using visual language</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/syhytlhh/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/syhytlhh/</link>
       <pubDate>Tue, 03 Apr 1990 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/syhytlhh/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/syhytlhh/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Pirtle, Melvin W.</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/author/pirtle-melvin-w./</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/author/pirtle-melvin-w./</link>
       <pubDate>Tue, 03 Apr 1990 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/author/pirtle-melvin-w./</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/author/pirtle-melvin-w./</guid>
       <description></description>
       
     </item>

@@ -13,7 +13,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.github.io/Interlisp.staging/pr-355/author/stoyan-herbert/</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-355/author/stoyan-herbert/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -21,75 +21,75 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Mon, 20 Oct 2008 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-355/author/stoyan-herbert/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/author/stoyan-herbert/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lisp 50 years ago</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/ri94xgiv/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/ri94xgiv/</link>
       <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/ri94xgiv/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/ri94xgiv/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Stoyan, Herbert</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/author/stoyan-herbert/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/author/stoyan-herbert/</link>
       <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/author/stoyan-herbert/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/author/stoyan-herbert/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Lisp: themes and history</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/jqgy7e57/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/jqgy7e57/</link>
       <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/jqgy7e57/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/jqgy7e57/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The influence of the designer on the design—J. McCarthy and LISP</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/jebhsfxu/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/jebhsfxu/</link>
       <pubDate>Sun, 01 Sep 1991 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/jebhsfxu/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/jebhsfxu/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Desiderata for the standardization of LISP</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/fhbwrwvs/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/fhbwrwvs/</link>
       <pubDate>Fri, 08 Aug 1986 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/fhbwrwvs/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/fhbwrwvs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Early LISP history (1956 - 1959)</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/gi8mchkf/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/gi8mchkf/</link>
       <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/gi8mchkf/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/gi8mchkf/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LISP history</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/nsdc3kix/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/nsdc3kix/</link>
       <pubDate>Sat, 01 Dec 1979 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/nsdc3kix/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/nsdc3kix/</guid>
       <description></description>
       
     </item>

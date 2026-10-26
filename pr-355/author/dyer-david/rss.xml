@@ -13,7 +13,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.github.io/Interlisp.staging/pr-355/author/dyer-david/</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-355/author/dyer-david/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -21,35 +21,35 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Mon, 06 Aug 1984 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://interlisp.github.io/Interlisp.staging/pr-355/author/dyer-david/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/author/dyer-david/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recent developments in ISI-interlisp</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/bnayt94g/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/bnayt94g/</link>
       <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/bnayt94g/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/bnayt94g/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Dyer, David</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/author/dyer-david/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/author/dyer-david/</link>
       <pubDate>Mon, 06 Aug 1984 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/author/dyer-david/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/author/dyer-david/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Implementation of Interlisp on the VAX</title>
-      <link>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/g4f5fznd/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/g4f5fznd/</link>
       <pubDate>Sun, 01 Aug 1982 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.github.io/Interlisp.staging/pr-355/history/bibliography/g4f5fznd/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/g4f5fznd/</guid>
       <description></description>
       
     </item>

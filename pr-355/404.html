@@ -158,11 +158,11 @@
         </p>
         <p>You can:</p>
         <ul>
-          <li><a href="/Interlisp.staging/pr-355/history/bibliography/">Browse the bibliography</a></li>
+          <li><a id="not-found-bib-browse" href="/Interlisp.staging/pr-355/history/bibliography/">Browse the bibliography</a></li>
           <li><a id="not-found-bib-zotero" href="https://www.zotero.org/groups/2914042/interlisp" rel="noopener">View the item in Zotero</a> (the record may still be available)</li>
-          <li><a href="/Interlisp.staging/pr-355/history/bibliography/intake/">Report a missing or incorrect entry</a></li>
+          <li><a id="not-found-bib-intake" href="/Interlisp.staging/pr-355/history/bibliography/intake/">Report a missing or incorrect entry</a></li>
         </ul>
-        <p>Or <a href="/Interlisp.staging/pr-355/">return to the homepage</a>.</p>
+        <p>Or <a id="not-found-bib-home" href="/Interlisp.staging/pr-355/">return to the homepage</a>.</p>
       </div>
     </div>
   </main>
@@ -176,14 +176,22 @@
     </div>
   </aside>
 </div><script type="application/json" id="bibliography-removed-data">[{"key":"379EU7V9","title":"Wayback Machine"},{"key":"47P4BUHS","title":"Script for testing defstruct and the inspector with defstruct"},{"key":"4R2EXMY4","title":"TEST APPRENTICE"},{"key":"59UEUE22","title":"THE INTERLISP-D TESTING SYSTEM - USER GUIDE"},{"key":"7KUMIRNC","title":"Special Files on \u003cTest\u003eARs\u003e"},{"key":"BN67LP42","title":"Medley DO-TEST"},{"key":"D8B2SFFU","title":"Running AR Test Cases \u0026 Recording the Results"},{"key":"DM2GTMUL","title":"Why AM and Eurisko Appear to Work"},{"key":"ERU4YWDT","title":"Script for INSPECTALLFIELDSFLG"},{"key":"F7XLXRG5","title":"Lyric Manual Test procedures"},{"key":"J2DJDSP6","title":""},{"key":"JFGREFUI","title":"THE INTERLISP-D TESTING SYSTEM"},{"key":"KHWFGC5M","title":"Debugger, Error System, and Unwinder test report"},{"key":"KN94D7N7","title":"DO-TEST functions"},{"key":"LJQYU5HX","title":"Scripts for testing the record package"},{"key":"MKX86XFD","title":"KNOWLEDGE PROGRAMMING IN LOOPS:"},{"key":"MSPJNWAV","title":"Performance and Evaluation of LISP Systems"},{"key":"RJLLRQDR","title":"SEdit test report"},{"key":"RUKCD423","title":"Essays on Object Lens, A Tool for Supporting Information-Sharing"},{"key":"SHRDJ9J4","title":"Testing Report"},{"key":"SVIQ724G","title":"Test Utilities"},{"key":"TAYYCYB8","title":"DEdit test report"},{"key":"TTHB6JCX","title":"Testing the programmatic interface to INSPECTW"},{"key":"U8JDT3B5","title":"Medley Interlisp weekly Agendas and Notes 2023"},{"key":"UIS8C4AI","title":"Script to check code inspectors on frames"},{"key":"XSVG2PVI","title":"THE BBN 940 LISP SYSTEM"}]</script>
-<script>
+<script id="not-found-script">
   (function () {
-    const bibRoot = "/Interlisp.staging/pr-355/history/bibliography/";
     const path = window.location.pathname;
-    if (!path.startsWith(bibRoot)) return;
 
-    const key = path.slice(bibRoot.length).replace(/\/+$/, "");
-    if (!/^[A-Za-z0-9]{8}$/.test(key)) return;
+    
+    
+    
+    
+    
+    
+    const match = path.match(/\/history\/bibliography\/([A-Za-z0-9]{8})\/?$/);
+    if (!match) return;
+
+    const key = match[1];
+    
+    const siteRoot = path.slice(0, match.index + 1);
 
     const generic = document.getElementById("not-found-generic");
     const bib = document.getElementById("not-found-bibliography");
@@ -191,6 +199,14 @@
 
     generic.classList.add("d-none");
     bib.classList.remove("d-none");
+
+    
+    
+    document.getElementById("not-found-bib-browse").href =
+      siteRoot + "history/bibliography/";
+    document.getElementById("not-found-bib-intake").href =
+      siteRoot + "history/bibliography/intake/";
+    document.getElementById("not-found-bib-home").href = siteRoot;
 
     const displayKey = key.toUpperCase();
     document.getElementById("not-found-bib-key").textContent = displayKey;

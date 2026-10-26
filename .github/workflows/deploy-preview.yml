@@ -87,15 +87,15 @@ jobs:
         run: |
           mkdir -p ./preview
           tar -xf ./download/artifact.tar -C ./preview
-      - name: Deploy custom 404 to staging root
+      - name: Verify custom 404 is ready for deployment
         run: |
           # GitHub Pages serves a custom 404.html from the project site root
-          # for all paths under the site. Copy it to the repo root so it's
-          # included in the gh-pages branch commit and serves for all requests
-          # to missing pages, including in PR previews.
-          cp ./preview/404.html 404.html
-          echo "Copied 404.html to repo root for GitHub Pages"
-          ls -lh 404.html
+          # for all paths under the site. The 404.html is already in the
+          # preview directory and will be deployed to the repo root by
+          # peaceiris/actions-gh-pages so it applies to all requests under
+          # the site, including PR previews.
+          ls -lh ./preview/404.html
+          echo "404.html ready to deploy with preview files"
       - name: Deploy preview to /pr-${{ inputs.pr_number }}/
         uses: peaceiris/actions-gh-pages@v4
         with:

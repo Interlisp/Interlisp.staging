@@ -186,10 +186,10 @@
     
     
     
-    const match = path.match(/\/history\/bibliography\/([A-Za-z0-9]{8})\/?$/);
+    const match = path.match(/\/history\/bibliography\/([^/?#]+(?:\/[^/?#]+)*)\/?(?:[?#]|$)/);
     if (!match) return;
 
-    const key = match[1];
+    const key = match[1].replace(/\/+$/, "");
     
     const siteRoot = path.slice(0, match.index + 1);
 

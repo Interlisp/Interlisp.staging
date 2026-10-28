@@ -25,7 +25,7 @@
     
     
     <item>
-      <title>Xerox Character Code Standard Version 2.0 1990</title>
+      <title>Xerox Character Code Standard</title>
       <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/n5eahw2c/</link>
       <pubDate>Fri, 01 Jun 1990 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
@@ -40,6 +40,16 @@
       <pubDate>Fri, 01 Jun 1990 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
       <guid>https://interlisp.org/Interlisp.staging/pr-355/item_type/xerox-system-integration-standard/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mailing Protocols</title>
+      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/krls2g57/</link>
+      <pubDate>Sun, 01 May 1988 00:00:00 +0000</pubDate>
+      <author>info@interlisp.org (Interlisp.org)</author>
+      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/krls2g57/</guid>
       <description></description>
       
     </item>

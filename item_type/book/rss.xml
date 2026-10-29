@@ -13,7 +13,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.org/Interlisp.staging/pr-355/item_type/book/</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-357/item_type/book/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -21,275 +21,275 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Mon, 03 Apr 2023 22:22:11 +0000</lastBuildDate>
     
-        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/item_type/book/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-357/item_type/book/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Medley Interlisp: The Interactive Programming Environment (derived from Interlisp-D)</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/7in9agwp/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/7in9agwp/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/7in9agwp/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/7in9agwp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>book</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/item_type/book/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/item_type/book/</link>
       <pubDate>Mon, 03 Apr 2023 22:22:11 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/item_type/book/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/item_type/book/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Medley Interlisp: Interactive Programming Tools (derived from Interlisp-D)</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/qbbtxqsf/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/qbbtxqsf/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/qbbtxqsf/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/qbbtxqsf/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hypertext: theory into practice</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/d9hjntvw/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/d9hjntvw/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/d9hjntvw/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/d9hjntvw/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>MEDLEY LANGUAGE REFERENCE</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/zq6d9yhu/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/zq6d9yhu/</link>
       <pubDate>Thu, 01 Apr 1993 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/zq6d9yhu/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/zq6d9yhu/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hypertext: theory into practice</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/l8xqm55x/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/l8xqm55x/</link>
       <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/l8xqm55x/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/l8xqm55x/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hypertext: state of the art ; [Conference on Hypertext, held in 1989 at the University of York]</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/2kxmubas/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/2kxmubas/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/2kxmubas/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/2kxmubas/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LISP Style &amp; Design</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/itkjmvt6/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/itkjmvt6/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/itkjmvt6/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/itkjmvt6/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Essential LISP</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/m5gdrs55/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/m5gdrs55/</link>
       <pubDate>Wed, 01 Apr 1987 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/m5gdrs55/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/m5gdrs55/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Xerox LOOPS, A Friendly Primer</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/mubcfbdn/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/mubcfbdn/</link>
       <pubDate>Sun, 01 Mar 1987 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/mubcfbdn/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/mubcfbdn/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>INTERLISP: the language and its usage</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/48esb5we/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/48esb5we/</link>
       <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/48esb5we/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/48esb5we/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>INTERLISP: the language and its usage</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/uxxj8jih/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/uxxj8jih/</link>
       <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/uxxj8jih/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/uxxj8jih/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Interlisp-D Reference Manual, Volume I: Language</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/dxd65ikd/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/dxd65ikd/</link>
       <pubDate>Tue, 01 Oct 1985 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/dxd65ikd/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/dxd65ikd/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Interlisp-D Reference Manual, Volume II: Environment</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/puq8ektk/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/puq8ektk/</link>
       <pubDate>Tue, 01 Oct 1985 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/puq8ektk/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/puq8ektk/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Interlisp-D Reference Manual, Volume III: Input/Output</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/6d2ejdzd/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/6d2ejdzd/</link>
       <pubDate>Tue, 01 Oct 1985 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/6d2ejdzd/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/6d2ejdzd/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Performance and evaluation of LISP systems</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/68lhcgjf/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/68lhcgjf/</link>
       <pubDate>Tue, 01 Jan 1985 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/68lhcgjf/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/68lhcgjf/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>COMMON LISP : the language</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/cayfcpib/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/cayfcpib/</link>
       <pubDate>Sun, 01 Jan 1984 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/cayfcpib/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/cayfcpib/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rule-based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/bkc3hzw8/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/bkc3hzw8/</link>
       <pubDate>Sun, 01 Jan 1984 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/bkc3hzw8/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/bkc3hzw8/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>1983 Interlisp Reference Manual (disambiguation)</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/msbz5imi/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/msbz5imi/</link>
       <pubDate>Sat, 01 Oct 1983 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/msbz5imi/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/msbz5imi/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>1978 Interlisp Reference Manual (disambiguation)</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/bzwkci4x/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/bzwkci4x/</link>
       <pubDate>Sun, 01 Jan 1978 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/bzwkci4x/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/bzwkci4x/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LISP-an Amicus Curiae Brief</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/622g2wg9/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/622g2wg9/</link>
       <pubDate>Mon, 10 Jan 1977 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/622g2wg9/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/622g2wg9/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Computer-Based Medical Consultations: MYCIN</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/qv79848n/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/qv79848n/</link>
       <pubDate>Thu, 01 Jan 1976 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/qv79848n/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/qv79848n/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>1974 Interlisp Reference Manual (disambiguation)</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/syguerke/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/syguerke/</link>
       <pubDate>Tue, 01 Jan 1974 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/syguerke/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/syguerke/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The Programmer&#39;s Introduction to LISP</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/mmyvame3/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/mmyvame3/</link>
       <pubDate>Sat, 01 Jan 1972 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/mmyvame3/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/mmyvame3/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The BBN-LISP system: Reference Manual</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/9sdf3bwd/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/9sdf3bwd/</link>
       <pubDate>Tue, 01 Apr 1969 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/9sdf3bwd/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/9sdf3bwd/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The programming language LISP: Its operation and applications</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/m6869x84/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/m6869x84/</link>
       <pubDate>Sat, 01 Jan 1966 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/m6869x84/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/m6869x84/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Xerox_Globalview_Document_Services_for_Sun_Technical_Reference_Manual_Jun92.pdf</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/z87xie6v/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/z87xie6v/</link>
       <pubDate>Mon, 03 Apr 2023 22:22:11 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/z87xie6v/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/z87xie6v/</guid>
       <description></description>
       
     </item>

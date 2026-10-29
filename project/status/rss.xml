@@ -14,7 +14,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -22,16 +22,16 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Wed, 14 Oct 2026 18:47:01 -0400</lastBuildDate>
     
-        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/project/status/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-357/project/status/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2025 Medley Interlisp Annual Report</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2025medleyannualreport/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2025medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2025medleyannualreport/</guid>
-      <description>&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-355/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2025medleyannualreport/</guid>
+      <description>&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-357/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;2025 marked the fifth year of the &lt;a href=&#34;https://interlisp.org&#34;&gt;Medley Interlisp Project&lt;/a&gt;.&lt;/p&gt;
@@ -42,11 +42,11 @@
     
     <item>
       <title>2024 Medley Interlisp Annual Report</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2024medleyannualreport/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2024medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2024medleyannualreport/</guid>
-      <description>&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-355/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2024medleyannualreport/</guid>
+      <description>&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-357/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Interlisp-D (and the Medley version of it) were originally developed at the Xerox Palo Alto Research Center (PARC) in the 1970’s and 80’s. It was a software environment for rapid prototyping, research and Artificial Intelligence, combining the power of the Lisp language and system elements with the now common PARC-born Windows/Icon/Mouse/Pointer graphical user interface.&lt;/p&gt;
@@ -56,11 +56,11 @@
     
     <item>
       <title>2023 Annual Report</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2023medleyannualreport/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2023medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2023medleyannualreport/</guid>
-      <description>&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-355/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2023medleyannualreport/</guid>
+      <description>&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-357/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
 
 &lt;h3 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;The Medley Interlisp Project has made significant progress toward its goals of preserving, extending, and documenting the “experience” of Interlisp for now and for the future. This annual report highlights our achievements and ongoing efforts.&lt;/p&gt;
@@ -73,10 +73,10 @@
     
     <item>
       <title>2022 Medley Interlisp Annual Report</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2022medleyannualreport/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2022medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2022medleyannualreport/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2022medleyannualreport/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;We have made considerable progress on the Interlisp software preservation project, and we want to offer tours and collaboration for those engaged in similar or related software preservation efforts.&lt;/p&gt;
 &lt;p&gt;Interlisp was an early and unique software development environment (IDE) developed in the 1970’s and 1980’s at Xerox PARC, and a testbed for novel software development tools. The Medley version of Interlisp-D was built as a portable Virtual Machine, which has allowed us to bring the system forward to run on a wide variety of modern hardware and operating systems.&lt;/p&gt;</description>
@@ -85,10 +85,10 @@
     
     <item>
       <title>2021 Medley Interlisp Annual Report</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2021medleyannualreport/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2021medleyannualreport/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2021medleyannualreport/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2021medleyannualreport/</guid>
       <description>&lt;p&gt;November 15, 2021&lt;/p&gt;
 &lt;p&gt;Join &lt;a href=&#34;https://groups.google.com/g/interlisp&#34;&gt;Interlisp group&lt;/a&gt; or follow @&lt;a href=&#34;https://github.com/Interlisp&#34;&gt;interlisp on GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -99,23 +99,23 @@
     
     <item>
       <title>Annual Reports</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/</guid>
       <description>&lt;p&gt;Each year the Medley Interlisp Project publishes an annual report summarizing accomplishments and ongoing work:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2025medleyannualreport/&#34;&gt;2025 Report&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2024medleyannualreport/&#34;&gt;2024 Report&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2023medleyannualreport/&#34;&gt;2023 Report&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2022medleyannualreport/&#34;&gt;2022 Report&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/2021medleyannualreport/&#34;&gt;2021 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2025medleyannualreport/&#34;&gt;2025 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2024medleyannualreport/&#34;&gt;2024 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2023medleyannualreport/&#34;&gt;2023 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2022medleyannualreport/&#34;&gt;2022 Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/2021medleyannualreport/&#34;&gt;2021 Report&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;!-- To publish a new annual report: add the new year file in this folder and
      update the hader and include-page path below to point at it. --&gt;
 &lt;h2 id=&#34;2025-medley-interlisp-annual-report&#34;&gt;2025 Medley Interlisp Annual Report&lt;/h2&gt;
-&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-355/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
+&lt;img src=&#34;https://interlisp.org/Interlisp.staging/pr-357/Resources/logo_red_no_border_568x385.png&#34; width=&#34;284&#34; height=&#34;194&#34;&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;2025 marked the fifth year of the &lt;a href=&#34;https://interlisp.org&#34;&gt;Medley Interlisp Project&lt;/a&gt;.&lt;/p&gt;
@@ -125,12 +125,12 @@
     
     <item>
       <title>News and Status Reports</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/project/status/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/project/status/</link>
       <pubDate>Wed, 14 Oct 2026 18:47:01 -0400</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/project/status/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/project/status/</guid>
       <description>&lt;h2 id=&#34;annual-reports&#34;&gt;Annual Reports&lt;/h2&gt;
-&lt;p&gt;Each year we publish a Medley Interlisp Annual Report summarizing the project&amp;rsquo;s accomplishments and ongoing work. Find them all under &lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-355/project/status/reports/&#34;&gt;Annual Reports&lt;/a&gt;, including the most current report.&lt;/p&gt;
+&lt;p&gt;Each year we publish a Medley Interlisp Annual Report summarizing the project&amp;rsquo;s accomplishments and ongoing work. Find them all under &lt;a href=&#34;https://interlisp.org/Interlisp.staging/pr-357/project/status/reports/&#34;&gt;Annual Reports&lt;/a&gt;, including the most current report.&lt;/p&gt;
 &lt;h2 id=&#34;near-fm-interview-with-larry-masinter-and-frank-halasz&#34;&gt;Near FM interview with Larry Masinter and Frank Halasz&lt;/h2&gt;
 &lt;p&gt;In June of 2026 Patrick Domanico published a &lt;a href=&#34;https://www.patrickdomanico.com/bpm/2026/06/16/inventing-the-future-one-lisp-machine-at-a-time&#34;&gt;writeup on his interview with Larry Masinter and Frank Halasz&lt;/a&gt;. Domanico hosted the interview in the March 10, 2025 episode of his show &lt;em&gt;Do You Speak Tech?&lt;/em&gt; at Near FM community radio in Dublin.&lt;/p&gt;</description>
       

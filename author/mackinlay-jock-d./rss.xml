@@ -13,7 +13,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates from the new Medley Interlisp Project</title>
-    <link>https://interlisp.org/Interlisp.staging/pr-355/author/mackinlay-jock-d./</link>
+    <link>https://interlisp.org/Interlisp.staging/pr-357/author/mackinlay-jock-d./</link>
     <description>Updates from the Medley Interlisp Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -21,35 +21,35 @@
     <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
     <lastBuildDate>Wed, 16 Sep 1998 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://interlisp.org/Interlisp.staging/pr-355/author/mackinlay-jock-d./rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-357/author/mackinlay-jock-d./rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Image display systems</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/mv2txbjz/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/mv2txbjz/</link>
       <pubDate>Wed, 16 Sep 1998 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/mv2txbjz/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/mv2txbjz/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mackinlay, Jock D.</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/author/mackinlay-jock-d./</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/author/mackinlay-jock-d./</link>
       <pubDate>Wed, 16 Sep 1998 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/author/mackinlay-jock-d./</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/author/mackinlay-jock-d./</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rich interaction in the digital library</title>
-      <link>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/a52363yk/</link>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/a52363yk/</link>
       <pubDate>Sat, 01 Apr 1995 00:00:00 +0000</pubDate>
       <author>info@interlisp.org (Interlisp.org)</author>
-      <guid>https://interlisp.org/Interlisp.staging/pr-355/history/bibliography/a52363yk/</guid>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/a52363yk/</guid>
       <description></description>
       
     </item>

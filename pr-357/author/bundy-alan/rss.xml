@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.org/Interlisp.staging/pr-357/author/bundy-alan/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
+    <lastBuildDate>Sun, 01 Jan 1984 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-357/author/bundy-alan/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interlisp-D</title>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/yk6mrm4k/</link>
+      <pubDate>Sun, 01 Jan 1984 00:00:00 +0000</pubDate>
+      <author>info@interlisp.org (Interlisp.org)</author>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/yk6mrm4k/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bundy, Alan</title>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/author/bundy-alan/</link>
+      <pubDate>Sun, 01 Jan 1984 00:00:00 +0000</pubDate>
+      <author>info@interlisp.org (Interlisp.org)</author>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/author/bundy-alan/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates from the new Medley Interlisp Project</title>
+    <link>https://interlisp.org/Interlisp.staging/pr-357/author/griffith-owen-mitch/</link>
+    <description>Updates from the Medley Interlisp Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>info@interlisp.org (Interlisp.org)</managingEditor>
+    <webMaster>info@interlisp.org (Interlisp.org)</webMaster>
+    <lastBuildDate>Wed, 30 Apr 1986 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://interlisp.org/Interlisp.staging/pr-357/author/griffith-owen-mitch/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Expert System for Optimizing Ultracentrifugation Runs</title>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/njebfrhb/</link>
+      <pubDate>Wed, 30 Apr 1986 00:00:00 +0000</pubDate>
+      <author>info@interlisp.org (Interlisp.org)</author>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/history/bibliography/njebfrhb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Griffith, Owen Mitch</title>
+      <link>https://interlisp.org/Interlisp.staging/pr-357/author/griffith-owen-mitch/</link>
+      <pubDate>Wed, 30 Apr 1986 00:00:00 +0000</pubDate>
+      <author>info@interlisp.org (Interlisp.org)</author>
+      <guid>https://interlisp.org/Interlisp.staging/pr-357/author/griffith-owen-mitch/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

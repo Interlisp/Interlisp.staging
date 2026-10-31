@@ -102,11 +102,13 @@ jobs:
 
       - name: Report exact preview path
         run: |
-          echo "## Staging preview deployed" >> "${GITHUB_STEP_SUMMARY}"
-          echo "" >> "${GITHUB_STEP_SUMMARY}"
-          echo "The staging site for pull request #${{ inputs.pr_number }} is live at:" >> "${GITHUB_STEP_SUMMARY}"
-          echo "" >> "${GITHUB_STEP_SUMMARY}"
-          echo "https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/" >> "${GITHUB_STEP_SUMMARY}"
+          {
+            echo "## Staging preview deployed"
+            echo ""
+            echo "The staging site for pull request #${{ inputs.pr_number }} is live at:"
+            echo ""
+            echo "https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/"
+          } >> "${GITHUB_STEP_SUMMARY}"
 
       - name: Mint GitHub App token for commenting
         id: comment-token

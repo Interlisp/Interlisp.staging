@@ -113,7 +113,7 @@ jobs:
         run: |
           set -euo pipefail
           base='https://interlisp.org/Interlisp.staging'
-          for attempt in $(seq 1 60); do
+          for _ in $(seq 1 60); do
             if curl -fsS "${base}/?cachebust=$(date +%s)" \
               | grep -q 'Interlisp staging environment'; then
               break

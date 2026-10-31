@@ -1,0 +1,129 @@
+#*******************************************************************************
+#  deploy-staging-root.yml
+#
+#  Deploys the staging site's root pages. The root is owned by this workflow,
+#  not by any PR preview build:
+#
+#    /Interlisp.staging/index.html   - list of deployed PR previews
+#    /Interlisp.staging/404.html     - redirects PR 404s to the PR base
+#    /Interlisp.staging/root.css     - shared stylesheet
+#    /Interlisp.staging/robots.txt   - defense-in-depth for search indexing
+#    /Interlisp.staging/.nojekyll    - disables Jekyll processing
+#
+#  Everything at the root except pr-* directories is removed on every run, so
+#  the root cannot drift back to a copy of a PR site.
+#
+#  This workflow is dispatched after previews are added or removed, and also
+#  runs when the root page sources change, on a daily schedule, and manually.
+#
+#  Copyright 2026 by Interlisp.org
+# ******************************************************************************
+name: Deploy Staging Root
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/pages/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy-staging-root.yml'
+  workflow_dispatch:
+  schedule:
+    # Safety net: refresh after the daily prune (04:00 UTC).
+    - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: staging-gh-pages
+      cancel-in-progress: false
+    steps:
+      - name: Check out root page sources
+        uses: actions/checkout@v6
+        with:
+          path: source
+
+      - name: Check out gh-pages branch
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          path: gh-pages
+          fetch-depth: 1
+
+      - name: Render root pages
+        run: |
+          set -euo pipefail
+          previews_file="${RUNNER_TEMP}/previews.txt"
+          : > "${previews_file}"
+          if git -C gh-pages rev-parse --verify HEAD >/dev/null 2>&1; then
+            git -C gh-pages ls-tree -d --name-only HEAD \
+              | sed -n 's/^pr-\([0-9]\+\)$/\1/p' \
+              | sort -nr > "${previews_file}"
+          fi
+          python3 source/scripts/render_staging_root.py \
+            --templates-dir source/.github/pages \
+            --previews-file "${previews_file}" \
+            --output "${RUNNER_TEMP}/staging-root"
+          find "${RUNNER_TEMP}/staging-root" -maxdepth 1 -type f \
+            -printf '%f\n' | sort
+
+      - name: Publish root pages
+        run: |
+          set -euo pipefail
+          cd gh-pages
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          sync_root() {
+            find . -mindepth 1 -maxdepth 1 \
+              ! -name '.git' ! -name 'pr-*' -exec rm -rf {} +
+            cp -a "${RUNNER_TEMP}/staging-root/." .
+            git add -A
+          }
+
+          sync_root
+          if git diff --cached --quiet; then
+            echo "Staging root is already up to date"
+            exit 0
+          fi
+
+          git commit -m "Update staging root pages"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:gh-pages; then
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}); rebasing and retrying" >&2
+            git fetch origin gh-pages
+            git rebase origin/gh-pages
+            sync_root
+            git commit --amend --no-edit
+          done
+
+          echo "Failed to publish staging root after 3 attempts" >&2
+          exit 1
+
+      - name: Verify deployed root
+        run: |
+          set -euo pipefail
+          base='https://interlisp.org/Interlisp.staging'
+          for attempt in $(seq 1 60); do
+            if curl -fsS "${base}/?cachebust=$(date +%s)" \
+              | grep -q 'Interlisp staging environment'; then
+              break
+            fi
+            sleep 10
+          done
+          curl -fsS "${base}/?cachebust=$(date +%s)" \
+            | grep -q 'Interlisp staging environment'
+          curl -fsS "${base}/robots.txt" | grep -q 'Disallow: /'
+          curl -fsS "${base}/root.css" >/dev/null
+          status=$(curl -sS -o /dev/null -w '%{http_code}' "${base}/does-not-exist")
+          test "${status}" = '404'
+          curl -sS "${base}/does-not-exist" | grep -q 'Page not found'

@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: remove-preview-${{ inputs.pr_number }}
@@ -30,6 +31,9 @@ concurrency:
 jobs:
   remove:
     runs-on: ubuntu-latest
+    concurrency:
+      group: staging-gh-pages
+      cancel-in-progress: false
     steps:
       - name: Check gh-pages branch exists
         id: branch-check
@@ -62,3 +66,10 @@ jobs:
           else
             echo "No preview subdirectory for PR #${{ inputs.pr_number }}; nothing to do"
           fi
+
+      - name: Refresh staging root pages
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-staging-root.yml --repo "${GITHUB_REPOSITORY}" --ref main

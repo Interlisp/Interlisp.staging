@@ -25,15 +25,21 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   prune:
     if: vars.STAGING_APP_ID != ''
     runs-on: ubuntu-latest
+    concurrency:
+      group: staging-gh-pages
+      cancel-in-progress: false
     steps:
       - name: Mint GitHub App token
         id: app-token
-        uses: actions/create-github-app-token@v3
+        # Pin the exact release: actionlint's metadata for the moving v3 tag
+        # predates the client-id input.
+        uses: actions/create-github-app-token@v3.3.0
         with:
           client-id: ${{ vars.STAGING_APP_ID }}
           private-key: ${{ secrets.STAGING_APP_PRIVATE_KEY }}
@@ -90,3 +96,10 @@ jobs:
           else
             echo "No stale preview directories to remove"
           fi
+
+      - name: Refresh staging root pages
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-staging-root.yml --repo "${GITHUB_REPOSITORY}" --ref main

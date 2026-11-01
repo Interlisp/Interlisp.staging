@@ -18,9 +18,9 @@
 #
 #  GitHub Pages serves a custom 404.html from the project site root
 #  (/Interlisp.staging/404.html) for all missing pages under the site,
-#  including PR previews. The 404.html is deployed to the staging root
-#  (not just to pr-<N>/) so it applies to all previews and the staging
-#  root itself.
+#  including PR previews. That root page is owned by
+#  deploy-staging-root.yml. PR deploys must never write to the root; they
+#  publish only to pr-<N>/.
 #
 #  Cross-repository access uses a GitHub App installation token minted by
 #  actions/create-github-app-token (org variable STAGING_APP_ID and
@@ -77,6 +77,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
+    concurrency:
+      group: staging-gh-pages
+      cancel-in-progress: false
     steps:
       - name: Download built site
         uses: actions/download-artifact@v7
@@ -87,15 +91,6 @@ jobs:
         run: |
           mkdir -p ./preview
           tar -xf ./download/artifact.tar -C ./preview
-      - name: Verify custom 404 is ready for deployment
-        run: |
-          # GitHub Pages serves a custom 404.html from the project site root
-          # for all paths under the site. The 404.html is already in the
-          # preview directory and will be deployed to the repo root by
-          # peaceiris/actions-gh-pages so it applies to all requests under
-          # the site, including PR previews.
-          ls -lh ./preview/404.html
-          echo "404.html ready to deploy with preview files"
       - name: Deploy preview to /pr-${{ inputs.pr_number }}/
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -105,30 +100,21 @@ jobs:
           keep_files: true
           full_commit_message: deploy preview pr-${{ inputs.pr_number }} to https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/
 
-      - name: Deploy 404.html to site root
-        # The 404.html must be deployed separately to the site root
-        # (without destination_dir) because GitHub Pages looks for a custom
-        # 404 only at the root level, not in subdirectories. The previous
-        # step deployed the preview to pr-XXX/ while this step deploys the
-        # root-level files to keep them available for all missing requests.
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./preview
-          keep_files: true
-          full_commit_message: update site root 404.html
-
       - name: Report exact preview path
         run: |
-          echo "## Staging preview deployed" >> "${GITHUB_STEP_SUMMARY}"
-          echo "" >> "${GITHUB_STEP_SUMMARY}"
-          echo "The staging site for pull request #${{ inputs.pr_number }} is live at:" >> "${GITHUB_STEP_SUMMARY}"
-          echo "" >> "${GITHUB_STEP_SUMMARY}"
-          echo "https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/" >> "${GITHUB_STEP_SUMMARY}"
+          {
+            echo "## Staging preview deployed"
+            echo ""
+            echo "The staging site for pull request #${{ inputs.pr_number }} is live at:"
+            echo ""
+            echo "https://interlisp.org/Interlisp.staging/pr-${{ inputs.pr_number }}/"
+          } >> "${GITHUB_STEP_SUMMARY}"
 
       - name: Mint GitHub App token for commenting
         id: comment-token
-        uses: actions/create-github-app-token@v3
+        # Pin the exact release: actionlint's metadata for the moving v3 tag
+        # predates the client-id input.
+        uses: actions/create-github-app-token@v3.3.0
         with:
           client-id: ${{ vars.STAGING_APP_ID }}
           private-key: ${{ secrets.STAGING_APP_PRIVATE_KEY }}
@@ -148,3 +134,10 @@ jobs:
               issue_number: ${{ inputs.pr_number }},
               body: `Staging preview for this pull request is available at ${url}`,
             });
+
+      - name: Refresh staging root pages
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-staging-root.yml --repo "${GITHUB_REPOSITORY}" --ref main

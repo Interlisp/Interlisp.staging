@@ -1,0 +1,37 @@
+name: Validate Staging Root
+
+on:
+  pull_request:
+    paths:
+      - '.github/pages/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy-staging-root.yml'
+      - '.github/workflows/validate-root.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/pages/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy-staging-root.yml'
+      - '.github/workflows/validate-root.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Test root renderer
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+
+      - name: Lint workflows
+        run: |
+          docker run --rm \
+            -v "${PWD}:/repo" \
+            -w /repo \
+            rhysd/actionlint:1.7.12

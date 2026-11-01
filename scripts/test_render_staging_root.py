@@ -42,6 +42,9 @@ class RenderStagingRootTest(unittest.TestCase):
         self.assertNotIn("<!-- PREVIEWS -->", files["index.html"])
         self.assertNotIn("{{BASE_PATH}}", files["index.html"])
         self.assertIn('href="pr-357/"', files["404.html"])
+        self.assertIn("fetch(prBase + '404.html'", files["404.html"])
+        self.assertIn("document.write(html)", files["404.html"])
+        self.assertNotIn("window.location.replace(prBase", files["404.html"])
         self.assertEqual(files["robots.txt"], "User-agent: *\nDisallow: /\n")
         self.assertEqual(files[".nojekyll"], "")
 

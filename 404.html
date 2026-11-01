@@ -17,16 +17,39 @@
         '^' + basePath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + 'pr-(\\d+)(?:/|$)'
       );
       var match = path.match(pattern);
-      if (!match) return;
+      if (!match || !window.fetch) return;
 
       var prBase = basePath + 'pr-' + match[1] + '/';
 
-      // Loop guard: if the base itself 404s (removed preview or failed
-      // deploy), redirecting again would loop forever. Show the fallback.
-      if (path !== prBase) {
-        window.location.replace(
-          prBase + window.location.search + window.location.hash
-        );
+      // GitHub Pages only serves the root 404.html. Replace this fallback with
+      // the preview's own Hugo-generated 404 page when it is available, while
+      // leaving the requested URL and HTTP status unchanged.
+      function loadPreview404() {
+        fetch(prBase + '404.html', { credentials: 'same-origin' })
+          .then(function (response) {
+            if (!response.ok) throw new Error('preview 404 unavailable');
+            var contentType = response.headers.get('content-type') || '';
+            if (contentType.indexOf('text/html') === -1) {
+              throw new Error('preview 404 is not HTML');
+            }
+            return response.text();
+          })
+          .then(function (html) {
+            document.open();
+            document.write(html);
+            document.close();
+          })
+          .catch(function () {
+            // Keep the staging fallback for removed previews and previews
+            // without a usable 404 page.
+          });
+      }
+
+      // Wait for parsing to finish before replacing the document.
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadPreview404);
+      } else {
+        loadPreview404();
       }
     })();
   </script>
@@ -58,11 +81,11 @@
     </ul>
   </section>
 
-  <p class="muted">Updated 2026-11-01 04:14 UTC.</p>
+  <p class="muted">Updated 2026-11-01 04:46 UTC.</p>
 
   <noscript>
     <p class="muted">
-      JavaScript is required to redirect a missing preview page to its home page.
+      JavaScript is required to display the preview's own 404 page.
       The preview list above still works.
     </p>
   </noscript>

@@ -147,7 +147,7 @@ preview removal or prune as failed. The daily root run is the backstop.
 | File | Source | Purpose |
 | --- | --- | --- |
 | `index.html` | `.github/pages/index.template.html` | Staging landing page listing deployed previews and linking to production. |
-| `404.html` | `.github/pages/404.template.html` | Client-side redirect for missing PR paths; fallback page for everything else. |
+| `404.html` | `.github/pages/404.template.html` | Loads the matching preview's own 404 page; fallback page when it is unavailable. |
 | `root.css` | `.github/pages/root.css` | Shared stylesheet for the root pages. |
 | `robots.txt` | `.github/pages/robots.txt` | Defense-in-depth `Disallow: /` in the subpath. The authoritative protection is the `noindex` meta tag; see the search-index note above. |
 | `.nojekyll` | `.github/pages/.nojekyll` | Disables Jekyll processing on the Pages branch. |
@@ -165,17 +165,19 @@ project site, including `pr-<N>/...`. The page runs an inline script early in
 
 1. Normalizes the path by removing trailing slashes and appending one.
 2. Matches `^/Interlisp.staging/pr-(\d+)(?:/|$)`.
-3. If the path is a PR path but not already the PR base, redirects to
-   `/Interlisp.staging/pr-<N>/`, preserving query string and hash.
-4. If the path is already the PR base, does **not** redirect. This is the loop
-   guard for a removed preview or a failed build; the fallback page explains
-   that the preview may have been removed or may still be deploying.
+3. If the path is under a preview, fetches `/Interlisp.staging/pr-<N>/404.html`.
+   When that file exists, it replaces the document with the preview's own
+   Hugo-generated 404 page. The requested URL and HTTP 404 status are unchanged,
+   so query strings and fragments are preserved.
+4. If the preview or its `404.html` is unavailable, the staging fallback page
+   remains visible. This covers removed previews and failed builds.
 5. For non-PR paths, shows the fallback page with the requested path, the
    preview list, and a production link.
 
 Both templates use `<base href="/Interlisp.staging/">`, so relative links such
 as `pr-357/` and `root.css` resolve correctly even when `404.html` is served for
-a nested path.
+a nested path. Preview 404 pages are built with absolute asset and navigation
+URLs, so they continue to work when loaded at an arbitrary missing path.
 
 ## Concurrency and `gh-pages`
 
@@ -229,7 +231,7 @@ gh workflow run deploy-staging-root.yml \
 .github/
   pages/
     .nojekyll               # copied to the site root
-    404.template.html       # root 404 + redirect script
+    404.template.html       # root 404 + preview 404 loader
     index.template.html     # root landing page
     robots.txt              # copied to the site root
     root.css                # copied to the site root
@@ -359,11 +361,10 @@ git ls-tree --name-only origin/gh-pages
 
 In a browser, confirm that
 `https://interlisp.org/Interlisp.staging/pr-<N>/nonexistent?x=1#section`
-redirects to `https://interlisp.org/Interlisp.staging/pr-<N>/?x=1#section`, and
-that a removed preview base shows the fallback page instead of looping. `curl`
-does not execute the redirect script, so the redirect itself must be checked in
-a browser. The Pages API should still report `custom_404: true` and
-`cname: null`.
+displays that preview's own 404 page while keeping the requested URL, and that a
+removed preview shows the fallback page instead of looping. `curl` does not
+execute the loader script, so the replacement must be checked in a browser. The
+Pages API should still report `custom_404: true` and `cname: null`.
 
 ### Rollback
 
@@ -386,9 +387,9 @@ a browser. The Pages API should still report `custom_404: true` and
 - **Scheduled workflows pause after inactivity.** GitHub disables schedules
   after 60 days of repository inactivity. Preview-triggered dispatches are the
   primary path; the schedule is only a backstop.
-- **No server-side redirects.** GitHub Pages does not support them. The PR
-  redirect runs client-side; with JavaScript disabled, the fallback page and
-  preview list still work.
+- **No server-side 404 customization.** GitHub Pages only serves the root
+  `404.html`, so the preview's own 404 page is loaded client-side. With
+  JavaScript disabled, the fallback page and preview list still work.
 - **`actions: write` is broad.** It is required for workflow dispatch. A future
   refactor to a reusable `workflow_call` would remove the need for it.
 - **`pr-*` names are reserved.** `prune-previews.yml` treats every `pr-*`

@@ -24,7 +24,7 @@
 	<meta itemprop="description" content="When running on Windows natively, Medley will be installed into a directory of your choice. This directory will contain an isolated copy of the Cygwin environment (an adaptation of Linux tools and apps to Windows) and a version of Medley that runs within that specific Cygwin environment. This presence of Cygwin, however, is largely hidden from the user and Medley behaves as if it is a native Windows app.">
 	<meta itemprop="datePublished" content="2025-06-25T13:38:11-04:00">
 	<meta itemprop="dateModified" content="2025-06-25T13:38:11-04:00">
-	<meta itemprop="wordCount" content="813">
+	<meta itemprop="wordCount" content="815">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Install and Run on Windows &#34;native&#34;">
 	<meta name="twitter:description" content="When running on Windows natively, Medley will be installed into a directory of your choice. This directory will contain an isolated copy of the Cygwin environment (an adaptation of Linux tools and apps to Windows) and a version of Medley that runs within that specific Cygwin environment. This presence of Cygwin, however, is largely hidden from the user and Medley behaves as if it is a native Windows app.">
@@ -170,13 +170,13 @@
     <input type="checkbox" id="m-interlispstagingpr-357softwareusing-medleycl-using-check"/>
     <label for="m-interlispstagingpr-357softwareusing-medleycl-using-check"><a href="/Interlisp.staging/pr-357/software/using-medley/cl-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-357softwareusing-medleycl-using"><span class="">Interlisp Basics for Common Lisp users</span></a></label>
     
-  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-357softwareusing-medleykeystrokes-li">
-    <input type="checkbox" id="m-interlispstagingpr-357softwareusing-medleykeystrokes-check"/>
-    <label for="m-interlispstagingpr-357softwareusing-medleykeystrokes-check"><a href="/Interlisp.staging/pr-357/software/using-medley/keystrokes/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-357softwareusing-medleykeystrokes"><span class="">Keystrokes, Mouse menus and Gestures</span></a></label>
-    
   </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-357softwareusing-medleyonline-using-li">
     <input type="checkbox" id="m-interlispstagingpr-357softwareusing-medleyonline-using-check"/>
     <label for="m-interlispstagingpr-357softwareusing-medleyonline-using-check"><a href="/Interlisp.staging/pr-357/software/using-medley/online-using/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-357softwareusing-medleyonline-using"><span class="">Using Medley Online</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-357softwareusing-medleykeystrokes-li">
+    <input type="checkbox" id="m-interlispstagingpr-357softwareusing-medleykeystrokes-check"/>
+    <label for="m-interlispstagingpr-357softwareusing-medleykeystrokes-check"><a href="/Interlisp.staging/pr-357/software/using-medley/keystrokes/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-357softwareusing-medleykeystrokes"><span class="">Keystrokes, Mouse menus and Gestures</span></a></label>
     
   </li>
     </ul>
@@ -242,13 +242,15 @@
 <p>When running on Windows natively, Medley will be installed into a directory of your choice.  This directory will contain an isolated copy of the Cygwin environment (an adaptation of Linux tools and apps to Windows) and a version of Medley that runs within that specific Cygwin environment.  This presence of Cygwin, however, is largely hidden from the user and Medley behaves as if it is a native Windows app.</p>
 <h2 id="install-medley">Install Medley</h2>
 <ol>
-<li>Download the native Medley Windows installer for the latest release from under the Windows 10/11 heading on the <a href="https://online.interlisp.org/downloads/medley_downloads.html">Medley downloads page</a>.</li>
+<li>Download the native Medley Windows installer for the latest release from under the Windows 10/11 heading on the <a href="https://online.interlisp.org/downloads/medley_downloads.html">Medley downloads page</a>
+.</li>
 </ol>
  <div align="center"><img alt="Medley Downloads Page" width=500 src="../images/downloads-page-windows-native.png"><p>&nbsp;</p></div>
 <p> </p>
 <blockquote>
 <blockquote>
-<p>Alternatively, you can download the Medley Windows installer for the current or any previous release from the Medley Releases page on the Interlisp GitHub site.  <a href="/Interlisp.staging/pr-357/software/install-and-run/windows/native/windows-native-from-github/">Instructions for this can be found here</a>.</p>
+<p>Alternatively, you can download the Medley Windows installer for the current or any previous release from the Medley Releases page on the Interlisp GitHub site.  <a href="windows-native-from-github">Instructions for this can be found here</a>
+.</p>
 </blockquote>
 </blockquote>
 <ol start="2">
@@ -283,12 +285,14 @@
 </span></span><span style="display:flex;"><span><span style="color:#000">cmd</span> <span style="color:#000;font-weight:bold">/</span><span style="color:#000">C</span> <span style="color:#000">medley</span> <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#000">flags</span> <span style="color:#000">and</span> <span style="color:#000">options</span><span style="color:#000;font-weight:bold">&gt;</span>
 </span></span></code></pre></div><p>Example:
 <img alt="Start from Powershell Window" width=500 src="../images/windows-native-powershell.png"></p>
-<p>Documentation for the <code>&lt;flags and options&gt;</code> to the <code>medley</code> command can be found <a href="https://online.interlisp.org/downloads/man_medley.html">here</a></p>
+<p>Documentation for the <code>&lt;flags and options&gt;</code> to the <code>medley</code> command can be found <a href="https://online.interlisp.org/downloads/man_medley.html">here</a>
+</p>
 <p>For first-time users: <code>medley --apps --interlisp --noscroll</code> or, equivalently, <code>medley -a -e -n</code> is a good starting point.  This will give you a fully populated Medley system, including the applications built on Medley such as Notecards and Rooms.</p>
 <p>This will bring up the Medley environment in a separate Window on your Windows desktop.  The Medley desktop and windows will all be contained within this Window as shown below.</p>
 <p><img src="../images/Medley-on-Windows.png" alt="Medley window open on Windows desktop"></p>
 <h2 id="use-medley">Use Medley</h2>
-<p>Once Medley is up and running, see <a href="/Interlisp.staging/pr-357/software/using-medley/">here</a> for tips on how to navigate and use the Medley environment.</p>
+<p>Once Medley is up and running, see <a href="/software/using-medley/">here</a>
+ for tips on how to navigate and use the Medley environment.</p>
 <p>To exit Medley, type <code>(IL:LOGOUT)</code> at any Exec window prompt.</p>
 <h2 id="important-notes">Important Notes</h2>
 <ol>

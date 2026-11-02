@@ -28,6 +28,8 @@
 <link href="/Interlisp.staging/pr-357/scss/main.css" rel="stylesheet">
 <link rel="canonical" href="https://interlisp.org/Interlisp.staging/pr-357/404.html">
 <link rel="me" href="https://fosstodon.org/@interlisp">
+<meta name="robots" content="noindex, follow">
+
 
 
   </head>
@@ -132,11 +134,36 @@
   </aside>
   <main class="col-12 col-md-9 col-xl-8 ps-md-5 pt-0" role="main">
     <div class="td-content mt-0 pt-0">
-      <h1 class="mt-0">Page Not Found</h1>
-      <header class="article-meta"></header>
-      <p>The page you were looking for does not exist. It may have been moved or removed.</p>
-      <p>You can use the search box or browse the site sections on the left to find what you are looking for.</p>
-      <p>Or <a href="/Interlisp.staging/pr-357/">return to the homepage</a>.</p>
+      <div id="not-found-generic">
+        <h1 class="mt-0">Page Not Found</h1>
+        <header class="article-meta"></header>
+        <p>The page you were looking for does not exist. It may have been moved or removed.</p>
+        <p>You can use the search box or browse the site sections on the left to find what you are looking for.</p>
+        <p>Or <a href="/Interlisp.staging/pr-357/">return to the homepage</a>.</p>
+      </div>
+
+      <div id="not-found-bibliography" class="d-none">
+        <h1 class="mt-0">Bibliography Entry Not Found</h1>
+        <header class="article-meta"></header>
+        <p>
+          The bibliography entry <code id="not-found-bib-key"></code><span id="not-found-bib-title-wrap"> &mdash; <cite id="not-found-bib-title"></cite></span>
+          is no longer available.
+        </p>
+        <p>
+          The Interlisp bibliography is generated from our
+          <a href="https://www.zotero.org/groups/2914042/interlisp">Zotero group library</a>.
+          Entries may be removed or reclassified when the library changes, which removes
+          the corresponding page from this site. If you followed a link from another
+          site, that link may be out of date.
+        </p>
+        <p>You can:</p>
+        <ul>
+          <li><a id="not-found-bib-browse" href="/Interlisp.staging/pr-357/history/bibliography/">Browse the bibliography</a></li>
+          <li><a id="not-found-bib-zotero" href="https://www.zotero.org/groups/2914042/interlisp" rel="noopener">View the item in Zotero</a> (the record may still be available)</li>
+          <li><a id="not-found-bib-intake" href="/Interlisp.staging/pr-357/history/bibliography/intake/">Report a missing or incorrect entry</a></li>
+        </ul>
+        <p>Or <a id="not-found-bib-home" href="/Interlisp.staging/pr-357/">return to the homepage</a>.</p>
+      </div>
     </div>
   </main>
   <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none pt-0 mt-0">
@@ -148,7 +175,66 @@
 
     </div>
   </aside>
-</div>
+</div><script type="application/json" id="bibliography-removed-data">[{"key":"379EU7V9","title":"Wayback Machine"},{"key":"47P4BUHS","title":"Script for testing defstruct and the inspector with defstruct"},{"key":"4R2EXMY4","title":"TEST APPRENTICE"},{"key":"59UEUE22","title":"THE INTERLISP-D TESTING SYSTEM - USER GUIDE"},{"key":"7KUMIRNC","title":"Special Files on \u003cTest\u003eARs\u003e"},{"key":"BN67LP42","title":"Medley DO-TEST"},{"key":"D8B2SFFU","title":"Running AR Test Cases \u0026 Recording the Results"},{"key":"DM2GTMUL","title":"Why AM and Eurisko Appear to Work"},{"key":"ERU4YWDT","title":"Script for INSPECTALLFIELDSFLG"},{"key":"F7XLXRG5","title":"Lyric Manual Test procedures"},{"key":"J2DJDSP6","title":""},{"key":"JFGREFUI","title":"THE INTERLISP-D TESTING SYSTEM"},{"key":"KHWFGC5M","title":"Debugger, Error System, and Unwinder test report"},{"key":"KN94D7N7","title":"DO-TEST functions"},{"key":"LJQYU5HX","title":"Scripts for testing the record package"},{"key":"MKX86XFD","title":"KNOWLEDGE PROGRAMMING IN LOOPS:"},{"key":"MSPJNWAV","title":"Performance and Evaluation of LISP Systems"},{"key":"RJLLRQDR","title":"SEdit test report"},{"key":"RUKCD423","title":"Essays on Object Lens, A Tool for Supporting Information-Sharing"},{"key":"SHRDJ9J4","title":"Testing Report"},{"key":"SVIQ724G","title":"Test Utilities"},{"key":"TAYYCYB8","title":"DEdit test report"},{"key":"TTHB6JCX","title":"Testing the programmatic interface to INSPECTW"},{"key":"U8JDT3B5","title":"Medley Interlisp weekly Agendas and Notes 2023"},{"key":"UIS8C4AI","title":"Script to check code inspectors on frames"},{"key":"XSVG2PVI","title":"THE BBN 940 LISP SYSTEM"}]</script>
+<script id="not-found-script">
+  (function () {
+    const path = window.location.pathname;
+
+    
+    
+    
+    
+    
+    
+    const match = path.match(/\/history\/bibliography\/([^/?#]+(?:\/[^/?#]+)*)\/?(?:[?#]|$)/);
+    if (!match) return;
+
+    const key = match[1].replace(/\/+$/, "");
+    
+    const siteRoot = path.slice(0, match.index + 1);
+
+    const generic = document.getElementById("not-found-generic");
+    const bib = document.getElementById("not-found-bibliography");
+    if (!generic || !bib) return;
+
+    generic.classList.add("d-none");
+    bib.classList.remove("d-none");
+
+    
+    
+    document.getElementById("not-found-bib-browse").href =
+      siteRoot + "history/bibliography/";
+    document.getElementById("not-found-bib-intake").href =
+      siteRoot + "history/bibliography/intake/";
+    document.getElementById("not-found-bib-home").href = siteRoot;
+
+    const displayKey = key.toUpperCase();
+    document.getElementById("not-found-bib-key").textContent = displayKey;
+    document.title = "Bibliography entry not found | The Medley Interlisp Project";
+
+    let removed = [];
+    const data = document.getElementById("bibliography-removed-data");
+    if (data) {
+      try {
+        removed = JSON.parse(data.textContent) || [];
+      } catch (e) {
+        removed = [];
+      }
+    }
+
+    const entry = removed.find(function (item) {
+      return String(item.key || "").toUpperCase() === displayKey;
+    });
+    if (entry && entry.title) {
+      document.getElementById("not-found-bib-title").textContent = entry.title;
+    } else {
+      document.getElementById("not-found-bib-title-wrap").classList.add("d-none");
+    }
+
+    document.getElementById("not-found-bib-zotero").href =
+      "https://www.zotero.org/groups/2914042/items/" + encodeURIComponent(displayKey);
+  })();
+</script>
 
       </main>
       <footer class="td-footer row d-print-none">

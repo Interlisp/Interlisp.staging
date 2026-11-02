@@ -30,7 +30,7 @@ The Medley Interlisp project was started in 2020 by a few of the original develo
 The Medley Interlisp project was started in 2020 by a few of the original developers, focusing on reviving the software, making it usable and useful on modern systems. With permission from the last licensee of the software, we are able to release the system as open source. This report highlights the accomplishments and continuing projects over 2024.">
 	<meta itemprop="datePublished" content="2026-10-14T18:47:01-04:00">
 	<meta itemprop="dateModified" content="2026-10-14T18:47:01-04:00">
-	<meta itemprop="wordCount" content="1746">
+	<meta itemprop="wordCount" content="1762">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="2024 Medley Interlisp Annual Report">
 	<meta name="twitter:description" content="Overview Interlisp-D (and the Medley version of it) were originally developed at the Xerox Palo Alto Research Center (PARC) in the 1970’s and 80’s. It was a software environment for rapid prototyping, research and Artificial Intelligence, combining the power of the Lisp language and system elements with the now common PARC-born Windows/Icon/Mouse/Pointer graphical user interface.
@@ -260,44 +260,59 @@ The Medley Interlisp project was started in 2020 by a few of the original develo
 <h2 id="overview"><strong>Overview</strong></h2>
 <p>Interlisp-D (and the Medley version of it) were originally developed at the Xerox Palo Alto Research Center (PARC) in the 1970’s and 80’s. It was a software environment for rapid prototyping, research and Artificial Intelligence, combining the power of the Lisp language and system elements with the now common PARC-born Windows/Icon/Mouse/Pointer graphical user interface.</p>
 <p>The Medley Interlisp project was started in 2020 by a few of the original developers, focusing on reviving the software, making it usable and useful on modern systems. With permission from the last licensee of the software, we are able to release the system as open source. This report highlights the accomplishments and continuing projects over 2024.</p>
-<p>For more information, see <a href="https://interlisp.org">https://interlisp.org</a>. There you will find:</p>
+<p>For more information, see <a href="https://interlisp.org">https://interlisp.org</a>
+. There you will find:</p>
 <ul>
-<li><a href="https://interlisp.org/history/">History</a>: The timeline of Interlisp, Medley, and applications written in or for it.
+<li><a href="https://interlisp.org/history/">History</a>
+: The timeline of Interlisp, Medley, and applications written in or for it.
 <ul>
-<li>An extensive bibliography of citations, articles, videos and other online material with pointers to the literature (<a href="https://interlisp.org/bibliography/">https://interlisp.org/bibliography</a>)</li>
+<li>An extensive bibliography of citations, articles, videos and other online material with pointers to the literature (<a href="https://interlisp.org/bibliography/">https://interlisp.org/bibliography</a>
+)</li>
 <li>A Glossary of terms used in conjunction with the software.</li>
 </ul>
 </li>
-<li><a href="https://interlisp.org/project/">Project</a>: The Medley Interlisp Project itself – how we work, how to get involved
+<li><a href="https://interlisp.org/project/">Project</a>
+: The Medley Interlisp Project itself – how we work, how to get involved
 <ul>
 <li>Get Involved</li>
 <li>Donate</li>
 </ul>
 </li>
-<li><a href="https://interlisp.org/software/">Software</a>: How you can try Medley online, install it, and pointers to documentation of components and applications a modern day user can try.</li>
+<li><a href="https://interlisp.org/software/">Software</a>
+: How you can try Medley online, install it, and pointers to documentation of components and applications a modern day user can try.</li>
 </ul>
 <h2 id="progress-and-key-accomplishments"><strong>Progress and Key Accomplishments</strong></h2>
 <h3 id="lowered-barriers-to-entry"><strong>Lowered Barriers to Entry</strong></h3>
 <p>We continue working to make it easier to try out and use Medley Interlisp.</p>
 <ul>
-<li><strong>Medley Online</strong>: We support and enhance our Docker-based Web version, <a href="http://online.interlisp.org">online.interlisp.org</a>.  This allows anyone with a browser to connect to a server running (a unique instance of) Medley “in the cloud”. It provides the full experience of using Medley to develop applications.</li>
-<li><strong>Emscripten/WASM:</strong> Emscripten is a compiler toolchain that outputs “Web Assembly” (WASM) code. We have an experimental Emscripten/WASM build of the Maiko virtual machine that allows Medley to run entirely in the user’s Web browser, available to try at <a href="http://wasm.interlisp.org/medley.html">http://wasm.interlisp.org/medley.html</a>.  In the long-term, we’re considering it to replace the “in-cloud” Medley now found at <a href="https://online.interlisp.org">https://online.interlisp.org</a>.</li>
+<li><strong>Medley Online</strong>: We support and enhance our Docker-based Web version, <a href="http://online.interlisp.org">online.interlisp.org</a>
+.  This allows anyone with a browser to connect to a server running (a unique instance of) Medley “in the cloud”. It provides the full experience of using Medley to develop applications.</li>
+<li><strong>Emscripten/WASM:</strong> Emscripten is a compiler toolchain that outputs “Web Assembly” (WASM) code. We have an experimental Emscripten/WASM build of the Maiko virtual machine that allows Medley to run entirely in the user’s Web browser, available to try at <a href="http://wasm.interlisp.org/medley.html">http://wasm.interlisp.org/medley.html</a>
+.  In the long-term, we’re considering it to replace the “in-cloud” Medley now found at <a href="https://online.interlisp.org">https://online.interlisp.org</a>
+.</li>
 <li><strong>Improved Medley startup:</strong> Added new features to the <code>medley</code> command line program for macOS, Windows, and Linux.</li>
-<li><strong>Improve Cursor Visibility</strong>: Added X11 <a href="https://github.com/Interlisp/medley/issues/1820">cursor foreground and background color options</a> to Maiko, to aid legibility and accessibility.</li>
+<li><strong>Improve Cursor Visibility</strong>: Added X11 <a href="https://github.com/Interlisp/medley/issues/1820">cursor foreground and background color options</a>
+ to Maiko, to aid legibility and accessibility.</li>
 </ul>
 <h3 id="documentation-improvements"><strong>Documentation improvements</strong></h3>
 <ul>
 <li>Extended the <code>MAN</code> manual browser tool to cover LispUsers (contributed software) packages.</li>
-<li>Added <a href="https://github.com/Interlisp/medley/pull/1624">Meta-D command to bring up documentation</a> for selected items in SEdit and TEdit.</li>
+<li>Added <a href="https://github.com/Interlisp/medley/pull/1624">Meta-D command to bring up documentation</a>
+ for selected items in SEdit and TEdit.</li>
 <li>Added Truckin’ documentation to LOOPS sources.</li>
-<li>Created <a href="https://files.interlisp.org/medley/">PDF files for viewing Lisp source code and documentation</a> without running Medley.</li>
-<li>Posted Volume I of Stephen Kaisler’s Medley LOOPS book series, <a href="https://interlisp.org/documentation/2024-loops-book-1.pdf"><em>LOOPS: The Basic System</em></a>.</li>
+<li>Created <a href="https://files.interlisp.org/medley/">PDF files for viewing Lisp source code and documentation</a>
+ without running Medley.</li>
+<li>Posted Volume I of Stephen Kaisler’s Medley LOOPS book series, <a href="https://interlisp.org/documentation/2024-loops-book-1.pdf"><em>LOOPS: The Basic System</em></a>
+.</li>
 </ul>
 <h3 id="ansi-common-lisp-compatibility"><strong>ANSI Common Lisp Compatibility</strong></h3>
 <p>ANSI Common Lisp was standardized 30 years ago, after much of the Medley Common Lisp implementation was completed.  We’re working to complete this project.</p>
 <ul>
-<li>We <a href="https://github.com/orgs/Interlisp/discussions?discussions_q=Evaluating&#43;Medley&#43;compatibility&#43;with&#43;practical&#43;common&#43;lisp">identified discrepancies in Medley’s Common Lisp implementation</a> by testing against the examples in <a href="https://gigamonkeys.com/book/"><em>Practical Common Lisp</em></a> by Peter Seibel.</li>
-<li>Among other things, we added an <a href="https://github.com/Interlisp/medley/issues/1578">initial implementation of the Common Lisp LOOP macro</a> and began work on <code>SYMBOL-MACROLET</code>.</li>
+<li>We <a href="https://github.com/orgs/Interlisp/discussions?discussions_q=Evaluating&#43;Medley&#43;compatibility&#43;with&#43;practical&#43;common&#43;lisp">identified discrepancies in Medley’s Common Lisp implementation</a>
+ by testing against the examples in <a href="https://gigamonkeys.com/book/"><em>Practical Common Lisp</em></a>
+ by Peter Seibel.</li>
+<li>Among other things, we added an <a href="https://github.com/Interlisp/medley/issues/1578">initial implementation of the Common Lisp LOOP macro</a>
+ and began work on <code>SYMBOL-MACROLET</code>.</li>
 </ul>
 <h3 id="medley-system-infrastructure"><strong>Medley System Infrastructure</strong></h3>
 <ul>
@@ -311,14 +326,16 @@ The Medley Interlisp project was started in 2020 by a few of the original develo
 <ul>
 <li><strong>TEdit</strong>: TEdit is Medley’s WYSIWYG rich text editor with programmatic support for images.  It has been a key component of many other Medley applications.  We simplified the code to ease maintenance and improve performance. We modularized the public API and extended some capabilities. We prepared the code to move TEdit into its own package namespace.</li>
 <li><strong>HTML support</strong>: Began work to add HTML support to Medley’s device-independent graphics suite.</li>
-<li><strong>Lafite</strong>: A multi-protocol, GUI email client written in Lisp using TEdit.  We <a href="https://github.com/orgs/Interlisp/discussions/1551">improved Lafite module loading</a> to make it work better with Unix spool files and mail transport agents.</li>
+<li><strong>Lafite</strong>: A multi-protocol, GUI email client written in Lisp using TEdit.  We <a href="https://github.com/orgs/Interlisp/discussions/1551">improved Lafite module loading</a>
+ to make it work better with Unix spool files and mail transport agents.</li>
 <li><strong>Source code tools</strong>: We continue to develop and extend tools that bridge the Medley residential programming model and contemporary source control tools (git, GitHub, etc.). In 2024,  we made improvements to COMPARESOURCES, GITFNS</li>
 <li><strong>New tools</strong>: We created a number of new tools, including INSPHEX, a tool for exploring binary data (similar to the Linux utility <code>hd)</code>, and Stringscope, which displays a list of text strings found in a binary file, akin to the Linux <code>strings</code> program.</li>
 </ul>
 <h3 id="reviving-related-systems"><strong>Reviving Related Systems</strong></h3>
 <p>Our previous work has focused mostly on core Medley capabilities.  In 2024 we broadened our focus to include systems built in or on top of Medley.</p>
 <ul>
-<li><strong>Revive and debug LOOPS</strong>:  <a href="https://xeroxparcarchive.computerhistory.org/indigo/loops/doc/manual/.CHAPLOOPS.PRESS!2.pdf">LOOPS</a>, the Lisp Object-Oriented Programming System, was a Xerox PARC project to add data, object, and rule oriented programming to Interlisp’s procedure-oriented programming paradigm.  It was a predecessor of CLOS, the object-oriented programming component of Common Lisp.</li>
+<li><strong>Revive and debug LOOPS</strong>:  <a href="https://xeroxparcarchive.computerhistory.org/indigo/loops/doc/manual/.CHAPLOOPS.PRESS!2.pdf">LOOPS</a>
+, the Lisp Object-Oriented Programming System, was a Xerox PARC project to add data, object, and rule oriented programming to Interlisp’s procedure-oriented programming paradigm.  It was a predecessor of CLOS, the object-oriented programming component of Common Lisp.</li>
 <li><strong>NoteCards</strong>: NoteCards is an desktop and networked hypertext system developed on Interlisp at PARC starting in the early 1980’s.  This year we continued to update and modernize NoteCards in conjunction with updates to TEdit and other aspects of the Interlisp system.  In addition, as an entry to an Internet contest in retro-computing, we developed the first new NoteCards type (the Web card) since the 1990’s using the NoteCards Programmer’s Interface.</li>
 <li><strong>Grammar Writers’ Workbench for Lexical Functional Grammar</strong>: The Grammar Writer’s Workbench was constructed in the 1980s as a comprehensive graphical platform for linguistic and algorithmic research within the LFG theoretical framework (<em>Lexical Functional Grammar: A formal system for grammatical representation</em>, Kaplan and Bresnan, 1982). LFG research and teaching can still benefit from the system’s flexible interface for grammar development and testing against phenomena in a wide variety of languages.</li>
 <li><strong>Older Medley systems:</strong> The version of Medley we started with was Medley 3.5 – an enhancement from Medley 2.0 that was the last release from Venue. But we also have archives of older Medley 2.0 compatible memory images. We can use these for preservation, testing compatibility, debugging, and running older demos. We made some progress on running these with our current emulator sources, the Harmony release of Interlisp-D using DarkStar (an emulator of the Xerox Dandelion workstation), and Medley 2.0 on DOS. These older release implementations still need some finishing, but the experiments are encouraging.</li>
@@ -327,24 +344,31 @@ The Medley Interlisp project was started in 2020 by a few of the original develo
 <p>We closed 89 GitHub Issues and merged 150 Medley pull requests and 35 Maiko pull requests in 2024 (through December 26).</p>
 <h2 id="community-engagement"><strong>Community Engagement</strong></h2>
 <h3 id="meetings"><strong>Meetings</strong></h3>
-<p>We hold two online meetings per week: a Monday meeting focused on implementation issues, and a Wednesday meeting to discuss everything else Medley-related.  The meetings are open to everyone who wishes to attend on request to <a href="mailto:info@interlisp.org">info@interlisp.org</a>.</p>
+<p>We hold two online meetings per week: a Monday meeting focused on implementation issues, and a Wednesday meeting to discuss everything else Medley-related.  The meetings are open to everyone who wishes to attend on request to <a href="mailto:info@interlisp.org">info@interlisp.org</a>
+.</p>
 <h3 id="community-projects"><strong>Community Projects</strong></h3>
-<p>Alexander Shendi is working on porting Medley to <a href="https://www.haiku-os.org/">Haiku OS</a>, a modern operating system inspired by BeOS.</p>
+<p>Alexander Shendi is working on porting Medley to <a href="https://www.haiku-os.org/">Haiku OS</a>
+, a modern operating system inspired by BeOS.</p>
 <p>Douglas Lenat’s Eurisko, an early AI system of historical importance, is now running on Medley.</p>
 <p>We interviewed Italian researchers who used Interlisp in the 1980s for their recollections.</p>
-<p>Paolo Amoroso entered <a href="https://www.retrochallenge.org/">RetroChallenge 2024</a> with a NoteCards project, WebCard.</p>
+<p>Paolo Amoroso entered <a href="https://www.retrochallenge.org/">RetroChallenge 2024</a>
+ with a NoteCards project, WebCard.</p>
 <h3 id="website-enhancements"><strong>Website Enhancements</strong></h3>
 <p>We added a user feedback widget to pages on the Interlisp.org website and commenced initial work on fetching Zotero collection names for a more useful, well-search-engine-optimized bibliography.</p>
 <p>We continued to improve our website deployment processes, creating Production and Staged website deployments.  We also cleaned up the website generator configuration file, refactoring it to improve maintainability and support multiple deployment environments.</p>
 <p>The website page navigation was restructured to make the documentation section more prominent, and made PDF/HTML versions of documentation, TEdit files, and Lisp sources accessible via interlisp.org. This work is still in progress.</p>
 <h3 id="publications-and-presentations"><strong>Publications and Presentations</strong></h3>
-<p>Andrew Sengul submitted a paper, <a href="https://doi.org/10.5281/zenodo.11090093"><em>The Medley Interlisp Revival</em></a>, to the European Lisp Symposium 2024.  It was accepted and published in the proceedings.  Andrew gave an accompanying <a href="https://www.youtube.com/watch?v=ZBAJukF5mPE">talk at the symposium</a>.</p>
-<p>Herb Jellinek contributed Interlisp expertise to assist in evaluating historical materials for the book <a href="https://www.ucpress.edu/books/firesign/paper"><em>Firesign: The Electromagnetic History of Everything as Told on Nine Comedy Albums</em></a> by Jeremy Braddock.</p>
+<p>Andrew Sengul submitted a paper, <a href="https://doi.org/10.5281/zenodo.11090093"><em>The Medley Interlisp Revival</em></a>
+, to the European Lisp Symposium 2024.  It was accepted and published in the proceedings.  Andrew gave an accompanying <a href="https://www.youtube.com/watch?v=ZBAJukF5mPE">talk at the symposium</a>
+.</p>
+<p>Herb Jellinek contributed Interlisp expertise to assist in evaluating historical materials for the book <a href="https://www.ucpress.edu/books/firesign/paper"><em>Firesign: The Electromagnetic History of Everything as Told on Nine Comedy Albums</em></a>
+ by Jeremy Braddock.</p>
 <h3 id="awards"><strong>Awards</strong></h3>
 <p>We applied for the 2024 Tony Sale Award for Computer Conservation and Restoration, sponsored by the (UK) Computer Conservation Society. We were not selected this year, but the experience has encouraged us to consider reapplying when CCS runs the next competition.</p>
 <h3 id="collaborations"><strong>Collaborations</strong></h3>
 <h4 id="university-of-alberta">University of Alberta</h4>
-<p>We began a collaboration with Professor Eric Kaltman and graduate students Eleanor Young and Abhik Hasnain of the University of Alberta <a href="https://www.shft.group/pages/team/eric-kaltman/">Software History Futures and Technologies (SHFT) Group</a>.</p>
+<p>We began a collaboration with Professor Eric Kaltman and graduate students Eleanor Young and Abhik Hasnain of the University of Alberta <a href="https://www.shft.group/pages/team/eric-kaltman/">Software History Futures and Technologies (SHFT) Group</a>
+.</p>
 <p>Eleanor has worked on organizing the Interlisp Bibliography, tagging, researching and adding missing metadata to hundreds of bibliography entries.  She has also begun work on an academic paper outlining the Medley project’s history and processes, intended as a guide for other software revival projects.</p>
 <p>Abhik has worked on reviewing incomplete bibliography entries, including tracking files and updating metadata and tags. Currently he is focused on proofreading, testing, and modernizing the text and code examples in the Medley Primer (a.k.a. <em>Medley for the Novice</em>) to serve as a quickstart guide.</p>
 <h4 id="libraries-and-archives">Libraries and Archives</h4>
@@ -353,7 +377,8 @@ The Medley Interlisp project was started in 2020 by a few of the original develo
 <p>Defined a process for prioritizing and working on issues and pull requests and made responding to issues raised by more-casual users a priority.</p>
 <h2 id="looking-ahead"><strong>Looking Ahead</strong></h2>
 <p>In the coming year we will emphasize removing obstacles to getting started using Medley.  Plans include publishing an updated Primer suited to online.interlisp.org as well as modern operating systems and their users, and producing “one-click” installers to make it simple to set up and run Medley on personal computers.  We also hope to create an online version of LFG for use by linguists around the world.</p>
-<p>In the area of retrocomputing, we aim to see what if any changes are required to get <a href="https://sites.google.com/view/elizagen-org/eliza-clones?authuser=0#h.zdqi9um6k4za">Bernie Cosell’s ELIZA, written in BBN Lisp ca. 1969</a>, running in its descendent Medley.</p>
+<p>In the area of retrocomputing, we aim to see what if any changes are required to get <a href="https://sites.google.com/view/elizagen-org/eliza-clones?authuser=0#h.zdqi9um6k4za">Bernie Cosell’s ELIZA, written in BBN Lisp ca. 1969</a>
+, running in its descendent Medley.</p>
 <p>We anticipate that we will be able to fund a Computer Science graduate student to work on some more-difficult projects.</p>
 <p>In general, we will continue our work on Medley, emphasizing outreach, documentation, modernization, and education.</p>
 <h2 id="acknowledgements"><strong>Acknowledgements</strong></h2>

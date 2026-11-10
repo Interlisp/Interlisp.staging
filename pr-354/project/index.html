@@ -6,15 +6,15 @@
 
 <meta name="robots" content="noindex, nofollow">
 
-<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
-<link rel="shortcut icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/favicon.ico">
-<link rel="apple-touch-icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="shortcut icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/apple-touch-icon.png" sizes="180x180">
 
 <title>The Medley Interlisp Project | Staging Environment</title>
 <meta name="description" content="Reviving a Groundbreaking System What are we trying to accomplish? Our aim is to allow Medley to “live again”: to be usable enough on modern systems that someone could develop some code and experience what it was like to use this groundbreaking system. You could think of this as a kind of “vintage software” project, to try to capture the sense of fluidity in the development cycle.
 As part of this effort we explore alternate system technologies such as SDL2/SDL3 as a graphics backend and running Medley in the browser via WebAssembly (experimental, doesn’t save files).">
-<meta property="og:url" content="https://interlisp.github.io/Interlisp.staging/pr-354/project/">
+<meta property="og:url" content="https://interlisp.org/Interlisp.staging/pr-354/project/">
 	<meta property="og:site_name" content="Staging Environment">
 	<meta property="og:title" content="The Medley Interlisp Project">
 	<meta property="og:description" content="Reviving a Groundbreaking System What are we trying to accomplish? Our aim is to allow Medley to “live again”: to be usable enough on modern systems that someone could develop some code and experience what it was like to use this groundbreaking system. You could think of this as a kind of “vintage software” project, to try to capture the sense of fluidity in the development cycle.
@@ -27,13 +27,13 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
 As part of this effort we explore alternate system technologies such as SDL2/SDL3 as a graphics backend and running Medley in the browser via WebAssembly (experimental, doesn’t save files).">
 	<meta itemprop="datePublished" content="2025-09-17T23:22:23+02:00">
 	<meta itemprop="dateModified" content="2025-09-17T23:22:23+02:00">
-	<meta itemprop="wordCount" content="469">
+	<meta itemprop="wordCount" content="472">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="The Medley Interlisp Project">
 	<meta name="twitter:description" content="Reviving a Groundbreaking System What are we trying to accomplish? Our aim is to allow Medley to “live again”: to be usable enough on modern systems that someone could develop some code and experience what it was like to use this groundbreaking system. You could think of this as a kind of “vintage software” project, to try to capture the sense of fluidity in the development cycle.
 As part of this effort we explore alternate system technologies such as SDL2/SDL3 as a graphics backend and running Medley in the browser via WebAssembly (experimental, doesn’t save files).">
 <link href="/Interlisp.staging/pr-354/scss/main.css" rel="stylesheet">
-<link rel="canonical" href="https://interlisp.github.io/Interlisp.staging/pr-354/project/">
+<link rel="canonical" href="https://interlisp.org/Interlisp.staging/pr-354/project/">
 <link rel="me" href="https://fosstodon.org/@interlisp">
 
 
@@ -229,19 +229,28 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
 	<h1 id="reviving-a-groundbreaking-system">Reviving a Groundbreaking System</h1>
 <h2 id="what-are-we-trying-to-accomplish">What are we trying to accomplish?</h2>
 <p>Our aim is to allow Medley to &ldquo;live again&rdquo;: to be usable enough on modern systems that someone could develop some code and experience what it was like to use this groundbreaking system. You could think of this as a kind of &ldquo;<em>vintage software</em>&rdquo; project, to try to capture the sense of fluidity in the development cycle.</p>
-<p>As part of this effort we explore alternate system technologies such as SDL2/SDL3 as a graphics backend and <a href="http://wasm.interlisp.org/medley.html">running Medley in the browser via WebAssembly</a> (experimental, doesn&rsquo;t save files).</p>
+<p>As part of this effort we explore alternate system technologies such as SDL2/SDL3 as a graphics backend and <a href="http://wasm.interlisp.org/medley.html">running Medley in the browser via WebAssembly</a>
+ (experimental, doesn&rsquo;t save files).</p>
 <p>We also hope to provide a platform for supporting the revival of systems developed using Interlisp, including 1980&rsquo;s work in hypertext (NoteCards), desktop management (Rooms), object-oriented programming (LOOPS), linguistics (LFG Grammar Writer’s Workbench), user interface design (Trillium), geopolitical simulation (STRADS), and intelligent database assistants (DADM).</p>
 <p>The lessons from the Interlisp interactive environment are likely more relevant in today&rsquo;s &ldquo;devops&rdquo; environment &ndash; managing large networks of independent microservices, with no single serialization of the components quite comprehensible. Development in this model has been called &ldquo;repl-driven development&rdquo;: you are working in the &rsquo;live&rsquo; environment (or a copy) making changes without a separate, lengthy edit-compile-load-restart.</p>
-<p>For more on the work we&rsquo;re doing, see <a href="/Interlisp.staging/pr-354/project/reviving/">Reviving Medley</a> and <a href="/Interlisp.staging/pr-354/project/status/">News and Status Reports</a>.</p>
+<p>For more on the work we&rsquo;re doing, see <a href="reviving">Reviving Medley</a>
+ and <a href="status">News and Status Reports</a>
+.</p>
 <h2 id="what-are-our-challenges">What are our challenges?</h2>
 <p>&ldquo;Reviving&rdquo; old software requires some judgment of tradeoffs. There are often disagreements. Backward compatibility, fixing what seems to be a bug might cause other problems.</p>
 <p>We are trying to address this conflict by also making older versions of Interlisp available. There is an emulator for the Xerox 1108 (Dandelion) D-machine that will run the old software unchanged, it is slow and cumbersome; not something you would want to use for day-to-day work.</p>
 <h2 id="who-is-involved">Who is involved?</h2>
-<p>We are <a href="/Interlisp.staging/pr-354/project/credits/">some of the original developers and users of Interlisp</a> 30 years ago, joined by newcomers interested in software history and preservation, along with members of the Lisp community. We work with <a href="/Interlisp.staging/pr-354/project/partners/">organizational partners</a>. And with you!</p>
-<p><a href="/Interlisp.staging/pr-354/project/getinvolved/">Get involved</a> by running Medley, testing and reporting bugs and anomalies, participate to our discussions, and other opportunities to contribute with or without coding skills.</p>
+<p>We are <a href="/Interlisp.staging/pr-354/project/credits">some of the original developers and users of Interlisp</a>
+ 30 years ago, joined by newcomers interested in software history and preservation, along with members of the Lisp community. We work with <a href="partners">organizational partners</a>
+. And with you!</p>
+<p><a href="getinvolved">Get involved</a>
+ by running Medley, testing and reporting bugs and anomalies, participate to our discussions, and other opportunities to contribute with or without coding skills.</p>
 <h2 id="why">Why?</h2>
-<p>People involved with the project have <a href="/Interlisp.staging/pr-354/project/stories/">different stories</a> for why they are interested. The <a href="https://awards.acm.org/award-recipients/masinter_3814811">1992 ACM Software System Award</a>, awarded to the Interlisp system for pioneering work in programming environments, recognizes an influence over computer science that is broader than these individual stories and funnels them.</p>
-<p>The paper <a href="https://interlisp.org/documentation/young-ccece2025.pdf">The Medley Interlisp Project: Reviving a Historical Software System</a> expresses our motivations for preserving Medley and traces the journey to making the system and its lessons widely accessible:</p>
+<p>People involved with the project have <a href="stories">different stories</a>
+ for why they are interested. The <a href="https://awards.acm.org/award-recipients/masinter_3814811">1992 ACM Software System Award</a>
+, awarded to the Interlisp system for pioneering work in programming environments, recognizes an influence over computer science that is broader than these individual stories and funnels them.</p>
+<p>The paper <a href="https://interlisp.org/documentation/young-ccece2025.pdf">The Medley Interlisp Project: Reviving a Historical Software System</a>
+ expresses our motivations for preserving Medley and traces the journey to making the system and its lessons widely accessible:</p>
 <blockquote>
 <p>[the project] aims to render Medley Interlisp, the final release of Interlisp, usable on modern operating systems and hardware environments, and to selectively add modern capabilities to Medley while conserving its value as a historically groundbreaking system.</p>
 </blockquote>
@@ -288,7 +297,7 @@ As part of this effort we explore alternate system technologies such as SDL2/SDL
   
 		 
 		<li class="td-footer__links-item" data-bs-toggle="tooltip" title="RSS" aria-label="RSS">
-			<a target="_blank" rel="noopener" href="https://interlisp.github.io/Interlisp.staging/pr-354/project/status/rss.xml" aria-label="RSS">
+			<a target="_blank" rel="noopener" href="https://interlisp.org/Interlisp.staging/pr-354/project/status/rss.xml" aria-label="RSS">
 				<i class="fas fa-rss"></i>
 			</a>
 		</li>

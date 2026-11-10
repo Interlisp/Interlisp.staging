@@ -6,14 +6,14 @@
 
 <meta name="robots" content="noindex, nofollow">
 
-<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
-<link rel="shortcut icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/favicon.ico">
-<link rel="apple-touch-icon" href="https://interlisp.github.io/Interlisp.staging/pr-354/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="shortcut icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="https://interlisp.org/Interlisp.staging/pr-354/favicons/apple-touch-icon.png" sizes="180x180">
 
 <title>Zotero Type Mapping Reference | Staging Environment</title>
 <meta name="description" content="How Interlisp Zotero bibliography types map to CSL JSON and Schema.org vocabulary">
-<meta property="og:url" content="https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/zotero-resources/">
+<meta property="og:url" content="https://interlisp.org/Interlisp.staging/pr-354/history/bibliography/zotero-resources/">
 	<meta property="og:site_name" content="Staging Environment">
 	<meta property="og:title" content="Zotero Type Mapping Reference">
 	<meta property="og:description" content="How Interlisp Zotero bibliography types map to CSL JSON and Schema.org vocabulary">
@@ -22,14 +22,14 @@
 
 	<meta itemprop="name" content="Zotero Type Mapping Reference">
 	<meta itemprop="description" content="How Interlisp Zotero bibliography types map to CSL JSON and Schema.org vocabulary">
-	<meta itemprop="datePublished" content="2026-10-23T07:57:57-04:00">
-	<meta itemprop="dateModified" content="2026-10-23T07:57:57-04:00">
-	<meta itemprop="wordCount" content="1620">
+	<meta itemprop="datePublished" content="2026-11-10T00:18:18-05:00">
+	<meta itemprop="dateModified" content="2026-11-10T00:18:18-05:00">
+	<meta itemprop="wordCount" content="1654">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Zotero Type Mapping Reference">
 	<meta name="twitter:description" content="How Interlisp Zotero bibliography types map to CSL JSON and Schema.org vocabulary">
 <link href="/Interlisp.staging/pr-354/scss/main.css" rel="stylesheet">
-<link rel="canonical" href="https://interlisp.github.io/Interlisp.staging/pr-354/history/bibliography/zotero-resources/">
+<link rel="canonical" href="https://interlisp.org/Interlisp.staging/pr-354/history/bibliography/zotero-resources/">
 <link rel="me" href="https://fosstodon.org/@interlisp">
 
 
@@ -211,10 +211,12 @@
 	<h2 id="purpose">Purpose</h2>
 <p>This page documents how bibliography entry types are classified and mapped through the processing pipeline. It serves as a reference for:</p>
 <ul>
-<li><strong>Content creators</strong> contributing to the Interlisp Zotero group who want to understand how their entries will be categorized</li>
+<li><strong>Metadata creators</strong> contributing to the Interlisp Zotero group who want to understand how their entries will be categorized</li>
 <li><strong>Developers</strong> working on the bibliography processing system who need to know current type support</li>
 <li><strong>Data consumers</strong> using the JSON-LD output who need to understand what schema.org types represent Interlisp bibliography entries</li>
 </ul>
+<p>To recommend a new title for inclusion in the bibliography, please see the <a href="history/bibliography/intake">Interlisp Bibliography Intake Guide</a>
+.  It explains how to recommend new bibliography items and provides a link to the appropriate form.</p>
 <p>The mapping chain flows through three formats:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Zotero Item Type → CSL JSON Type → Schema.org @type
 </span></span></code></pre></div><p>Each format serves a different purpose:</p>
@@ -609,24 +611,34 @@
 </ol>
 <h3 id="json-ld-validation-errors">JSON-LD Validation Errors</h3>
 <ol>
-<li><strong>Use Google Structured Data Testing Tool</strong> to validate: <a href="https://search.google.com/structured-data/testing-tool">https://search.google.com/structured-data/testing-tool</a></li>
-<li><strong>Check schema.org</strong> for @type requirements: <a href="https://schema.org/">https://schema.org/</a></li>
+<li><strong>Use Google Structured Data Testing Tool</strong> to validate: <a href="https://search.google.com/structured-data/testing-tool">https://search.google.com/structured-data/testing-tool</a>
+</li>
+<li><strong>Check schema.org</strong> for @type requirements: <a href="https://schema.org/">https://schema.org/</a>
+</li>
 <li><strong>Review generated HTML</strong> in browser DevTools (JSON-LD is embedded in <code>&lt;script type=&quot;application/ld+json&quot;&gt;</code>)</li>
 </ol>
 <hr>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://www.zotero.org/support/kb/item_types">Zotero Item Types</a></li>
-<li><a href="https://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html">CSL JSON Schema</a></li>
-<li><a href="https://schema.org/Thing">Schema.org Types</a></li>
-<li><a href="https://schema.org/CreativeWork">Schema.org CreativeWork</a></li>
-<li><a href="https://schema.org/additionalType">Schema.org additionalType</a></li>
-<li><a href="https://schema.org/genre">Schema.org genre</a></li>
-<li><a href="https://developers.google.com/search/docs/beginner/structured-data">Structured Data Best Practices</a></li>
+<li><a href="https://www.zotero.org/support/kb/item_types">Zotero Item Types</a>
+</li>
+<li><a href="https://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html">CSL JSON Schema</a>
+</li>
+<li><a href="https://schema.org/Thing">Schema.org Types</a>
+</li>
+<li><a href="https://schema.org/CreativeWork">Schema.org CreativeWork</a>
+</li>
+<li><a href="https://schema.org/additionalType">Schema.org additionalType</a>
+</li>
+<li><a href="https://schema.org/genre">Schema.org genre</a>
+</li>
+<li><a href="https://developers.google.com/search/docs/beginner/structured-data">Structured Data Best Practices</a>
+</li>
 </ul>
 <h2 id="related-documentation">Related Documentation</h2>
 <ul>
-<li><a href="/Interlisp.staging/pr-354/history/bibliography/intake/">Interlisp Bibliography Intake Guide</a> – How to recommend a new bibliography item</li>
+<li><a href="../intake/">Interlisp Bibliography Intake Guide</a>
+ – How to recommend a new bibliography item</li>
 <li><code>docs/bibliography-schema.md</code> – Technical details of the bibliography processing system (repository source)</li>
 </ul>
 
@@ -672,7 +684,7 @@
   
 		 
 		<li class="td-footer__links-item" data-bs-toggle="tooltip" title="RSS" aria-label="RSS">
-			<a target="_blank" rel="noopener" href="https://interlisp.github.io/Interlisp.staging/pr-354/project/status/rss.xml" aria-label="RSS">
+			<a target="_blank" rel="noopener" href="https://interlisp.org/Interlisp.staging/pr-354/project/status/rss.xml" aria-label="RSS">
 				<i class="fas fa-rss"></i>
 			</a>
 		</li>

@@ -29,9 +29,9 @@ Terms linked to the Glossary are defined there.
 	<meta itemprop="description" content="This timeline started with Teitelman’s History of Interlisp . The Bibliography has a wealth of additional historical information.
 Terms linked to the Glossary are defined there.
 1960s Through the 1960s, the languages of programming were primarily Fortran and assembly. Lisp enabled expressing recursion simply. Lisp also provided the ability to modify a program as it was running, since Lisp programs were themselves data—the same as other list structures used to represent program data. This made Lisp an ideal language for writing programs that themselves constructed programs or proved things about programs. As an area of Artificial Intelligence, programs writing programs was something of great interest to those working on applying AI to programming.">
-	<meta itemprop="datePublished" content="2026-11-08T08:11:46-05:00">
-	<meta itemprop="dateModified" content="2026-11-08T08:11:46-05:00">
-	<meta itemprop="wordCount" content="4271">
+	<meta itemprop="datePublished" content="2026-11-18T08:30:21-05:00">
+	<meta itemprop="dateModified" content="2026-11-18T08:30:21-05:00">
+	<meta itemprop="wordCount" content="4260">
 	<meta itemprop="image" content="https://interlisp.org/Interlisp.staging/pr-362/history/timeline/IM_Cover.png">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://interlisp.org/Interlisp.staging/pr-362/history/timeline/IM_Cover.png">
@@ -257,7 +257,7 @@ Terms linked to the Glossary are defined there.
 </ul>
 <h3 id="1967">1967</h3>
 <p>In 1967, BBN purchased an SDS 940 computer from Scientific Data Systems and began work building a time-sharing system on it. The SDS 940 had a larger address space and the ability to support a paging system. BBN was awarded an <a href="/Interlisp.staging/pr-362/history/glossary/#arpa" data-bs-toggle="tooltip" data-bs-title="A U.S. Department of Defense agency that funded advanced computing and artificial-intelligence research.">ARPA</a>
- contract to provide a LISP system that could be distributed to other ARPA sites for doing A.I. research. (ARPA = Advanced Research Projects Agency of the Department of Defense.)</p>
+ contract to provide a LISP system that could be distributed to other ARPA sites for doing A.I. research.</p>
 <ul>
 <li><a href="/Interlisp.staging/pr-362/history/bibliography/6m8iseul/">Improvements to the 940 LISP Library</a>
 </li>
@@ -310,7 +310,7 @@ Terms linked to the Glossary are defined there.
 <h3 id="1971">1971</h3>
 <p>The <strong>File Package</strong> was added in 1971. This was essentially a “make” for Lisp. The user could specify the set of functions, global variables, property lists, etc., to be contained in a specified file, and then “make” that file. When the file was loaded in a subsequent session, this information would be recorded and available. Whenever a component known to be in a specified file was modified, the system would know that the corresponding file needed to be rewritten. A cleanup function was provided that would write out all files that contained components that had been changed. The user would be informed about any items created or modified during the course of their session that did not appear in any of the user’s files, and therefore might be lost if the user abandoned their session without saving them somewhere. The only thing missing from the File Package that would be provided in UNIX Make was the notion of dependencies.</p>
 <h3 id="1972">1972</h3>
-<p>In 1972, Danny Bobrow and Warren Teitelman left BBN and went to the newly formed Xerox Palo Alto Research Center – <a href="/Interlisp.staging/pr-362/history/glossary/#parc" data-bs-toggle="tooltip" data-bs-title="Palo Alto Research Center, which continued in collaboration with BBN on (renamed) Interlisp. PARC developed the Alto and Dorado. Now part of SRI International.">PARC</a>
+<p>In 1972, Danny Bobrow and Warren Teitelman left BBN and went to the newly formed Xerox Palo Alto Research Center – <a href="/Interlisp.staging/pr-362/history/glossary/#parc" data-bs-toggle="tooltip" data-bs-title="Xerox Palo Alto Research Center, which continued in collaboration with BBN on (renamed) Interlisp. PARC developed the Alto and Dorado. Now part of SRI International.">PARC</a>
 . BBN continued to provide the low-level support for the Lisp system, i.e., compiler, <a href="/Interlisp.staging/pr-362/history/glossary/#garbage-collector" data-bs-toggle="tooltip" data-bs-title="The part of a Lisp implementation that automatically reclaims storage occupied by objects no longer reachable from the running program.">garbage collector</a>
 , and all of the operating system interface, while the Lisp-based center of activity for the various packages and utilities moved to PARC. Both sites continued to be supported by ARPA, and to indicate this partnership and shared responsibility, BBN-LISP was renamed to be <strong><a href="/Interlisp.staging/pr-362/history/glossary/#interlisp" data-bs-toggle="tooltip" data-bs-title="Both a language and, in some cases, the implementation of that language. Usually used with some other wording or refinement.">Interlisp</a>
 </strong>.</p>
@@ -321,7 +321,7 @@ Terms linked to the Glossary are defined there.
 &rdquo; (PDF). 1973.</li>
 </ul>
 <h3 id="1974">1974</h3>
-<p>By 1974 a number of impressive extensions to Interlisp had been developed by Larry Masinter. These included a much more sophisticated version of Interlisp’s <strong><a href="/Interlisp.staging/pr-362/history/glossary/#iterative-statement" data-bs-toggle="tooltip" data-bs-title="An Interlisp looping construct written with operator words such as FOR, WHILE, UNTIL, COLLECT, and SUM and translated into an equivalent Interlisp form.">iterative statement</a>
+<p>By 1974 a number of impressive extensions to Interlisp had been developed by Larry Masinter. These included a much more sophisticated version of Interlisp’s <strong><a href="/Interlisp.staging/pr-362/history/glossary/#iterative-statement" data-bs-toggle="tooltip" data-bs-title="An Interlisp iterative construct written with operator words such as FOR, WHILE, UNTIL, COLLECT, and SUM and translated into an equivalent Interlisp form.">iterative statement</a>
 </strong>, as well as a <strong>Record</strong> package that enabled a user to label various components of a list structure and refer to them by name, thereby eliminating the <a href="/Interlisp.staging/pr-362/history/glossary/#car-cdr-accessors" data-bs-toggle="tooltip" data-bs-title="The primitive Lisp accessors for the first element and rest of a list, or the left and right halves of a dotted pair.">CADADRs and CDADDRs</a>
  that made Lisp programs so difficult to read. The Record package also had the advantage that the user could change a record definition, and the program would automatically adopt the new structure. For example, if PERSON were defined as (RECORD PERSON (FIRSTNAME LASTNAME TITLE)), the expression (X:TITLE) would translate to (CADDR X). If the user later changed the definition of PERSON to (RECORD PERSON (FIRSTNAME INITIAL LASTNAME TITLE)), all expressions involving TITLE would automatically be retranslated to use CADDDR.</p>
 <ul>

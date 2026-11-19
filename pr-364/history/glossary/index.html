@@ -1,0 +1,418 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" dir="ltr" lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="icon" href="https://interlisp.org/Interlisp.staging/pr-364/favicons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://interlisp.org/Interlisp.staging/pr-364/favicons/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="shortcut icon" href="https://interlisp.org/Interlisp.staging/pr-364/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="https://interlisp.org/Interlisp.staging/pr-364/favicons/apple-touch-icon.png" sizes="180x180">
+
+<title>Glossary | Staging Environment</title>
+<meta name="description" content="The names “Medley,” “Interlisp-D,” “Interlisp.org,” “Common Lisp,” etc. are often used in confusing ways. We’re talking about a lot of different things that evolved over decades. These are cemented in by usage in different publications over time. We hope this glossary of terms will help.
+For general computer terminology and lore see The Hacker’s Dictionary aka Jargon File.
+Vocabulary and relationships Advice (Advising) Advice (advising) is a way of modifying a function’s behavior without editing its definition. The advice is code wrapped around the original function: it can run before or after the function body, or at a specified position in an existing advice list, and it can inspect or change the function’s arguments, examine or replace its return value, or bypass the original definition entirely. Because the original definition is preserved, advice can be added and removed independently. Teitelman’s PILOT: A Step Toward Man-Computer Symbiosis (1966) describes advising in detail, presenting it as giving the system advice about how to modify its programs. In Interlisp, ADVISE can apply the same advice to one function or several, can restrict advice to calls made from a particular function, and works on compiled as well as interpreted functions. Each function’s advice is recorded on its property list, so it can be edited, removed with UNADVISE, and restored with READVISE. Trace and the Break package are examples of this technique. For the introduction of advising in BBN-LISP, see the 1967 Timeline entry .
+AltoLisp An experimental microcoded implementation of Interlisp on an Alto personal computer. Briefing Blurb One of the several documents that introduced Xerox PARC newcomers to the computing and network environment of the Computer Science Laboratory. Written in an upbeat style, their titles followed a pattern that included the expression “Briefing Blurb” such as The Alto-Dolphin-Dorado Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard and The Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard. Carol, Fugue, Harmony, Intermezzo, Koto, Lyric, Medley Named releases of Interlisp-D. All are obsolete except Medley. Common Lisp The subject of a 10-year standards process to converge multiple dialects of the Lisp language. Strong influences from many Lisp dialects, including Interlisp. Common Lisp the Language Book by Guy Steele with two editions:">
+<meta property="og:url" content="https://interlisp.org/Interlisp.staging/pr-364/history/glossary/">
+	<meta property="og:site_name" content="Staging Environment">
+	<meta property="og:title" content="Glossary">
+	<meta property="og:description" content="The names “Medley,” “Interlisp-D,” “Interlisp.org,” “Common Lisp,” etc. are often used in confusing ways. We’re talking about a lot of different things that evolved over decades. These are cemented in by usage in different publications over time. We hope this glossary of terms will help.
+For general computer terminology and lore see The Hacker’s Dictionary aka Jargon File.
+Vocabulary and relationships Advice (Advising) Advice (advising) is a way of modifying a function’s behavior without editing its definition. The advice is code wrapped around the original function: it can run before or after the function body, or at a specified position in an existing advice list, and it can inspect or change the function’s arguments, examine or replace its return value, or bypass the original definition entirely. Because the original definition is preserved, advice can be added and removed independently. Teitelman’s PILOT: A Step Toward Man-Computer Symbiosis (1966) describes advising in detail, presenting it as giving the system advice about how to modify its programs. In Interlisp, ADVISE can apply the same advice to one function or several, can restrict advice to calls made from a particular function, and works on compiled as well as interpreted functions. Each function’s advice is recorded on its property list, so it can be edited, removed with UNADVISE, and restored with READVISE. Trace and the Break package are examples of this technique. For the introduction of advising in BBN-LISP, see the 1967 Timeline entry .
+AltoLisp An experimental microcoded implementation of Interlisp on an Alto personal computer. Briefing Blurb One of the several documents that introduced Xerox PARC newcomers to the computing and network environment of the Computer Science Laboratory. Written in an upbeat style, their titles followed a pattern that included the expression “Briefing Blurb” such as The Alto-Dolphin-Dorado Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard and The Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard. Carol, Fugue, Harmony, Intermezzo, Koto, Lyric, Medley Named releases of Interlisp-D. All are obsolete except Medley. Common Lisp The subject of a 10-year standards process to converge multiple dialects of the Lisp language. Strong influences from many Lisp dialects, including Interlisp. Common Lisp the Language Book by Guy Steele with two editions:">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+
+	<meta itemprop="name" content="Glossary">
+	<meta itemprop="description" content="The names “Medley,” “Interlisp-D,” “Interlisp.org,” “Common Lisp,” etc. are often used in confusing ways. We’re talking about a lot of different things that evolved over decades. These are cemented in by usage in different publications over time. We hope this glossary of terms will help.
+For general computer terminology and lore see The Hacker’s Dictionary aka Jargon File.
+Vocabulary and relationships Advice (Advising) Advice (advising) is a way of modifying a function’s behavior without editing its definition. The advice is code wrapped around the original function: it can run before or after the function body, or at a specified position in an existing advice list, and it can inspect or change the function’s arguments, examine or replace its return value, or bypass the original definition entirely. Because the original definition is preserved, advice can be added and removed independently. Teitelman’s PILOT: A Step Toward Man-Computer Symbiosis (1966) describes advising in detail, presenting it as giving the system advice about how to modify its programs. In Interlisp, ADVISE can apply the same advice to one function or several, can restrict advice to calls made from a particular function, and works on compiled as well as interpreted functions. Each function’s advice is recorded on its property list, so it can be edited, removed with UNADVISE, and restored with READVISE. Trace and the Break package are examples of this technique. For the introduction of advising in BBN-LISP, see the 1967 Timeline entry .
+AltoLisp An experimental microcoded implementation of Interlisp on an Alto personal computer. Briefing Blurb One of the several documents that introduced Xerox PARC newcomers to the computing and network environment of the Computer Science Laboratory. Written in an upbeat style, their titles followed a pattern that included the expression “Briefing Blurb” such as The Alto-Dolphin-Dorado Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard and The Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard. Carol, Fugue, Harmony, Intermezzo, Koto, Lyric, Medley Named releases of Interlisp-D. All are obsolete except Medley. Common Lisp The subject of a 10-year standards process to converge multiple dialects of the Lisp language. Strong influences from many Lisp dialects, including Interlisp. Common Lisp the Language Book by Guy Steele with two editions:">
+	<meta itemprop="datePublished" content="2026-11-18T23:31:36-05:00">
+	<meta itemprop="dateModified" content="2026-11-18T23:31:36-05:00">
+	<meta itemprop="wordCount" content="2203">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Glossary">
+	<meta name="twitter:description" content="The names “Medley,” “Interlisp-D,” “Interlisp.org,” “Common Lisp,” etc. are often used in confusing ways. We’re talking about a lot of different things that evolved over decades. These are cemented in by usage in different publications over time. We hope this glossary of terms will help.
+For general computer terminology and lore see The Hacker’s Dictionary aka Jargon File.
+Vocabulary and relationships Advice (Advising) Advice (advising) is a way of modifying a function’s behavior without editing its definition. The advice is code wrapped around the original function: it can run before or after the function body, or at a specified position in an existing advice list, and it can inspect or change the function’s arguments, examine or replace its return value, or bypass the original definition entirely. Because the original definition is preserved, advice can be added and removed independently. Teitelman’s PILOT: A Step Toward Man-Computer Symbiosis (1966) describes advising in detail, presenting it as giving the system advice about how to modify its programs. In Interlisp, ADVISE can apply the same advice to one function or several, can restrict advice to calls made from a particular function, and works on compiled as well as interpreted functions. Each function’s advice is recorded on its property list, so it can be edited, removed with UNADVISE, and restored with READVISE. Trace and the Break package are examples of this technique. For the introduction of advising in BBN-LISP, see the 1967 Timeline entry .
+AltoLisp An experimental microcoded implementation of Interlisp on an Alto personal computer. Briefing Blurb One of the several documents that introduced Xerox PARC newcomers to the computing and network environment of the Computer Science Laboratory. Written in an upbeat style, their titles followed a pattern that included the expression “Briefing Blurb” such as The Alto-Dolphin-Dorado Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard and The Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard. Carol, Fugue, Harmony, Intermezzo, Koto, Lyric, Medley Named releases of Interlisp-D. All are obsolete except Medley. Common Lisp The subject of a 10-year standards process to converge multiple dialects of the Lisp language. Strong influences from many Lisp dialects, including Interlisp. Common Lisp the Language Book by Guy Steele with two editions:">
+<link href="/Interlisp.staging/pr-364/scss/main.css" rel="stylesheet">
+<link rel="canonical" href="https://interlisp.org/Interlisp.staging/pr-364/history/glossary/">
+<link rel="me" href="https://fosstodon.org/@interlisp">
+
+
+  </head>
+  <body class="td-section">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="td-navbar-container container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/Interlisp.staging/pr-364/"><span class="navbar-brand__logo navbar-logo"><svg id="d" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 412.86 292"><defs><symbol id="a" viewBox="0 0 372 300"><rect id="b" x="10" y="10" width="352" height="280" style="fill:#fff;stroke:#000;stroke-width:20px"/><line id="c" x1="10" y1="270" x2="362" y2="270" style="fill:none;stroke:#000;stroke-width:20px"/></symbol><clipPath id="g"><rect x="231.92" y="62" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="i"><rect x="188" y="22.47" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="k"><rect x="128" y="8" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="m"><rect x="68" y="22.47" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="o"><rect x="24.08" y="62" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="q"><rect x="8" y="116" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="s"><rect x="24.08" y="170" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="u"><rect x="68" y="209.53" width="74.4" height="60" style="fill:none"/></clipPath><clipPath id="w"><rect x="128" y="224" width="74.4" height="60" style="fill:none"/></clipPath></defs><rect id="e" x="94.9" y="210.92" width="1.4" height="4.2" style="fill:#a50000"/><g id="f"><g style="clip-path:url(#g)"><use id="h" width="372" height="300" transform="translate(231.92 122) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#i)"><use id="j" width="372" height="300" transform="translate(188 82.47) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#k)"><use id="l" width="372" height="300" transform="translate(128 68) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#m)"><use id="n" width="372" height="300" transform="translate(68 82.47) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#o)"><use id="p" width="372" height="300" transform="translate(24.08 122) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#q)"><use id="r" width="372" height="300" transform="translate(8 176) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#s)"><use id="t" width="372" height="300" transform="translate(24.08 230) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#u)"><use id="v" width="372" height="300" transform="translate(68 269.53) scale(.2 -.2)" xlink:href="#a"/></g><g style="clip-path:url(#w)"><use id="x" width="372" height="300" transform="translate(128 284) scale(.2 -.2)" xlink:href="#a"/></g></g><g id="y" style="isolation:isolate"><text transform="translate(119.53 200.02)" style="fill:#fff;font-family:TimesNewRomanPSMT,times new roman;font-size:96px;isolation:isolate"><tspan x="0" y="0">Medley</tspan></text><text transform="translate(119.53 200.02)" style="fill:none;font-family:TimesNewRomanPSMT,times new roman;font-size:96px;isolation:isolate;stroke:#fff;stroke-width:.15px"><tspan x="0" y="0">Medley</tspan></text></g></svg></span><span class="navbar-brand__name">Staging Environment</span></a>
+  <div class="td-navbar__main td-navbar-nav-scroll td-navbar-nav-scroll--indicator" id="main_navbar">
+    <div class="scroll-indicator scroll-left"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-364/history/"><i class='fas fa-book'></i><span>History</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-364/project/"><i class='fas fa-globe'></i><span>Project</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-364/software/"><i class='fas fa-cube'></i><span>Software</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Interlisp.staging/pr-364/getinvolved/"><i class='fas fa-handshake-simple'></i><span>Get Involved</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/interlisp" target="_blank" rel="noopener"><i class='fab fa-github'></i><span>GitHub</span></a>
+      </li>
+      </ul>
+    <div class="scroll-indicator scroll-right"></div>
+  </div>
+  <div class="td-navbar__search d-none d-lg-block">
+    <div class="td-search">
+  <div class="td-search__icon" aria-hidden="true"></div>
+  <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main" data-bs-spy="scroll" data-bs-target=".td-toc" data-bs-root-margin="0px 0px -10%">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner d-none">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search">
+  <div class="td-search__icon" aria-hidden="true"></div>
+  <input type="search" name="q" class="td-search__input form-control td-search-input" placeholder='Search this site…' aria-label='Search this site…' autocomplete="off">
+</div>
+    <button class="btn btn-link td-sidebar__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse foldable-nav" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-364history-li">
+    <a href="/Interlisp.staging/pr-364/history/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-interlispstagingpr-364history"><span class="">History</span></a>
+    <ul class="ul-1">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-interlispstagingpr-364historybibliography-li">
+    <input type="checkbox" id="m-interlispstagingpr-364historybibliography-check"/>
+    <label for="m-interlispstagingpr-364historybibliography-check"><a href="/Interlisp.staging/pr-364/history/bibliography/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-364historybibliography"><span class="">Bibliography</span></a></label>
+    
+    <ul class="ul-2 foldable">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-364historybibliographyintake-li">
+    <input type="checkbox" id="m-interlispstagingpr-364historybibliographyintake-check"/>
+    <label for="m-interlispstagingpr-364historybibliographyintake-check"><a href="/Interlisp.staging/pr-364/history/bibliography/intake/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-364historybibliographyintake"><span class="">Interlisp Bibliography Intake Guide</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-364historybibliographyzotero-resources-li">
+    <input type="checkbox" id="m-interlispstagingpr-364historybibliographyzotero-resources-check"/>
+    <label for="m-interlispstagingpr-364historybibliographyzotero-resources-check"><a href="/Interlisp.staging/pr-364/history/bibliography/zotero-resources/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-364historybibliographyzotero-resources"><span class="">Zotero Type Mapping Reference</span></a></label>
+    
+  </li>
+    </ul>
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-364historytimeline-li">
+    <input type="checkbox" id="m-interlispstagingpr-364historytimeline-check"/>
+    <label for="m-interlispstagingpr-364historytimeline-check"><a href="/Interlisp.staging/pr-364/history/timeline/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-364historytimeline"><span class="">Interlisp Timeline</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-364historyglossary-li">
+    <input type="checkbox" id="m-interlispstagingpr-364historyglossary-check"/>
+    <label for="m-interlispstagingpr-364historyglossary-check"><a href="/Interlisp.staging/pr-364/history/glossary/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-interlispstagingpr-364historyglossary"><span class="">Glossary</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-364historylinks-li">
+    <input type="checkbox" id="m-interlispstagingpr-364historylinks-check"/>
+    <label for="m-interlispstagingpr-364historylinks-check"><a href="/Interlisp.staging/pr-364/history/links/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-364historylinks"><span class="">Interlisp History Resources</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-interlispstagingpr-364historyin-memoriam-li">
+    <input type="checkbox" id="m-interlispstagingpr-364historyin-memoriam-check"/>
+    <label for="m-interlispstagingpr-364historyin-memoriam-check"><a href="/Interlisp.staging/pr-364/history/in-memoriam/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-interlispstagingpr-364historyin-memoriam"><span class="">In Memoriam</span></a></label>
+    
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </nav>
+</div>
+          </aside>
+          <aside class="td-sidebar-toc">
+            
+
+<div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+	
+</div>
+
+            <div class="td-toc" data-proofer-ignore>
+<div class="td-toc-title">
+      <span class="td-toc-title__text">On this page</span>
+      <a class="td-toc-title__link" title="Top of page" href="#"></a>
+    </div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#vocabulary-and-relationships">Vocabulary and relationships</a>
+      <ul>
+        <li><a href="#organizations">Organizations</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+            
+	
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="td-breadcrumbs__list">
+  <li class="td-breadcrumbs__item">
+    <a href="/Interlisp.staging/pr-364/history/">History</a></li>
+  <li class="td-breadcrumbs__item" aria-current="page">
+    Glossary</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Glossary</h1>
+  
+	<header class="article-meta">
+		
+  </header>
+	<p>The names “Medley,” &ldquo;Interlisp-D,&rdquo; “Interlisp.org,” “Common Lisp,” etc. are often used in confusing ways. We’re talking about a lot of different things that evolved over decades. These are cemented in by usage in different publications over time. We hope this glossary of terms will help.</p>
+<p>For general computer terminology and lore see <a href="https://www.dourish.com/goodies/jargon.html">The Hacker&rsquo;s Dictionary</a>
+ aka Jargon File.</p>
+<h2 id="vocabulary-and-relationships">Vocabulary and relationships</h2>
+<dl>
+<dt><span id="advising" data-tooltip="A way of modifying a function's behavior by wrapping it with code that runs before or after the function and can inspect or change its arguments or return value."></span>Advice (Advising)</dt>
+<dd>Advice (advising) is a way of modifying a function&rsquo;s behavior without editing its definition. The advice is code wrapped around the original function: it can run before or after the function body, or at a specified position in an existing advice list, and it can inspect or change the function&rsquo;s arguments, examine or replace its return value, or bypass the original definition entirely. Because the original definition is preserved, advice can be added and removed independently. Teitelman’s <a href="/Interlisp.staging/pr-364/history/bibliography/rqwu8zw9/"><em>PILOT: A Step Toward Man-Computer Symbiosis</em></a>
+ (1966) describes advising in detail, presenting it as giving the system advice about how to modify its programs.
+<p>In Interlisp, <code>ADVISE</code> can apply the same advice to one function or several, can restrict advice to calls made from a particular function, and works on compiled as well as interpreted functions. Each function&rsquo;s advice is recorded on its property list, so it can be edited, removed with <code>UNADVISE</code>, and restored with <code>READVISE</code>. Trace and the Break package are examples of this technique. For the introduction of advising in BBN-LISP, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1967">1967 Timeline entry</a>
+.</p>
+</dd>
+<dt><span id="altolisp"></span>AltoLisp</dt>
+<dd>An experimental microcoded implementation of Interlisp on an Alto personal computer.</dd>
+<dt><span id="briefing-blurb"></span>Briefing Blurb</dt>
+<dd>One of the several documents that introduced Xerox PARC newcomers to the computing and network environment of the Computer Science Laboratory. Written in an upbeat style, their titles followed a pattern that included the expression &ldquo;Briefing Blurb&rdquo; such as <em>The Alto-Dolphin-Dorado Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard</em> and <em>The Briefing Blurb: Exploring the Ethernet with Mouse and Keyboard</em>.</dd>
+<dt><span id="named-releases"></span>Carol, Fugue, Harmony, Intermezzo, Koto, Lyric, Medley</dt>
+<dd>Named releases of Interlisp-D.  All are obsolete except Medley.</dd>
+<dt><span id="common-lisp"></span>Common Lisp</dt>
+<dd>The subject of a 10-year standards process to converge multiple dialects of the
+Lisp language. Strong influences from many Lisp dialects, including Interlisp.</dd>
+<dt><span id="common-lisp-the-language"></span>Common Lisp the Language</dt>
+<dd>Book by Guy Steele with two editions:</dd>
+</dl>
+<ul>
+<li>CLtL1 – edition 1, 465 pages</li>
+<li>CLtL2  – second edition, 1029 pages</li>
+</ul>
+<dl>
+<dt><span id="dlisp"></span>DLISP</dt>
+<dd>By Warren Teitelman: a first attempt at building a “Display” (GUI) with Interlisp running on MAXC (a PDP-10 clone) connected by Ethernet to a Xerox Alto acting
+as a graphics terminal.</dd>
+<dt><span id="dorado-lisp"></span>Dorado Lisp</dt>
+<dd>The reimplementation of the AltoLisp microcode on the Dorado – a research prototype.</dd>
+<dt><span id="dwim" data-tooltip="An automatic error-correction facility that intercepts undefined functions, unset variables, and misspellings and uses context to suggest or apply corrections."></span>DWIM</dt>
+<dd>DWIM (Do-What-I-Mean) is Interlisp&rsquo;s automatic error-correction facility. When evaluation encounters an undefined function or an unbound variable, DWIM uses the context and a spelling list appropriate to that context to find a likely correction, such as a misspelling, a doubled character, a transposition, or a wrong-case letter. If the match is close enough, it makes the correction and continues; otherwise it reports the closest match and asks the user to approve it. The DWIM facility and its spelling correction are described in detail in Teitelman, <a href="/Interlisp.staging/pr-364/history/bibliography/qwkix8dw/">“Automated Programmering: The Programmer’s Assistant”</a>
+ (1972).
+<p>DWIM operates in cautious or trusting mode. In cautious mode it asks before making corrections that would modify a user&rsquo;s function, while trusting mode proceeds automatically; if the user does not answer within a set interval, DWIM applies a default. It can also repair some structural errors, such as an 8 or 9 typed in place of a left or right parenthesis, where correcting the spelling alone would not restore the expression&rsquo;s structure. When DWIM cannot correct an error, normal error handling resumes with a break or unwind. For DWIM&rsquo;s introduction to BBN-LISP, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1970">1970 Timeline entry</a>
+.</p>
+</dd>
+<dt><span id="history-package" data-tooltip="The part of the Programmer's Assistant that records a session as a list of events, each storing the input, value, side effects, messages, and errors for later inspection."></span>History package</dt>
+<dd>The History package is the part of the Interlisp Programmer’s Assistant that records a session as a list of events. Each event stores the user&rsquo;s input, its value, side effects, messages, and errors, so the record can be inspected after the fact rather than discarded as soon as a command finishes. The list is a ring buffer: older events are forgotten as new ones arrive, and a NAME/RETRIEVE facility can preserve selected events. The history list and its use in the Programmer’s Assistant are described in Teitelman, <a href="/Interlisp.staging/pr-364/history/bibliography/qwkix8dw/">“Automated Programmering: The Programmer’s Assistant”</a>
+ (1972), and <a href="/Interlisp.staging/pr-364/history/bibliography/3h5f6tba/">“A Display Oriented Programmer’s Assistant”</a>
+ (1977).
+<p>Using the history list, a user can refer to an earlier event by number, relative position, or a description of its input, then replay it, replay it with substitutions, or undo it. The History package is therefore the basis for the Programmer’s Assistant commands <code>REDO</code>, <code>USE</code>, and <code>UNDO</code>; the editor keeps its own history list for edit commands. For the introduction of the History package in BBN-LISP, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1970">1970 Timeline entry</a>
+.</p>
+</dd>
+<dt><span id="interlisp"></span>Interlisp</dt>
+<dd>Both a language and, in some cases, the implementation of that language. Usually used with some other wording or refinement.</dd>
+<dd>A GitHub “organization” with ~20 repositories, see <a href="https://github.com/Interlisp">https://github.com/Interlisp</a>
+</dd>
+<dt><span id="interlisp-the-language-and-its-usage"></span>Interlisp: The Language and its usage</dt>
+<dd>A book by Steve Kaisler which describes Interlisp of the 1970s &amp; 80s.</dd>
+<dt><span id="interlisp-org"></span>Interlisp.org</dt>
+<dd>The project&rsquo;s Internet domain name, used for its websites and email addresses.</dd>
+</dl>
+<ul>
+<li><a href="https://interlisp.org">https://interlisp.org</a>
+  – the address of the main web site</li>
+<li><a href="https://online.interlisp.org">https://online.interlisp.org</a>
+ – the address of a service that lets you run Medley</li>
+<li><a href="mailto:info@interlisp.org">info@interlisp.org</a>
+             - the project&rsquo;s general information email address</li>
+</ul>
+<dl>
+<dt><span id="interlisp-d" data-tooltip="What Dorado Lisp became. The D stood for both “Display” and “D-machine”; an implementation of Interlisp, its programming tools, and a Lisp-based operating system for D-machines."></span>Interlisp-D</dt>
+<dd>What Dorado Lisp became.  The D stood for both “Display” and “D-machine”.  An implementation of</dd>
+</dl>
+<ul>
+<li>Interlisp the language</li>
+<li>The Interlisp programming tools</li>
+<li>A Graphical User interface to Interlisp programming development</li>
+<li>A large number of tools, utilities, games, screen-savers</li>
+<li>A Lisp-based operating system for D-machines which, when coupled with microcode
+implementation of a Virtual Machine, allowed the D-machines to operate as a
+personal workstation. Each D-machine had its own microcode with different
+configurations and micro-instructions.</li>
+</ul>
+<dl>
+<dt><span id="medley"></span>Medley</dt>
+<dd>The final named release of Interlisp-D.</dd>
+<dt><span id="maiko"></span>Maiko</dt>
+<dd>An implementation of the functions of the D-machine microcode, but written in C for the
+Sun Microsystems SPARC processor workstation, initially developed by
+Fuji Xerox.  Subsequently ported to little-endian processors and other operating systems.</dd>
+<dt><span id="package"></span>Package</dt>
+<dd>The term Package has several different meanings depending on the context:</dd>
+</dl>
+<ul>
+<li>Informally, a collection of utilities or submodule in Interlisp (the &ldquo;break package&rdquo;, q.v.; the &ldquo;file package&rdquo;, a facility for managing code changes; the &ldquo;record package&rdquo;, a record data type; and so on)</li>
+<li>A feature of Commmon Lisp symbol support; the package system allows the combining of Interlisp symbols (written with <code>IL:</code> prefix) and Common Lisp symbols (written with a <code>LISP:</code> prefix).</li>
+</ul>
+<dl>
+<dt><span id="prettyprint" data-tooltip="A Lisp utility that formats programs with indentation and line breaks reflecting their list structure, making code easier to read and debug."></span>Prettyprint</dt>
+<dd>Prettyprint is a Lisp utility that formats programs for human reading. It uses indentation and line breaks to expose the nesting of list structure, so a definition whose subexpressions would otherwise run together is printed with its parts arranged by depth. The layout is generated from the program&rsquo;s list structure rather than preserved from a text file, because a Lisp program is list data. Barstow describes the prettyprinter used in the DED display editor in <a href="/Interlisp.staging/pr-364/history/bibliography/w96jccyh/">“Overview of a Display-Oriented Editor for Interlisp”</a>
+ (1981).
+<p>In Interlisp, Prettyprint is more than a whitespace filter. It can print comments stored in a function definition, and global controls set the right margin, the column where comments begin, and how readily square brackets replace parentheses. It prints the saved original definition of a function that is currently broken, advised, or compiled, and tools such as <code>PRETTYDEF</code> use it to write definitions, variable values, and property lists to readable files. For the utility&rsquo;s origin and arrival at BBN-LISP, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1965">1965</a>
+ and <a href="/Interlisp.staging/pr-364/history/timeline/#1966">1966</a>
+ entries in the Timeline.</p>
+</dd>
+<dt><span id="spaghetti-stack" data-tooltip="An access and control stack represented as a tree of linked frames that remain addressable after a function returns, so programs can inspect or resume earlier environments."></span>Spaghetti stack</dt>
+<dd>The spaghetti stack is Interlisp&rsquo;s access and control stack, represented as a tree of linked frames rather than a contiguous pushdown stack. Each frame extension holds a function&rsquo;s variable bindings, return link, and temporaries, and is connected to other frames by access and control links. Because frames remain addressable after a function returns, a program can keep a stack pointer to an exited frame and later examine or resume the computation in that environment. Bobrow and Wegbreit describe the mechanism in detail in <a href="/Interlisp.staging/pr-364/history/bibliography/em6wjf9a/">“A Model and Stack Implementation of Multiple Environments”</a>
+ (1973).
+<p>This structure lets programs and debugging tools search the stack for a named function or frame, inspect variable bindings in a caller&rsquo;s context, evaluate an expression in another access chain, and alter the flow of control with a non-local return. It also supports backtracking, coroutines, and generators, which are difficult to implement with a conventional call stack. For the introduction of the spaghetti stack to Interlisp, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1970">1970 Timeline entry</a>
+.</p>
+</dd>
+<dt><span id="structure-editor" data-tooltip="An editor that operates directly on a program's list structure, moving through subexpressions and inserting, deleting, or replacing elements in place."></span>Structure editor</dt>
+<dd>A structure editor is an editor that operates directly on a program&rsquo;s list structure instead of its printed text. The expression being edited is a Lisp data object, and the editor&rsquo;s commands move through it by descending into subexpressions, ascending to enclosing expressions, and inserting, deleting, or replacing elements. The edit changes the program itself, not a separate text file. Barstow describes the Interlisp structure editor and its display extension in <a href="/Interlisp.staging/pr-364/history/bibliography/w96jccyh/">“Overview of a Display-Oriented Editor for Interlisp”</a>
+ (1981).
+<p>In Interlisp, the structure editor is used mainly to edit function definitions, but it can also edit variable values, property lists, and arbitrary expressions. Because it works on the live list structure, a function can be edited while it is running; a user can modify the definition, re-evaluate it, and continue execution. The editor also supports searching, marks for saving a location, macros, and undoable changes. For the editor&rsquo;s development and its extension at BBN, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1968">1968 Timeline entry</a>
+.</p>
+</dd>
+<dt><span id="trace" data-tooltip="A debugging facility that prints selected information when a function is entered and its value when it returns."></span>Trace</dt>
+<dd>Trace is a Lisp debugging facility that prints information about selected function calls as a program runs. It modifies a function&rsquo;s definition so that specified expressions are evaluated and printed when the function is entered, and its value is printed when the call returns; by default, the arguments and return value are shown. Several functions can be traced at once, and the user can choose particular forms to print rather than the full argument list. Bobrow et al. describe the system’s tracing and conditional breakpoint facilities in <a href="/Interlisp.staging/pr-364/history/bibliography/lqaa78hi/"><em>The BBN 940 LISP System</em></a>
+ (1967).
+<p>In Interlisp, Trace is implemented as a special case of the Break package: tracing a function installs a breakpoint that prints the requested information and then continues automatically. Because the function is still running normally, tracing gives a running account of calls and values without stopping the program or adding print statements by hand. The effect remains until the function is untraced; in Medley, <code>UNBREAK</code> restores functions modified by <code>BREAK</code>, <code>TRACE</code>, or <code>BREAKIN</code>. For the early availability of tracing in Lisp, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1965">1965</a>
+ and <a href="/Interlisp.staging/pr-364/history/timeline/#1967">1967</a>
+ Timeline entries.</p>
+</dd>
+<dt><span id="undo" data-tooltip="A Programmer's Assistant command that reverses the side effects of an operation recorded on the history list, including an earlier operation without undoing later ones."></span>UNDO</dt>
+<dd>UNDO is a command in the Interlisp Programmer’s Assistant that reverses the side effects of an operation recorded on the history list. Each undoable operation is responsible for saving the information needed to reverse it, so UNDO can restore edited structure, variable assignments, and other changes without requiring the system to anticipate them in advance. The command can undo an earlier event without undoing later ones, and an UNDO can itself be undone. Selective undo and the undoable-operation mechanism are described in detail in Teitelman, <a href="/Interlisp.staging/pr-364/history/bibliography/qwkix8dw/">“Automated Programmering: The Programmer’s Assistant”</a>
+ (1972).
+<p>Selective undo is guaranteed for independent operations; undoing dependent operations out of order may not produce the expected result. Users can make their own functions undoable by using the undoable versions of destructive operations, which save the reversal information on the history list. Related history commands such as <code>REDO</code> and <code>USE</code> rerun recorded events or rerun them with substitutions. For the introduction of UNDO in BBN-LISP, see the <a href="/Interlisp.staging/pr-364/history/timeline/#1970">1970 Timeline entry</a>
+.</p>
+</dd>
+</dl>
+<h3 id="organizations">Organizations</h3>
+<dl>
+<dt><span id="bbn"></span>BBN</dt>
+<dd><a href="https://en.wikipedia.org/wiki/Raytheon_BBN">Bolt, Beranek, and Newman</a>
+, a Cambridge, Mass. consulting firm which sponsored the
+creation of BBN Lisp, Interlisp&rsquo;s immediate ancestor, as well as the Tenex operating system.</dd>
+<dt><span id="parc"></span>Xerox PARC or just PARC</dt>
+<dd>Palo Alto Research Center, which continued in collaboration with BBN on (renamed) Interlisp. PARC developed the Alto and Dorado.  Now part of SRI International.</dd>
+<dt><span id="sri-international"></span>SRI International</dt>
+<dd>A non-profit scientific R &amp; D institute, headquertered in Menlo Park, California.</dd>
+<dt><span id="xeos"></span>Xerox Electro-Optical Systems (XEOS)</dt>
+<dd>A former Xerox division supporting government customers.</dd>
+<dt><span id="xais"></span>Xerox Artificial Intelligence Systems (XAIS)</dt>
+<dd>The former Xerox division working to commercialize Xerox workstations running Interlisp-D.</dd>
+<dt><span id="rank-xerox"></span>Rank Xerox</dt>
+<dd>Xerox&rsquo;s European subsidiary, a joint venture of Xerox Corp. and the Rank Organization, which sold Interlisp-D workstations in Europe.</dd>
+<dt><span id="fuji-xerox"></span>Fuji Xerox</dt>
+<dd>Xerox&rsquo;s Japanese subsidiary, owned jointly by Rank Xerox and Fujifilm Corp., responsible for selling and supporting Interlisp-D systems in Japan.</dd>
+<dt><span id="envos"></span>Envos</dt>
+<dd>Company founded in 198x to take on the Lisp business from Xerox. Closed within 10 months and folded back into Xerox.</dd>
+<dt><span id="venue"></span>Venue</dt>
+<dd>Company founded by John Sybalsky, former Xerox and Envos employee, which obtained a license to create and distribute derivative works of Maiko and Medley.</dd>
+<dt><span id="medley-interlisp-project"></span>Medley Interlisp Project</dt>
+<dd>Began late 2010’s with Nick Briggs getting Maiko to run on macOS.  The group expanded and began holding weekly online meetings in 2020.
+Subsequently ported Maiko (and therefore Medley) to Linux, Windows, and other operating system.  Maintains a mailing list for developers and interested users,
+sponsors the maintenance of an exhaustive bibliography and the very website where you&rsquo;re reading this.</dd>
+<dt><span id="interlisporg"></span>InterlispOrg</dt>
+<dd>A <a href="https://rct.doj.ca.gov/Verification/Web/Details.aspx?result=c7aa8cb2-16ec-458a-be56-41f963365258">California-registered</a>
+ non-profit organization  (DBA Interlisp.org) Established
+August 2021. 501c3  EIN 87-2528093  California registered charity CT0278267.
+The Board of Directors consists of Larry Masinter, President; Ron Kaplan, Treasurer; and Herb Jellinek, Secretary.</dd>
+</dl>
+
+	
+</div>
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Email" aria-label="Email">
+	<a target="_blank" rel="noopener" href="mailto:info@interlisp.org" aria-label="Email">
+	  <i class="fa fa-envelope"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Mastodon" aria-label="Mastodon">
+	<a target="_blank" rel="noopener" href="https://fosstodon.org/@interlisp" aria-label="Mastodon">
+	  <i class="fa-brands fa-mastodon"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Bluesky" aria-label="Bluesky">
+	<a target="_blank" rel="noopener" href="https://bsky.app/profile/interlisp.org" aria-label="Bluesky">
+	  <i class="fa-brands fa-bluesky"></i>
+	</a>
+  
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="YouTube" aria-label="YouTube">
+	<a target="_blank" rel="noopener" href="https://www.youtube.com/@Interlisp" aria-label="YouTube">
+	  <i class="fa-brands fa-youtube"></i>
+	</a>
+  
+  
+		 
+		<li class="td-footer__links-item" data-bs-toggle="tooltip" title="RSS" aria-label="RSS">
+			<a target="_blank" rel="noopener" href="https://interlisp.org/Interlisp.staging/pr-364/project/status/rss.xml" aria-label="RSS">
+				<i class="fas fa-rss"></i>
+			</a>
+		</li>
+	
+  
+
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+		
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="On GitHub" aria-label="On GitHub">
+	<a target="_blank" rel="noopener" href="https://github.com/interlisp" aria-label="On GitHub">
+	  <i class="fab fa-github"></i>
+	</a>
+  
+  
+
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2024&ndash;2026
+    <span class="td-footer__authors">Interlisp.org</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script src="/Interlisp.staging/pr-364/js/main.js"></script>
+<script defer src="/Interlisp.staging/pr-364/js/plugins/click-to-copy.5f1205dcdf80d75fbdd65bd95d10651b2362af9debcfea77157b9cc45cdd2e5d.js" integrity="sha256-XxIF3N&#43;A11&#43;91lvZXRBlGyNir53rz&#43;p3FXucxFzdLl0=" crossorigin="anonymous"></script>
+<script src="/Interlisp.staging/pr-364/js/plugins/tabpane-persist.988852526f9d15d0f9cf26c003e4835a534d606a75f72d5fbb281a10402d1529.js" integrity="sha256-mIhSUm&#43;dFdD5zybAA&#43;SDWlNNYGp19y1fuygaEEAtFSk=" crossorigin="anonymous"></script>
+
+  </body>
+</html>
